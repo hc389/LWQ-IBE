@@ -1,0 +1,125 @@
+{
+  "schema": 1,
+  "scope": "full-dimensional fixed-identity Enc/Dec with dense Gaussian algebraic test keys; NOT Extract outputs",
+  "status": "PASS",
+  "started_utc": "2026-10-23T12:19:35.119988+00:00",
+  "protocol": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/analysis/r46_encdec_20261023/protocol.md",
+  "protocol_sha256": "70156ff8aeb931e1433552324026d5c14c48a00333c21bab7126f5a5b4f44fcc",
+  "executable": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/build/local/lwq_ibe_bench",
+  "executable_sha256": "2f5adec78d0cce5fcb207e2d8f120032e22c7e6cdda5a54015885d873bf40040",
+  "runner_sha256": "c05177d76d5c0e6f4e42c15a6b2b1ec8db6ca4763bc2c2fa099383ffd29161d2",
+  "code_root": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023",
+  "source_sha256": {
+    "src/core.hpp": "0430676abb8c82bfd575ddeae807d5b904817f88c6059616460a96dbca6366f0",
+    "src/core_arithmetic.cpp": "71547d7112ed7687e5c4ee3360abacd1ff9ac3a91a0392b760edeedc8658250d",
+    "src/main.cpp": "e84c13314460a69dfc3dd27f31e156eb2fcd0dcab3d7963e40fc77edb686c46a",
+    "src/platform.cpp": "c385c9c67d21efc799b36d0065f36e1d7c8faaf6f539cf2ccafa9bab88ab8796",
+    "src/profile_hashes.hpp": "0e7c89000b881e26ee1c39a07baee6c7e4ce5a5aa67f97c5cde3d1cfc7638dcd",
+    "src/sampler.cpp": "4b2b52b8474b65c45bd1cb0fafec2dde7bd04282f395378c1b4ad1922b46e79d"
+  },
+  "profile_sha256": {
+    "ours_mpk": "dc531adc0168081ba42e6a8d0d69c50c894f5df556ee751da6da0aa522b01ec1",
+    "ours_ct": "79c617ef17000937402fe140d76ddc54023fb354ab136ddeb76842693592d328"
+  },
+  "all_frozen_input_hashes": {
+    "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/build/local/lwq_ibe_bench": "2f5adec78d0cce5fcb207e2d8f120032e22c7e6cdda5a54015885d873bf40040",
+    "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/analysis/r46_encdec_20261023/protocol.md": "70156ff8aeb931e1433552324026d5c14c48a00333c21bab7126f5a5b4f44fcc",
+    "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/analysis/r46_encdec_20261023/run_protocol.py": "c05177d76d5c0e6f4e42c15a6b2b1ec8db6ca4763bc2c2fa099383ffd29161d2",
+    "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/src/core.hpp": "0430676abb8c82bfd575ddeae807d5b904817f88c6059616460a96dbca6366f0",
+    "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/src/core_arithmetic.cpp": "71547d7112ed7687e5c4ee3360abacd1ff9ac3a91a0392b760edeedc8658250d",
+    "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/src/main.cpp": "e84c13314460a69dfc3dd27f31e156eb2fcd0dcab3d7963e40fc77edb686c46a",
+    "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/src/platform.cpp": "c385c9c67d21efc799b36d0065f36e1d7c8faaf6f539cf2ccafa9bab88ab8796",
+    "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/src/profile_hashes.hpp": "0e7c89000b881e26ee1c39a07baee6c7e4ce5a5aa67f97c5cde3d1cfc7638dcd",
+    "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/src/sampler.cpp": "4b2b52b8474b65c45bd1cb0fafec2dde7bd04282f395378c1b4ad1922b46e79d",
+    "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/data/ours_mpk.cfg": "dc531adc0168081ba42e6a8d0d69c50c894f5df556ee751da6da0aa522b01ec1",
+    "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/data/ours_ct.cfg": "79c617ef17000937402fe140d76ddc54023fb354ab136ddeb76842693592d328"
+  },
+  "single_process_benchmark_policy": true,
+  "profile_order": [
+    "ours_mpk",
+    "ours_ct"
+  ],
+  "order_policy": "fixed and declared; no between-profile superiority inference",
+  "command_order": [
+    "encdec_ours_mpk",
+    "encdec_ours_ct"
+  ],
+  "timeout_seconds_per_profile": 3600,
+  "environment_overrides": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "process_wrapper": [
+    "/usr/bin/time",
+    "-l"
+  ],
+  "runs": [
+    {
+      "name": "encdec_ours_mpk",
+      "command": [
+        "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/build/local/lwq_ibe_bench",
+        "--mode",
+        "encdec",
+        "--data",
+        "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/data",
+        "--tile-mib",
+        "32",
+        "--memory-limit-mb",
+        "1400",
+        "--warmup",
+        "0",
+        "--repetitions",
+        "3",
+        "--allow-long-run",
+        "--profiles",
+        "ours_mpk",
+        "--output",
+        "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_mpk"
+      ],
+      "cwd": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023",
+      "started_utc": "2026-10-23T12:19:35.121715+00:00",
+      "status": "PASS",
+      "log": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_mpk.process.log",
+      "timeout_seconds": 3600,
+      "returncode": 0,
+      "elapsed_seconds": 1620.1553310409654,
+      "ended_utc": "2026-10-23T12:46:35.285425+00:00",
+      "log_sha256": "a6c25fb0fc96774fbd5d17a2b2af74bc63be9fc638f59ce92bccf8140e303457"
+    },
+    {
+      "name": "encdec_ours_ct",
+      "command": [
+        "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/build/local/lwq_ibe_bench",
+        "--mode",
+        "encdec",
+        "--data",
+        "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/data",
+        "--tile-mib",
+        "32",
+        "--memory-limit-mb",
+        "1400",
+        "--warmup",
+        "0",
+        "--repetitions",
+        "3",
+        "--allow-long-run",
+        "--profiles",
+        "ours_ct",
+        "--output",
+        "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_ct"
+      ],
+      "cwd": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023",
+      "started_utc": "2026-10-23T12:46:35.287234+00:00",
+      "status": "PASS",
+      "log": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_ct.process.log",
+      "timeout_seconds": 3600,
+      "returncode": 0,
+      "elapsed_seconds": 1483.8822611669893,
+      "ended_utc": "2026-10-23T13:11:19.177196+00:00",
+      "log_sha256": "3fce483bc78887e74be26452c05da0361af7b729b5e3f9e4c7fcea19f82dca41"
+    }
+  ],
+  "ended_utc": "2026-10-23T13:11:19.178116+00:00",
+  "elapsed_seconds": 3104.041364375036
+}

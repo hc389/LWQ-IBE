@@ -1,0 +1,12 @@
+{
+  "scope": "Project-owned numerical helper; original and release hashes tracked separately.",
+  "files": [
+    {
+      "local": "polar_codec.py",
+      "copy_policy": "Naming and hex spelling of unchanged domain bytes only; original source remains unchanged.",
+      "source_project_relative": "Revision_20261013_Native/analysis/polar_validation_20261014/polar_codec.py",
+      "original_source_sha256": "6ac78ef3ed8fd80331733dbdb464ff808acdab8efa210d1b0d890486454b819d",
+      "release_sha256": "055a8e36865842078fa9d80147e6570e0c5f41824a967acc11e1825286f81a7c"
+    }
+  ]
+}

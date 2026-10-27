@@ -1,0 +1,385 @@
+{
+  "schema": 1,
+  "source_mode": "blocks",
+  "platform": "Darwin 25.6.0 arm64; native wall-time / correctness measurements; no Windows cycle counts or OS-enforced memory-cap claim; compiler=Apple LLVM 21.0.0 (clang-2100.1.1.101)",
+  "cycle_counter_available": false,
+  "scope": "Real frozen n/q/S and partial 256-coordinate blocks only; no complete ciphertext, decryption, or full-IBE claim",
+  "statistics": "Descriptive repeated trials on one machine; sample SD across trial means, not across individual blocks. No p-values, confidence intervals, or cross-platform inference. Median/IQR use linear interpolation at (n-1)p.",
+  "shares": "Wall-time pooled share = sum(phase seconds)/sum(total seconds). This is distinct from mean trial share. Matrix+quantization+other exhaust measured compute time; other includes fresh randomness, scalar generation, serialization, allocation, bookkeeping and timing instrumentation. Data feed, codec validation and progress checks are excluded; feed and validation are reported separately.",
+  "limitations": "Small repeated-run samples (including five trials) do not justify distributional inference. Per-block values divide measured trial totals by the number of actually executed blocks; never multiply them to claim full-ciphertext time. Peak memory is cumulative process-lifetime RSS. Quantization below 50% does not imply that it is not the largest phase.",
+  "summaries": [
+    {
+      "profile": "ours_ct",
+      "n": 11600,
+      "m": 352384,
+      "a": 270,
+      "full_dimension": 704768,
+      "blocks_per_trial": 4,
+      "block_length": 256,
+      "processed_dimension": 1024,
+      "repetitions": 5,
+      "excluded_warmup_rows": 1,
+      "fragment_bytes": 17777,
+      "maximum_process_peak_memory_bytes": 42401792,
+      "pooled_wall_time_shares_pct": {
+        "matrix": 64.07678056214864,
+        "quant": 34.24215444578652,
+        "other": 1.6810649920650398
+      },
+      "pooled_cycle_shares_pct": null,
+      "metrics": {
+        "matrix_ms_per_256_block": {
+          "count": 5,
+          "mean": 74.6338561875745,
+          "sample_sd": 0.6083650689793837,
+          "median": 74.43962525576251,
+          "q1": 74.2984167300175,
+          "q3": 74.8207392171025,
+          "iqr": 0.5223224870850061,
+          "min": 74.018957908265,
+          "max": 75.591541826725
+        },
+        "quant_ms_per_256_block": {
+          "count": 5,
+          "mean": 39.8837770568205,
+          "sample_sd": 0.20931045130798537,
+          "median": 39.8895522812375,
+          "q1": 39.766791742295,
+          "q3": 39.9331874214125,
+          "iqr": 0.16639567911749964,
+          "min": 39.634343585930004,
+          "max": 40.1950102532275
+        },
+        "other_ms_per_256_block": {
+          "count": 5,
+          "mean": 1.958031626418235,
+          "sample_sd": 0.04411729661595918,
+          "median": 1.96614605374635,
+          "q1": 1.9408864900469749,
+          "q3": 1.975312712602325,
+          "iqr": 0.03442622255535022,
+          "min": 1.8943544710055,
+          "max": 2.013458404690025
+        },
+        "total_ms_per_256_block": {
+          "count": 5,
+          "mean": 116.47566487081299,
+          "sample_sd": 0.8062510567445216,
+          "median": 116.20142741594499,
+          "q1": 116.04011489544,
+          "q3": 116.69481312856,
+          "iqr": 0.6546982331200013,
+          "min": 115.680104121565,
+          "max": 117.761864792555
+        },
+        "matrix_trial_share_pct": {
+          "count": 5,
+          "mean": 64.0763809763138,
+          "sample_sd": 0.10832816161354757,
+          "median": 64.11659371241652,
+          "q1": 63.98590187166545,
+          "q3": 64.14990654123157,
+          "iqr": 0.16400466956612547,
+          "min": 63.93933222873851,
+          "max": 64.19017052751695
+        },
+        "quant_trial_share_pct": {
+          "count": 5,
+          "mean": 34.242564298857445,
+          "sample_sd": 0.10653465442245671,
+          "median": 34.22019055587245,
+          "q1": 34.15572590706518,
+          "q3": 34.32793655662436,
+          "iqr": 0.17221064955917598,
+          "min": 34.13245053823966,
+          "max": 34.37651793648559
+        },
+        "other_trial_share_pct": {
+          "count": 5,
+          "mean": 1.6810547248289547,
+          "sample_sd": 0.03560009511180551,
+          "median": 1.6773789342432406,
+          "q1": 1.6632157317127239,
+          "q3": 1.6943675517022547,
+          "iqr": 0.03115181998953087,
+          "min": 1.6375801918493915,
+          "max": 1.732731214637163
+        },
+        "feed_ms_per_256_block": {
+          "count": 5,
+          "mean": 1244.481491646735,
+          "sample_sd": 9.446868017959881,
+          "median": 1240.677771158525,
+          "q1": 1240.07506261115,
+          "q3": 1244.413874461325,
+          "iqr": 4.338811850174807,
+          "min": 1236.603239900425,
+          "max": 1260.63751010225
+        },
+        "validation_ms_per_256_block": {
+          "count": 5,
+          "mean": 0.92573324218393,
+          "sample_sd": 0.013704615393953212,
+          "median": 0.9275834308937251,
+          "q1": 0.92040619347245,
+          "q3": 0.93540630768985,
+          "iqr": 0.015000114217399996,
+          "min": 0.905218184925625,
+          "max": 0.9400520939379999
+        }
+      },
+      "interpretation": "Quantization accounts for 34.242% of pooled measured wall time. It is below 50% (not a majority). It does not exceed the matrix phase. It is not strictly the largest measured phase. These are descriptions of these trials only, not an extrapolation to complete ciphertext encryption."
+    },
+    {
+      "profile": "ours_mpk",
+      "n": 10072,
+      "m": 433024,
+      "a": 239,
+      "full_dimension": 866048,
+      "blocks_per_trial": 4,
+      "block_length": 256,
+      "processed_dimension": 1024,
+      "repetitions": 5,
+      "excluded_warmup_rows": 1,
+      "fragment_bytes": 15456,
+      "maximum_process_peak_memory_bytes": 74366976,
+      "pooled_wall_time_shares_pct": {
+        "matrix": 60.339377165811044,
+        "quant": 38.034872902454325,
+        "other": 1.6257499317345003
+      },
+      "pooled_cycle_shares_pct": null,
+      "metrics": {
+        "matrix_ms_per_256_block": {
+          "count": 5,
+          "mean": 59.552395879291005,
+          "sample_sd": 0.3146841518366376,
+          "median": 59.4257395714525,
+          "q1": 59.33543771971,
+          "q3": 59.83396887313501,
+          "iqr": 0.49853115342500587,
+          "min": 59.228604077362505,
+          "max": 59.938229154794996
+        },
+        "quant_ms_per_256_block": {
+          "count": 5,
+          "mean": 37.5387999461965,
+          "sample_sd": 0.3029839753279572,
+          "median": 37.60885389056,
+          "q1": 37.305875099265,
+          "q3": 37.730333395302495,
+          "iqr": 0.42445829603749274,
+          "min": 37.156406324357505,
+          "max": 37.8925310214975
+        },
+        "other_ms_per_256_block": {
+          "count": 5,
+          "mean": 1.604545954614875,
+          "sample_sd": 0.039979413946653525,
+          "median": 1.5874577220529251,
+          "q1": 1.583770965226,
+          "q3": 1.611438696272675,
+          "iqr": 0.02766773104667508,
+          "min": 1.56932265963405,
+          "max": 1.670739729888725
+        },
+        "total_ms_per_256_block": {
+          "count": 5,
+          "mean": 98.69574178010251,
+          "sample_sd": 0.34087235216906353,
+          "median": 98.6639581387875,
+          "q1": 98.5317493323225,
+          "q3": 98.73257379513251,
+          "iqr": 0.20082446281000443,
+          "min": 98.3153856359425,
+          "max": 99.2350419983275
+        },
+        "matrix_trial_share_pct": {
+          "count": 5,
+          "mean": 60.33951886926484,
+          "sample_sd": 0.28220811529499473,
+          "median": 60.295201844267304,
+          "q1": 60.21961258354063,
+          "q3": 60.44398766994962,
+          "iqr": 0.2243750864089904,
+          "min": 59.98891936136528,
+          "max": 60.74987288720139
+        },
+        "quant_trial_share_pct": {
+          "count": 5,
+          "mean": 38.0348134859242,
+          "sample_sd": 0.2671925445671584,
+          "median": 38.021179449834264,
+          "q1": 37.94510376779378,
+          "q3": 38.16927451852591,
+          "iqr": 0.224170750732128,
+          "min": 37.65955372689462,
+          "max": 38.3789559665724
+        },
+        "other_trial_share_pct": {
+          "count": 5,
+          "mean": 1.6256676448108327,
+          "sample_sd": 0.035571396039202056,
+          "median": 1.6111128979338776,
+          "q1": 1.6109085622576242,
+          "q3": 1.6321246720625027,
+          "iqr": 0.021216109804878425,
+          "min": 1.5905733859030193,
+          "max": 1.6836187058971401
+        },
+        "feed_ms_per_256_block": {
+          "count": 5,
+          "mean": 962.62112725526,
+          "sample_sd": 4.164847864027767,
+          "median": 960.0542705739,
+          "q1": 959.8360215313751,
+          "q3": 964.2320420825749,
+          "iqr": 4.396020551199854,
+          "min": 959.724812535575,
+          "max": 969.258489552875
+        },
+        "validation_ms_per_256_block": {
+          "count": 5,
+          "mean": 0.81453325692565,
+          "sample_sd": 0.028927712125343428,
+          "median": 0.805635238066325,
+          "q1": 0.798916560597725,
+          "q3": 0.8422393584624001,
+          "iqr": 0.04332279786467508,
+          "min": 0.779385562054825,
+          "max": 0.8464895654469751
+        }
+      },
+      "interpretation": "Quantization accounts for 38.035% of pooled measured wall time. It is below 50% (not a majority). It does not exceed the matrix phase. It is not strictly the largest measured phase. These are descriptions of these trials only, not an extrapolation to complete ciphertext encryption."
+    },
+    {
+      "profile": "ours_mid",
+      "n": 10864,
+      "m": 382464,
+      "a": 256,
+      "full_dimension": 764928,
+      "blocks_per_trial": 4,
+      "block_length": 256,
+      "processed_dimension": 1024,
+      "repetitions": 5,
+      "excluded_warmup_rows": 1,
+      "fragment_bytes": 16690,
+      "maximum_process_peak_memory_bytes": 74727424,
+      "pooled_wall_time_shares_pct": {
+        "matrix": 63.03333237152725,
+        "quant": 35.356189285432556,
+        "other": 1.610478343039403
+      },
+      "pooled_cycle_shares_pct": null,
+      "metrics": {
+        "matrix_ms_per_256_block": {
+          "count": 5,
+          "mean": 69.941179291345,
+          "sample_sd": 0.31933702217025495,
+          "median": 69.7875635232775,
+          "q1": 69.69896797090749,
+          "q3": 70.1772295869875,
+          "iqr": 0.4782616160800046,
+          "min": 69.662489695475,
+          "max": 70.3796456800775
+        },
+        "quant_ms_per_256_block": {
+          "count": 5,
+          "mean": 39.2308875452725,
+          "sample_sd": 0.13999436424072403,
+          "median": 39.2860934371125,
+          "q1": 39.2415839014575,
+          "q3": 39.316478883847495,
+          "iqr": 0.07489498238999204,
+          "min": 38.9871667139225,
+          "max": 39.3231147900225
+        },
+        "other_ms_per_256_block": {
+          "count": 5,
+          "mean": 1.786971278488635,
+          "sample_sd": 0.046391923283554036,
+          "median": 1.773032126948225,
+          "q1": 1.7486577853560499,
+          "q3": 1.825312385335575,
+          "iqr": 0.07665459997952517,
+          "min": 1.7420627409592249,
+          "max": 1.8457913538441
+        },
+        "total_ms_per_256_block": {
+          "count": 5,
+          "mean": 110.959038115107,
+          "sample_sd": 0.3862317419387346,
+          "median": 110.7337191933775,
+          "q1": 110.7210313202825,
+          "q3": 111.26460484229,
+          "iqr": 0.5435735220074918,
+          "min": 110.6000426225375,
+          "max": 111.4757925970475
+        },
+        "matrix_trial_share_pct": {
+          "count": 5,
+          "mean": 63.03317258875327,
+          "sample_sd": 0.09715856242222562,
+          "median": 63.072375699764486,
+          "q1": 62.942858307856675,
+          "q3": 63.0990385432786,
+          "iqr": 0.15618023542192816,
+          "min": 62.91712501662169,
+          "max": 63.134465376244876
+        },
+        "quant_trial_share_pct": {
+          "count": 5,
+          "mean": 35.35635997020924,
+          "sample_sd": 0.12622347148787838,
+          "median": 35.2750259710322,
+          "q1": 35.26870378686895,
+          "q3": 35.47798604010225,
+          "iqr": 0.20928225323330452,
+          "min": 35.25058923076572,
+          "max": 35.50949482227708
+        },
+        "other_trial_share_pct": {
+          "count": 5,
+          "mean": 1.6104674410367095,
+          "sample_sd": 0.040909472532646804,
+          "median": 1.5905086527235732,
+          "q1": 1.5791556520397534,
+          "q3": 1.6503722259539368,
+          "iqr": 0.07121657391418346,
+          "min": 1.573380161100526,
+          "max": 1.6589205133657583
+        },
+        "feed_ms_per_256_block": {
+          "count": 5,
+          "mean": 1085.68376004696,
+          "sample_sd": 1.1974635158724656,
+          "median": 1086.3178542349501,
+          "q1": 1084.9555724999,
+          "q3": 1086.60798857455,
+          "iqr": 1.652416074650091,
+          "min": 1083.9261980727251,
+          "max": 1086.611186852675
+        },
+        "validation_ms_per_256_block": {
+          "count": 5,
+          "mean": 0.90945200063288,
+          "sample_sd": 0.05203418692037999,
+          "median": 0.902666710317125,
+          "q1": 0.8697499288246,
+          "q3": 0.92369806952775,
+          "iqr": 0.053948140703150016,
+          "min": 0.86043728515505,
+          "max": 0.9907080093398751
+        }
+      },
+      "interpretation": "Quantization accounts for 35.356% of pooled measured wall time. It is below 50% (not a majority). It does not exceed the matrix phase. It is not strictly the largest measured phase. These are descriptions of these trials only, not an extrapolation to complete ciphertext encryption."
+    }
+  ],
+  "source_sha256": {
+    "raw.csv": "0336807bea0208b95ff1023f7b8d990fd302933744230b79d615821c77f2749d",
+    "metadata.json": "5608c43d9a8ca5c3743971b312f1d87c4f271efe03dd7dc745a744cdcb981d6f",
+    "COMPLETED.txt": "04b2788dfba30633fa07e437153a5eb3463206c8384db4a382bdc27ed38b9817",
+    "warmup.csv": "8fa8adfc3c10890f201cf87246abec47b876506cdc910a69d8d9c0940473c8d0"
+  },
+  "analysis_script_sha256": "eb0b9cf5c17316c903df292697c1ad8a176268b17a81169a999bb6fbee565303"
+}

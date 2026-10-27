@@ -1,0 +1,19 @@
+Required Notice: Copyright (c) 2026 Hao Cheng and LWQ-IBE contributors.
+
+The project-authored research software in this repository is licensed under
+the unmodified PolyForm Noncommercial License 1.0.0 in LICENSE.
+SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
+
+The license permits noncommercial research, experimentation, teaching,
+modification, and redistribution on its stated terms. Uses outside those terms
+require separate permission from the relevant rights holders.
+
+External dependencies retain their own licenses. No rights to third-party
+software are granted by this NOTICE. The lattice-estimator library is not
+vendored; obtain the recorded commit from its upstream project and retain its
+license and notices. The same applies to SageMath, FLINT, GMP, MPFR, OpenSSL,
+and platform libraries used by the research build.
+
+This software is a research artifact with the scope and limitations documented
+in README.md. Publication and licensing do not certify production security or
+complete IBE execution. Historical records describe the runs actually performed.

@@ -1,0 +1,44 @@
+{
+  "source_kind": "identity_graph",
+  "public_seed": "2d2c23ffa23ccafd2da19ba4d6b8b9b137271487446009cbf95d2d249480ac77",
+  "source_seed": "c08f3e8b47823877c09d37849e5b8c4adca637cabd7952555caaad1b17a07445",
+  "q_bits": 228,
+  "S_bits": 113,
+  "executed_dimension": 512,
+  "block_dimension": 256,
+  "full_certificate_dimension": 11207680,
+  "raw_bytes": 14621,
+  "actual_serialized_bytes": 7502,
+  "exact_roundtrip": true,
+  "saved_tape_SC_replay_byte_identical": true,
+  "coefficient_seed_bit_checks": 57208,
+  "sha256": "8512ee0a9cf939951660ec7394a0379283d28d0fb96e7fd38aeb6bfad96db3de",
+  "tape_sha256": "a83421529d5ce26afc38e4dd881b0f8ba9412c8a7f612613827dbd06ed99c298",
+  "details": [
+    {
+      "precision_bits": 384,
+      "private_draws": 1860,
+      "stop_bits": 119,
+      "mixed_SC_layers": 3,
+      "carry_layers": 118,
+      "carry_adjusted_frozen_bits": 14071,
+      "coefficient_low_bits_preserved_by_lift": true,
+      "posterior_enclosures_all_within_2pow_minus300": true
+    },
+    {
+      "precision_bits": 384,
+      "private_draws": 1860,
+      "stop_bits": 119,
+      "mixed_SC_layers": 3,
+      "carry_layers": 118,
+      "carry_adjusted_frozen_bits": 14091,
+      "coefficient_low_bits_preserved_by_lift": true,
+      "posterior_enclosures_all_within_2pow_minus300": true
+    }
+  ],
+  "seconds_including_replay": 0.919457197189331,
+  "scalar_is_test_value": true,
+  "source_is_actual_FMAH": false,
+  "full_IBE_encryption_executed": false,
+  "empirical_DFR_claim": false
+}

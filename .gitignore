@@ -1,0 +1,6 @@
+**/__pycache__/
+**/*.pyc
+**/build/
+.DS_Store
+fresh_*/
+release-validation/

@@ -1,0 +1,9 @@
+{
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "sage": "SageMath version 10.9, Release Date: 2026-05-04",
+  "estimator_commit": "53da5982597709ba0fdf94ea37a84d822310fd84",
+  "estimator_worktree": "",
+  "estimator_conf_sha256": "b8270fcc702ef72e00308fc691112f374da4d0d0395665b7c244c9b99b77f7dd",
+  "seed": "not applicable: deterministic integer/cost-model computations"
+}

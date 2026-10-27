@@ -1,0 +1,506 @@
+{
+  "scope": "Classical saved six-attack evidence reused only at identical narrow-source LWE inputs; no new attack execution",
+  "source": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/analysis/unified_modulus_20261023/ours/ours_shared_column_audit.json",
+  "source_sha256": "28c17d8639165f170f000a909b83c7892056a0c7fe4151491972b9035204552a",
+  "estimator_commit": "53da5982597709ba0fdf94ea37a84d822310fd84",
+  "rows": [
+    {
+      "name": "C-MPK",
+      "exact_input": {
+        "n": 10072,
+        "q": "883423532389192164791648750371459257913741948437809479060803100646309888",
+        "r": 8192,
+        "m_samples": 433025
+      },
+      "status": "REUSED_VERIFIED_IDENTICAL_INPUT",
+      "evidence": {
+        "source": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/selected-results.json",
+        "selector": "selected.MPK-priority",
+        "source_sha256": "3a0b4650e6c9e8faccb805fcf56deed70b437caa767aa28bfd424c77d4e79a23",
+        "identical_input_fields": {
+          "n": true,
+          "r": true,
+          "q_bits": true,
+          "m": true
+        },
+        "estimator_commit": "53da5982597709ba0fdf94ea37a84d822310fd84",
+        "model": "ADPS16 classical Core-SVP; primal GSA",
+        "distributions": "UniformMod(q) secret; D_Z,r with sd r/sqrt(2pi); m+1 samples",
+        "minimum_finite_bits": 128.188,
+        "attacks": [
+          {
+            "status": "ok",
+            "attack": "usvp",
+            "bits": 128.188,
+            "raw_repr": "rop: ≈2^128.2, red: ≈2^128.2, δ: 1.003732, β: 439, d: 20381, tag: usvp",
+            "input_repr": "LWEParameters(n=10072, q=883423532389192164791648750371459257913741948437809479060803100646309888, Xs=D(σ=255022407116675071099529444291128233258605382992505307142975315725254656.00, μ=-0.50), Xe=D(σ=3268.14), m=433025, tag=None)",
+            "seconds": 0.08566808700561523,
+            "wall_seconds": 3.8043079376220703,
+            "command": [
+              "/usr/local/bin/sage",
+              "-python",
+              "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/round2_search_frozen_mixed.py",
+              "--worker",
+              "usvp",
+              "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-mixed-verified/point-00/candidate.json"
+            ],
+            "exit_code": 0,
+            "stdout_path": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-mixed-verified/point-00/usvp.stdout.txt",
+            "stderr_path": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-mixed-verified/point-00/usvp.stderr.txt",
+            "stdout_sha256": "96ebcc1ee1d50c9c696837cdb426b2725caafe6f2c669ce340ab586025b3b19d",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "candidate_sha256": "41df0d67bda6236f9927fc25f31cfb9423976915869d1575115a9979cc0d6352"
+          },
+          {
+            "status": "ok",
+            "attack": "dual",
+            "bits": 315.068,
+            "raw_repr": "rop: ≈2^315.1, mem: ≈2^234.0, m: ≈2^14.9, β: 1079, d: 41030, ↻: 1, tag: dual",
+            "input_repr": "LWEParameters(n=10072, q=883423532389192164791648750371459257913741948437809479060803100646309888, Xs=D(σ=255022407116675071099529444291128233258605382992505307142975315725254656.00, μ=-0.50), Xe=D(σ=3268.14), m=433025, tag=None)",
+            "seconds": 0.06766581535339355,
+            "wall_seconds": 3.5924952030181885,
+            "command": [
+              "/usr/local/bin/sage",
+              "-python",
+              "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/round2_search_frozen_mixed.py",
+              "--worker",
+              "dual",
+              "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-mixed-verified/point-00/candidate.json"
+            ],
+            "exit_code": 0,
+            "stdout_path": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-mixed-verified/point-00/dual.stdout.txt",
+            "stderr_path": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-mixed-verified/point-00/dual.stderr.txt",
+            "stdout_sha256": "65619f1cc67b5015c9941d3d486a3314fc402be5ce469bcc5aa209ee8fbc842c",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "candidate_sha256": "41df0d67bda6236f9927fc25f31cfb9423976915869d1575115a9979cc0d6352"
+          },
+          {
+            "status": "ok",
+            "attack": "bdd",
+            "bits": 128.19132392625664,
+            "raw_repr": "rop: ≈2^128.2, red: ≈2^128.2, svp: ≈2^119.4, β: 439, η: 408, d: 21070, tag: bdd",
+            "input_repr": "LWEParameters(n=10072, q=883423532389192164791648750371459257913741948437809479060803100646309888, Xs=D(σ=255022407116675071099529444291128233258605382992505307142975315725254656.00, μ=-0.50), Xe=D(σ=3268.14), m=433025, tag=None)",
+            "seconds": 5.055624961853027,
+            "wall_seconds": 8.81662893295288,
+            "command": [
+              "/usr/local/bin/sage",
+              "-python",
+              "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/round2_search_frozen_mixed.py",
+              "--worker",
+              "bdd",
+              "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-mixed-verified/point-00/candidate.json"
+            ],
+            "exit_code": 0,
+            "stdout_path": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-mixed-verified/point-00/bdd.stdout.txt",
+            "stderr_path": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-mixed-verified/point-00/bdd.stderr.txt",
+            "stdout_sha256": "e9fc2c85b867896e7e69a06c73989710837689eaa6c889d98afa80808130b82c",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "candidate_sha256": "41df0d67bda6236f9927fc25f31cfb9423976915869d1575115a9979cc0d6352"
+          },
+          {
+            "status": "ok",
+            "attack": "dual_hybrid",
+            "bits": 128.7722930650731,
+            "raw_repr": "rop: ≈2^128.8, red: ≈2^128.8, guess: ≈2^116.5, β: 441, p: 3, ζ: 0, t: 0, β': 441, N: ≈2^82.8, m: ≈2^13.3",
+            "input_repr": "LWEParameters(n=10072, q=883423532389192164791648750371459257913741948437809479060803100646309888, Xs=D(σ=255022407116675071099529444291128233258605382992505307142975315725254656.00, μ=-0.50), Xe=D(σ=3268.14), m=433025, tag=None)",
+            "seconds": 0.36373019218444824,
+            "wall_seconds": 4.10442590713501,
+            "command": [
+              "/usr/local/bin/sage",
+              "-python",
+              "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/round2_search_frozen_mixed.py",
+              "--worker",
+              "dual_hybrid",
+              "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-mixed-verified/point-00/candidate.json"
+            ],
+            "exit_code": 0,
+            "stdout_path": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-mixed-verified/point-00/dual_hybrid.stdout.txt",
+            "stderr_path": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-mixed-verified/point-00/dual_hybrid.stderr.txt",
+            "stdout_sha256": "b38f412cf95f3dd20ce9f6416d429ffecf4f5e702eb6117bf5fa3f205fc769be",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "candidate_sha256": "41df0d67bda6236f9927fc25f31cfb9423976915869d1575115a9979cc0d6352"
+          },
+          {
+            "status": "ok",
+            "attack": "bdd_hybrid",
+            "bits": 128.19132392625664,
+            "raw_repr": "rop: ≈2^128.2, red: ≈2^128.2, svp: ≈2^119.4, β: 439, η: 408, ζ: 0, |S|: 1, d: 21165, prob: 1.0, ↻: 1, tag: hybrid",
+            "input_repr": "LWEParameters(n=10072, q=883423532389192164791648750371459257913741948437809479060803100646309888, Xs=D(σ=255022407116675071099529444291128233258605382992505307142975315725254656.00, μ=-0.50), Xe=D(σ=3268.14), m=433025, tag=None)",
+            "seconds": 25.725142002105713,
+            "wall_seconds": 29.27562403678894,
+            "command": [
+              "/usr/local/bin/sage",
+              "-python",
+              "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/round2_search_frozen_mixed.py",
+              "--worker",
+              "bdd_hybrid",
+              "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-mixed-verified/point-00/candidate.json"
+            ],
+            "exit_code": 0,
+            "stdout_path": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-mixed-verified/point-00/bdd_hybrid.stdout.txt",
+            "stderr_path": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-mixed-verified/point-00/bdd_hybrid.stderr.txt",
+            "stdout_sha256": "f5760a738dbd702183ab6c693414aff2cf60389681638a152910fd09c0dfb9e9",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "candidate_sha256": "41df0d67bda6236f9927fc25f31cfb9423976915869d1575115a9979cc0d6352"
+          },
+          {
+            "status": "ok",
+            "attack": "mitm",
+            "bits": 265.5979971134826,
+            "raw_repr": "rop: ≈2^265.6, red: ≈2^265.6, svp: ≈2^166.1, β: 439, η: 2, ζ: 0, |S|: 1, d: 21165, prob: ≈2^-135.2, ↻: ≈2^137.4, tag: hybrid",
+            "input_repr": "LWEParameters(n=10072, q=883423532389192164791648750371459257913741948437809479060803100646309888, Xs=D(σ=255022407116675071099529444291128233258605382992505307142975315725254656.00, μ=-0.50), Xe=D(σ=3268.14), m=433025, tag=None)",
+            "seconds": 44.737425088882446,
+            "wall_seconds": 48.25655198097229,
+            "command": [
+              "/usr/local/bin/sage",
+              "-python",
+              "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/round2_search_frozen_mixed.py",
+              "--worker",
+              "mitm",
+              "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-mixed-verified/point-00/candidate.json"
+            ],
+            "exit_code": 0,
+            "stdout_path": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-mixed-verified/point-00/mitm.stdout.txt",
+            "stderr_path": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-mixed-verified/point-00/mitm.stderr.txt",
+            "stdout_sha256": "3e6b1a66dbd55d47c82f90ab9e76e2467935f185744c892bdb6a377a627051e0",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "candidate_sha256": "41df0d67bda6236f9927fc25f31cfb9423976915869d1575115a9979cc0d6352"
+          }
+        ],
+        "note": "Six saved finite attack results reused, not re-executed; BKW/Arora historical model-bound coverage is separate."
+      }
+    },
+    {
+      "name": "C-Mid",
+      "exact_input": {
+        "n": 10864,
+        "q": "115792089237316195423570985008687907853269984665640564039457584007913129639936",
+        "r": 8192,
+        "m_samples": 382465
+      },
+      "status": "REUSED_VERIFIED_IDENTICAL_INPUT",
+      "evidence": {
+        "source": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/folded-rs8192-final-verified.json",
+        "selector": "rows[0]",
+        "source_sha256": "3f364492a8746ce83912af51fe55bcd840a7c4e0397fc6eddc195c1ebba27172",
+        "identical_input_fields": {
+          "n": true,
+          "r": true,
+          "q_bits": true,
+          "m": true
+        },
+        "estimator_commit": "53da5982597709ba0fdf94ea37a84d822310fd84",
+        "model": "ADPS16 classical Core-SVP; primal GSA",
+        "distributions": "UniformMod(q) secret; D_Z,r with sd r/sqrt(2pi); m+1 samples",
+        "minimum_finite_bits": 128.188,
+        "attacks": [
+          {
+            "status": "ok",
+            "attack": "usvp",
+            "bits": 128.188,
+            "raw_repr": "rop: ≈2^128.2, red: ≈2^128.2, δ: 1.003732, β: 439, d: 22020, tag: usvp",
+            "input_repr": "LWEParameters(n=10864, q=115792089237316195423570985008687907853269984665640564039457584007913129639936, Xs=D(σ=33426296945596834919157523322126759789671924759593655617844060582740578271232.00, μ=-0.50), Xe=D(σ=3268.14), m=382465, tag=None)",
+            "seconds": 0.08550882339477539,
+            "wall_seconds": 3.6154470443725586,
+            "command": [
+              "/usr/local/bin/sage",
+              "-python",
+              "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/round2_search_frozen_folded_final.py",
+              "--worker",
+              "usvp",
+              "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-final-verified/point-00/candidate.json"
+            ],
+            "exit_code": 0,
+            "stdout_path": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-final-verified/point-00/usvp.stdout.txt",
+            "stderr_path": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-final-verified/point-00/usvp.stderr.txt",
+            "stdout_sha256": "17b77fea7eb4cb7a14489b86c310dbc3a0fde0f8e4d61b497615201f2c0fc348",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "candidate_sha256": "4348863fe1e7d2b407485f57ccf1f559a0efc8ebf0b5637ef878b816a7619b54"
+          },
+          {
+            "status": "ok",
+            "attack": "dual",
+            "bits": 316.236,
+            "raw_repr": "rop: ≈2^316.2, mem: ≈2^234.8, m: ≈2^15.0, β: 1083, d: 44207, ↻: 1, tag: dual",
+            "input_repr": "LWEParameters(n=10864, q=115792089237316195423570985008687907853269984665640564039457584007913129639936, Xs=D(σ=33426296945596834919157523322126759789671924759593655617844060582740578271232.00, μ=-0.50), Xe=D(σ=3268.14), m=382465, tag=None)",
+            "seconds": 0.05680418014526367,
+            "wall_seconds": 3.325249671936035,
+            "command": [
+              "/usr/local/bin/sage",
+              "-python",
+              "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/round2_search_frozen_folded_final.py",
+              "--worker",
+              "dual",
+              "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-final-verified/point-00/candidate.json"
+            ],
+            "exit_code": 0,
+            "stdout_path": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-final-verified/point-00/dual.stdout.txt",
+            "stderr_path": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-final-verified/point-00/dual.stderr.txt",
+            "stdout_sha256": "8867c45a33c17c48db31644d0b97585ae201279b24085719aba001eb42101428",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "candidate_sha256": "4348863fe1e7d2b407485f57ccf1f559a0efc8ebf0b5637ef878b816a7619b54"
+          },
+          {
+            "status": "ok",
+            "attack": "bdd",
+            "bits": 128.1991654102199,
+            "raw_repr": "rop: ≈2^128.2, red: ≈2^128.2, svp: ≈2^121.2, β: 439, η: 414, d: 22653, tag: bdd",
+            "input_repr": "LWEParameters(n=10864, q=115792089237316195423570985008687907853269984665640564039457584007913129639936, Xs=D(σ=33426296945596834919157523322126759789671924759593655617844060582740578271232.00, μ=-0.50), Xe=D(σ=3268.14), m=382465, tag=None)",
+            "seconds": 4.932375907897949,
+            "wall_seconds": 8.472766876220703,
+            "command": [
+              "/usr/local/bin/sage",
+              "-python",
+              "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/round2_search_frozen_folded_final.py",
+              "--worker",
+              "bdd",
+              "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-final-verified/point-00/candidate.json"
+            ],
+            "exit_code": 0,
+            "stdout_path": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-final-verified/point-00/bdd.stdout.txt",
+            "stderr_path": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-final-verified/point-00/bdd.stderr.txt",
+            "stdout_sha256": "b3be1695bd992b760d3a8de6811c75faae3053a1f3c546ea40af24fe8f396830",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "candidate_sha256": "4348863fe1e7d2b407485f57ccf1f559a0efc8ebf0b5637ef878b816a7619b54"
+          },
+          {
+            "status": "ok",
+            "attack": "dual_hybrid",
+            "bits": 128.77209204557317,
+            "raw_repr": "rop: ≈2^128.8, red: ≈2^128.8, guess: ≈2^114.8, β: 441, p: 3, ζ: 0, t: 0, β': 441, N: ≈2^81.2, m: ≈2^13.4",
+            "input_repr": "LWEParameters(n=10864, q=115792089237316195423570985008687907853269984665640564039457584007913129639936, Xs=D(σ=33426296945596834919157523322126759789671924759593655617844060582740578271232.00, μ=-0.50), Xe=D(σ=3268.14), m=382465, tag=None)",
+            "seconds": 0.3485100269317627,
+            "wall_seconds": 3.70882511138916,
+            "command": [
+              "/usr/local/bin/sage",
+              "-python",
+              "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/round2_search_frozen_folded_final.py",
+              "--worker",
+              "dual_hybrid",
+              "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-final-verified/point-00/candidate.json"
+            ],
+            "exit_code": 0,
+            "stdout_path": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-final-verified/point-00/dual_hybrid.stdout.txt",
+            "stderr_path": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-final-verified/point-00/dual_hybrid.stderr.txt",
+            "stdout_sha256": "e5e37c7ba0494aa746fcf9fd0b315cd52a18451956a7563c8b25c2845e6b7380",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "candidate_sha256": "4348863fe1e7d2b407485f57ccf1f559a0efc8ebf0b5637ef878b816a7619b54"
+          },
+          {
+            "status": "ok",
+            "attack": "bdd_hybrid",
+            "bits": 128.1991654102199,
+            "raw_repr": "rop: ≈2^128.2, red: ≈2^128.2, svp: ≈2^121.2, β: 439, η: 414, ζ: 0, |S|: 1, d: 22750, prob: 1.0, ↻: 1, tag: hybrid",
+            "input_repr": "LWEParameters(n=10864, q=115792089237316195423570985008687907853269984665640564039457584007913129639936, Xs=D(σ=33426296945596834919157523322126759789671924759593655617844060582740578271232.00, μ=-0.50), Xe=D(σ=3268.14), m=382465, tag=None)",
+            "seconds": 27.4158718585968,
+            "wall_seconds": 30.807837963104248,
+            "command": [
+              "/usr/local/bin/sage",
+              "-python",
+              "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/round2_search_frozen_folded_final.py",
+              "--worker",
+              "bdd_hybrid",
+              "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-final-verified/point-00/candidate.json"
+            ],
+            "exit_code": 0,
+            "stdout_path": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-final-verified/point-00/bdd_hybrid.stdout.txt",
+            "stderr_path": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-final-verified/point-00/bdd_hybrid.stderr.txt",
+            "stdout_sha256": "32b4e3b819e4d68c5c1d01269ff09f3426b7eefd1b078a9f732b2ce7e52b84c9",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "candidate_sha256": "4348863fe1e7d2b407485f57ccf1f559a0efc8ebf0b5637ef878b816a7619b54"
+          },
+          {
+            "status": "ok",
+            "attack": "mitm",
+            "bits": 270.2327577510223,
+            "raw_repr": "rop: ≈2^270.2, red: ≈2^270.2, svp: ≈2^171.0, β: 439, η: 2, ζ: 0, |S|: 1, d: 22750, prob: ≈2^-139.8, ↻: ≈2^142.0, tag: hybrid",
+            "input_repr": "LWEParameters(n=10864, q=115792089237316195423570985008687907853269984665640564039457584007913129639936, Xs=D(σ=33426296945596834919157523322126759789671924759593655617844060582740578271232.00, μ=-0.50), Xe=D(σ=3268.14), m=382465, tag=None)",
+            "seconds": 47.238285064697266,
+            "wall_seconds": 50.442160844802856,
+            "command": [
+              "/usr/local/bin/sage",
+              "-python",
+              "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/round2_search_frozen_folded_final.py",
+              "--worker",
+              "mitm",
+              "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-final-verified/point-00/candidate.json"
+            ],
+            "exit_code": 0,
+            "stdout_path": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-final-verified/point-00/mitm.stdout.txt",
+            "stderr_path": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-final-verified/point-00/mitm.stderr.txt",
+            "stdout_sha256": "036386f693e264e0ed5dfcd52b0528d6bfe87c84375a64956944602308cbfde7",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "candidate_sha256": "4348863fe1e7d2b407485f57ccf1f559a0efc8ebf0b5637ef878b816a7619b54"
+          }
+        ],
+        "note": "Six saved finite attack results reused, not re-executed; BKW/Arora historical model-bound coverage is separate."
+      }
+    },
+    {
+      "name": "C-CT",
+      "exact_input": {
+        "n": 11600,
+        "q": "1897137590064188545819787018382342682267975428761855001222473056385648716020711424",
+        "r": 4096,
+        "m_samples": 352385
+      },
+      "status": "REUSED_VERIFIED_IDENTICAL_INPUT",
+      "evidence": {
+        "source": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/selected-results.json",
+        "selector": "selected.CT-priority",
+        "source_sha256": "3a0b4650e6c9e8faccb805fcf56deed70b437caa767aa28bfd424c77d4e79a23",
+        "identical_input_fields": {
+          "n": true,
+          "r": true,
+          "q_bits": true,
+          "m": true
+        },
+        "estimator_commit": "53da5982597709ba0fdf94ea37a84d822310fd84",
+        "model": "ADPS16 classical Core-SVP; primal GSA",
+        "distributions": "UniformMod(q) secret; D_Z,r with sd r/sqrt(2pi); m+1 samples",
+        "minimum_finite_bits": 128.188,
+        "attacks": [
+          {
+            "status": "ok",
+            "attack": "usvp",
+            "bits": 128.188,
+            "raw_repr": "rop: ≈2^128.2, red: ≈2^128.2, δ: 1.003732, β: 439, d: 23292, tag: usvp",
+            "input_repr": "LWEParameters(n=11600, q=1897137590064188545819787018382342682267975428761855001222473056385648716020711424, Xs=D(σ=547656449156658543315476862109724832393984815261182453642757088587621634395865088.00, μ=-0.50), Xe=D(σ=1634.07), m=352385, tag=None)",
+            "seconds": 0.09405088424682617,
+            "wall_seconds": 3.756040334701538,
+            "command": [
+              "/usr/local/bin/sage",
+              "-python",
+              "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/round2_search_frozen_mixed.py",
+              "--worker",
+              "usvp",
+              "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-size-verified/point-00/candidate.json"
+            ],
+            "exit_code": 0,
+            "stdout_path": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-size-verified/point-00/usvp.stdout.txt",
+            "stderr_path": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-size-verified/point-00/usvp.stderr.txt",
+            "stdout_sha256": "f640890ee4ebbb72f07c3076ef3fdaf93f7c33eaec37fb2576e048b435ee3c85",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "candidate_sha256": "e26798be0bc947ffcb69594e87c614ea5a4212c9a9e4064a87bc110283a9323d"
+          },
+          {
+            "status": "ok",
+            "attack": "dual",
+            "bits": 317.404,
+            "raw_repr": "rop: ≈2^317.4, mem: ≈2^235.6, m: ≈2^15.1, β: 1087, d: 47056, ↻: 1, tag: dual",
+            "input_repr": "LWEParameters(n=11600, q=1897137590064188545819787018382342682267975428761855001222473056385648716020711424, Xs=D(σ=547656449156658543315476862109724832393984815261182453642757088587621634395865088.00, μ=-0.50), Xe=D(σ=1634.07), m=352385, tag=None)",
+            "seconds": 0.06280398368835449,
+            "wall_seconds": 3.799710988998413,
+            "command": [
+              "/usr/local/bin/sage",
+              "-python",
+              "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/round2_search_frozen_mixed.py",
+              "--worker",
+              "dual",
+              "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-size-verified/point-00/candidate.json"
+            ],
+            "exit_code": 0,
+            "stdout_path": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-size-verified/point-00/dual.stdout.txt",
+            "stderr_path": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-size-verified/point-00/dual.stderr.txt",
+            "stdout_sha256": "b4d5b23fdc6cb1edf0de3bcef479fce5494db39ebdfcdd6ca91a32507c1513c1",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "candidate_sha256": "e26798be0bc947ffcb69594e87c614ea5a4212c9a9e4064a87bc110283a9323d"
+          },
+          {
+            "status": "ok",
+            "attack": "bdd",
+            "bits": 128.19071545267153,
+            "raw_repr": "rop: ≈2^128.2, red: ≈2^128.2, svp: ≈2^119.1, β: 439, η: 407, d: 24061, tag: bdd",
+            "input_repr": "LWEParameters(n=11600, q=1897137590064188545819787018382342682267975428761855001222473056385648716020711424, Xs=D(σ=547656449156658543315476862109724832393984815261182453642757088587621634395865088.00, μ=-0.50), Xe=D(σ=1634.07), m=352385, tag=None)",
+            "seconds": 5.464056730270386,
+            "wall_seconds": 9.168156147003174,
+            "command": [
+              "/usr/local/bin/sage",
+              "-python",
+              "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/round2_search_frozen_mixed.py",
+              "--worker",
+              "bdd",
+              "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-size-verified/point-00/candidate.json"
+            ],
+            "exit_code": 0,
+            "stdout_path": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-size-verified/point-00/bdd.stdout.txt",
+            "stderr_path": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-size-verified/point-00/bdd.stderr.txt",
+            "stdout_sha256": "07a00e32e7d19ac7849a712988f0734c71a323244972cb714f75409e120a5279",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "candidate_sha256": "e26798be0bc947ffcb69594e87c614ea5a4212c9a9e4064a87bc110283a9323d"
+          },
+          {
+            "status": "ok",
+            "attack": "dual_hybrid",
+            "bits": 128.50824730379568,
+            "raw_repr": "rop: ≈2^128.5, red: ≈2^128.5, guess: ≈2^122.8, β: 440, p: 3, ζ: 0, t: 0, β': 440, N: ≈2^91.1, m: ≈2^13.5",
+            "input_repr": "LWEParameters(n=11600, q=1897137590064188545819787018382342682267975428761855001222473056385648716020711424, Xs=D(σ=547656449156658543315476862109724832393984815261182453642757088587621634395865088.00, μ=-0.50), Xe=D(σ=1634.07), m=352385, tag=None)",
+            "seconds": 0.3452019691467285,
+            "wall_seconds": 3.900074005126953,
+            "command": [
+              "/usr/local/bin/sage",
+              "-python",
+              "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/round2_search_frozen_mixed.py",
+              "--worker",
+              "dual_hybrid",
+              "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-size-verified/point-00/candidate.json"
+            ],
+            "exit_code": 0,
+            "stdout_path": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-size-verified/point-00/dual_hybrid.stdout.txt",
+            "stderr_path": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-size-verified/point-00/dual_hybrid.stderr.txt",
+            "stdout_sha256": "c1b727d280cb9509002b754676785c44942fd49870ed94680e0ba6a33140d91e",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "candidate_sha256": "e26798be0bc947ffcb69594e87c614ea5a4212c9a9e4064a87bc110283a9323d"
+          },
+          {
+            "status": "ok",
+            "attack": "bdd_hybrid",
+            "bits": 128.19071545267153,
+            "raw_repr": "rop: ≈2^128.2, red: ≈2^128.2, svp: ≈2^119.1, β: 439, η: 407, ζ: 0, |S|: 1, d: 24142, prob: 1.0, ↻: 1, tag: hybrid",
+            "input_repr": "LWEParameters(n=11600, q=1897137590064188545819787018382342682267975428761855001222473056385648716020711424, Xs=D(σ=547656449156658543315476862109724832393984815261182453642757088587621634395865088.00, μ=-0.50), Xe=D(σ=1634.07), m=352385, tag=None)",
+            "seconds": 36.14251184463501,
+            "wall_seconds": 39.691224813461304,
+            "command": [
+              "/usr/local/bin/sage",
+              "-python",
+              "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/round2_search_frozen_mixed.py",
+              "--worker",
+              "bdd_hybrid",
+              "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-size-verified/point-00/candidate.json"
+            ],
+            "exit_code": 0,
+            "stdout_path": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-size-verified/point-00/bdd_hybrid.stdout.txt",
+            "stderr_path": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-size-verified/point-00/bdd_hybrid.stderr.txt",
+            "stdout_sha256": "85613bc212750851c5e7748e4e6a7618ac6fe545a200be59ecd1947755249e91",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "candidate_sha256": "e26798be0bc947ffcb69594e87c614ea5a4212c9a9e4064a87bc110283a9323d"
+          },
+          {
+            "status": "ok",
+            "attack": "mitm",
+            "bits": 264.9689209229955,
+            "raw_repr": "rop: ≈2^265.0, red: ≈2^265.0, svp: ≈2^165.9, β: 439, η: 2, ζ: 0, |S|: 1, d: 24142, prob: ≈2^-134.6, ↻: ≈2^136.8, tag: hybrid",
+            "input_repr": "LWEParameters(n=11600, q=1897137590064188545819787018382342682267975428761855001222473056385648716020711424, Xs=D(σ=547656449156658543315476862109724832393984815261182453642757088587621634395865088.00, μ=-0.50), Xe=D(σ=1634.07), m=352385, tag=None)",
+            "seconds": 58.91332197189331,
+            "wall_seconds": 62.26948809623718,
+            "command": [
+              "/usr/local/bin/sage",
+              "-python",
+              "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/round2_search_frozen_mixed.py",
+              "--worker",
+              "mitm",
+              "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-size-verified/point-00/candidate.json"
+            ],
+            "exit_code": 0,
+            "stdout_path": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-size-verified/point-00/mitm.stdout.txt",
+            "stderr_path": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_borrowing_round2_20261016/experiments/logs/folded-rs8192-size-verified/point-00/mitm.stderr.txt",
+            "stdout_sha256": "58dc21617a69128ea9daa5c049b434cae1c594855a7db713937cf6ab23282307",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "candidate_sha256": "e26798be0bc947ffcb69594e87c614ea5a4212c9a9e4064a87bc110283a9323d"
+          }
+        ],
+        "note": "Six saved finite attack results reused, not re-executed; BKW/Arora historical model-bound coverage is separate."
+      }
+    }
+  ]
+}

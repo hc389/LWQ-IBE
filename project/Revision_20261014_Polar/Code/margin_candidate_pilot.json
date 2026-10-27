@@ -1,0 +1,38 @@
+{
+  "schema": "LWQ-IBE integer polar margin candidate pilot, version 1",
+  "status": "proposed; not executed by the parameter agent",
+  "execution_owner": "source/implementation agent",
+  "certificate_file": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/parameters/recommendation.json",
+  "certificate_row": "recommended",
+  "q_bits": 228,
+  "S_bits": 113,
+  "block_length": 256,
+  "executed_dimension": 512,
+  "full_certificate_dimension": 11207680,
+  "seed_bits": 256,
+  "stop_bits": 119,
+  "frozen_sets_json_pointer": "/recommended/polar/frozen_sets",
+  "frozen_bits_per_block": 28604,
+  "frozen_coefficient_bit_checks_expected": 57208,
+  "private_draws_expected": 3720,
+  "raw_bytes_expected": 14621,
+  "short_bytes_expected": 7502,
+  "source_kinds": [
+    "zero",
+    "uniform",
+    "identity_graph"
+  ],
+  "required_checks": [
+    "carry-aware generation with coefficient frozen seed bits",
+    "exact encode/decode round trip",
+    "SC replay from saved private tape byte-identical",
+    "every coefficient frozen bit equals the corresponding seed-derived bit"
+  ],
+  "not_claimed": [
+    "actual FMAH instance",
+    "Setup",
+    "KeyGen",
+    "full-dimensional quantization",
+    "empirical IBE decryption-failure rate"
+  ]
+}

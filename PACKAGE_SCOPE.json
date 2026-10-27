@@ -1,0 +1,30 @@
+{
+  "missing_requested_files": [],
+  "experiments_executed_during_packaging": false,
+  "third_party_estimator_vendored": false,
+  "source_bytes_modified": true,
+  "omitted_full_length_binary_artifacts": [
+    "Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_mpk/ours_mpk_fixture.bin",
+    "Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_mpk/ours_mpk_trial_2.bin",
+    "Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_mpk/ours_mpk_trial_0.bin",
+    "Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_mpk/ours_mpk_trial_1.bin",
+    "Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_ct/ours_ct_trial_1.bin",
+    "Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_ct/ours_ct_trial_0.bin",
+    "Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_ct/ours_ct_trial_2.bin",
+    "Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_ct/ours_ct_fixture.bin"
+  ],
+  "known_boundaries": [
+    "Absolute historical project/Sage paths need configuration before parameter reruns.",
+    "External lattice-estimator checkout and dependencies are not bundled.",
+    "Original full-length binary fixtures/ciphertexts omitted; regenerate before verify mode.",
+    "No complete IBE/Extract implementation or complete-IBE 128-bit certification.",
+    "Historical hash-verification/report scripts may reference omitted workspace-only artifacts.",
+    "Historical path/program labels are normalized; original numerical values, seeds and recorded run hashes are preserved, with separate file hashes."
+  ],
+  "release_repository": "https://github.com/hc389/LWQ-IBE",
+  "source_change_scope": "Naming/build labels, documentation, historical path/program/schema normalization, and identical domain bytes written in hex; algorithm and parameter choices unchanged.",
+  "license_identifier": "PolyForm-Noncommercial-1.0.0",
+  "license_text_supplied_by_release_owner": true,
+  "release_smoke_checks_executed": true,
+  "new_full_length_benchmarks_or_attack_estimates_executed": false
+}

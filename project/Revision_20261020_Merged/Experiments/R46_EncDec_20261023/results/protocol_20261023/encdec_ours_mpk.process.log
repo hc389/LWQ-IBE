@@ -1,0 +1,344 @@
+ours_mpk: n=10072, 2m=866048, q_bits=239, ciphertext=13019115 B, tile_cols=83, guarded allocation budget=244.2 MB
+  offline key 61440/866048
+  offline key 118784/866048
+  offline key 180224/866048
+  offline key 237568/866048
+  offline key 299008/866048
+  offline key 356352/866048
+  offline key 417792/866048
+  offline key 479232/866048
+  offline key 536576/866048
+  offline key 598016/866048
+  offline key 659456/866048
+  offline key 720896/866048
+  offline key 778240/866048
+  offline key 839680/866048
+  offline u=M e 7553/866048
+  offline u=M e 21497/866048
+  offline u=M e 31540/866048
+  offline u=M e 45484/866048
+  offline u=M e 59428/866048
+  offline u=M e 73289/866048
+  offline u=M e 87150/866048
+  offline u=M e 101177/866048
+  offline u=M e 115121/866048
+  offline u=M e 129231/866048
+  offline u=M e 143258/866048
+  offline u=M e 157285/866048
+  offline u=M e 171146/866048
+  offline u=M e 185090/866048
+  offline u=M e 199117/866048
+  offline u=M e 213144/866048
+  offline u=M e 227171/866048
+  offline u=M e 241198/866048
+  offline u=M e 255225/866048
+  offline u=M e 269252/866048
+  offline u=M e 283279/866048
+  offline u=M e 297140/866048
+  offline u=M e 311167/866048
+  offline u=M e 324198/866048
+  offline u=M e 338142/866048
+  offline u=M e 352169/866048
+  offline u=M e 366113/866048
+  offline u=M e 380140/866048
+  offline u=M e 394001/866048
+  offline u=M e 408028/866048
+  offline u=M e 422055/866048
+  offline u=M e 435999/866048
+  offline u=M e 450026/866048
+  offline u=M e 464053/866048
+  offline u=M e 478080/866048
+  offline u=M e 492107/866048
+  offline u=M e 505719/866048
+  offline u=M e 519082/866048
+  offline u=M e 533026/866048
+  offline u=M e 546804/866048
+  offline u=M e 560665/866048
+  offline u=M e 574692/866048
+  offline u=M e 588719/866048
+  offline u=M e 602663/866048
+  offline u=M e 616607/866048
+  offline u=M e 630634/866048
+  offline u=M e 644661/866048
+  offline u=M e 658688/866048
+  offline u=M e 671802/866048
+  offline u=M e 685746/866048
+  offline u=M e 699690/866048
+  offline u=M e 713717/866048
+  offline u=M e 727661/866048
+  offline u=M e 741688/866048
+  offline u=M e 755715/866048
+  offline u=M e 769742/866048
+  offline u=M e 783769/866048
+  offline u=M e 797796/866048
+  offline u=M e 811823/866048
+  offline u=M e 825933/866048
+  offline u=M e 839960/866048
+  offline u=M e 853904/866048
+  offline u=M e 866048/866048
+  online encrypt 10790/866048
+  online encrypt 21497/866048
+  online encrypt 32204/866048
+  online encrypt 42994/866048
+  online encrypt 53701/866048
+  online encrypt 64408/866048
+  online encrypt 75032/866048
+  online encrypt 85822/866048
+  online encrypt 96612/866048
+  online encrypt 107319/866048
+  online encrypt 118026/866048
+  online encrypt 128235/866048
+  online encrypt 139025/866048
+  online encrypt 149732/866048
+  online encrypt 160439/866048
+  online encrypt 171146/866048
+  online encrypt 181936/866048
+  online encrypt 192643/866048
+  online encrypt 203350/866048
+  online encrypt 214057/866048
+  online encrypt 224847/866048
+  online encrypt 235554/866048
+  online encrypt 246344/866048
+  online encrypt 257051/866048
+  online encrypt 267841/866048
+  online encrypt 278548/866048
+  online encrypt 289338/866048
+  online encrypt 300128/866048
+  online encrypt 310835/866048
+  online encrypt 321542/866048
+  online encrypt 332332/866048
+  online encrypt 343122/866048
+  online encrypt 353829/866048
+  online encrypt 364536/866048
+  online encrypt 375160/866048
+  online encrypt 385867/866048
+  online encrypt 396574/866048
+  online encrypt 407281/866048
+  online encrypt 417988/866048
+  online encrypt 428695/866048
+  online encrypt 439402/866048
+  online encrypt 450109/866048
+  online encrypt 460816/866048
+  online encrypt 471606/866048
+  online encrypt 482313/866048
+  online encrypt 493103/866048
+  online encrypt 503893/866048
+  online encrypt 514600/866048
+  online encrypt 525390/866048
+  online encrypt 536097/866048
+  online encrypt 546057/866048
+  online encrypt 556847/866048
+  online encrypt 567637/866048
+  online encrypt 578427/866048
+  online encrypt 589134/866048
+  online encrypt 599924/866048
+  online encrypt 610631/866048
+  online encrypt 621338/866048
+  online encrypt 632128/866048
+  online encrypt 642586/866048
+  online encrypt 653376/866048
+  online encrypt 664083/866048
+  online encrypt 674790/866048
+  online encrypt 685497/866048
+  online encrypt 696121/866048
+  online encrypt 706828/866048
+  online encrypt 717618/866048
+  online encrypt 728325/866048
+  online encrypt 739032/866048
+  online encrypt 749656/866048
+  online encrypt 760363/866048
+  online encrypt 771153/866048
+  online encrypt 781113/866048
+  online encrypt 791820/866048
+  online encrypt 802527/866048
+  online encrypt 813068/866048
+  online encrypt 823858/866048
+  online encrypt 834565/866048
+  online encrypt 845355/866048
+  online encrypt 856145/866048
+  online encrypt 866048/866048
+PASS ours_mpk trial=0 message=0 bytes=13019115 Enc_core=329.274 feed=77.3587 Dec=2.50141 seconds
+  online encrypt 10790/866048
+  online encrypt 21497/866048
+  online encrypt 32121/866048
+  online encrypt 42828/866048
+  online encrypt 53452/866048
+  online encrypt 64076/866048
+  online encrypt 74783/866048
+  online encrypt 85490/866048
+  online encrypt 96114/866048
+  online encrypt 106821/866048
+  online encrypt 117528/866048
+  online encrypt 128235/866048
+  online encrypt 138776/866048
+  online encrypt 149483/866048
+  online encrypt 160107/866048
+  online encrypt 170814/866048
+  online encrypt 181521/866048
+  online encrypt 192228/866048
+  online encrypt 202769/866048
+  online encrypt 213559/866048
+  online encrypt 224266/866048
+  online encrypt 234973/866048
+  online encrypt 245597/866048
+  online encrypt 256304/866048
+  online encrypt 267011/866048
+  online encrypt 277718/866048
+  online encrypt 287512/866048
+  online encrypt 298219/866048
+  online encrypt 308843/866048
+  online encrypt 319550/866048
+  online encrypt 330174/866048
+  online encrypt 340798/866048
+  online encrypt 351505/866048
+  online encrypt 362295/866048
+  online encrypt 373002/866048
+  online encrypt 383792/866048
+  online encrypt 394499/866048
+  online encrypt 405289/866048
+  online encrypt 416079/866048
+  online encrypt 426786/866048
+  online encrypt 437576/866048
+  online encrypt 448283/866048
+  online encrypt 459073/866048
+  online encrypt 469780/866048
+  online encrypt 480570/866048
+  online encrypt 491277/866048
+  online encrypt 502067/866048
+  online encrypt 512774/866048
+  online encrypt 523564/866048
+  online encrypt 534354/866048
+  online encrypt 545061/866048
+  online encrypt 555685/866048
+  online encrypt 565811/866048
+  online encrypt 576518/866048
+  online encrypt 587308/866048
+  online encrypt 598098/866048
+  online encrypt 608805/866048
+  online encrypt 619595/866048
+  online encrypt 630302/866048
+  online encrypt 641092/866048
+  online encrypt 651799/866048
+  online encrypt 662589/866048
+  online encrypt 673296/866048
+  online encrypt 684086/866048
+  online encrypt 694876/866048
+  online encrypt 705666/866048
+  online encrypt 716456/866048
+  online encrypt 727080/866048
+  online encrypt 737870/866048
+  online encrypt 748577/866048
+  online encrypt 759284/866048
+  online encrypt 769908/866048
+  online encrypt 780615/866048
+  online encrypt 791405/866048
+  online encrypt 802112/866048
+  online encrypt 812819/866048
+  online encrypt 823609/866048
+  online encrypt 834399/866048
+  online encrypt 845189/866048
+  online encrypt 855813/866048
+  online encrypt 866048/866048
+PASS ours_mpk trial=1 message=1 bytes=13019115 Enc_core=329.393 feed=77.4288 Dec=2.49793 seconds
+  online encrypt 10790/866048
+  online encrypt 20833/866048
+  online encrypt 31540/866048
+  online encrypt 42247/866048
+  online encrypt 53037/866048
+  online encrypt 63744/866048
+  online encrypt 74534/866048
+  online encrypt 85324/866048
+  online encrypt 96031/866048
+  online encrypt 106821/866048
+  online encrypt 117528/866048
+  online encrypt 128318/866048
+  online encrypt 139025/866048
+  online encrypt 149815/866048
+  online encrypt 160522/866048
+  online encrypt 171063/866048
+  online encrypt 181687/866048
+  online encrypt 192311/866048
+  online encrypt 202935/866048
+  online encrypt 213559/866048
+  online encrypt 224266/866048
+  online encrypt 235056/866048
+  online encrypt 245680/866048
+  online encrypt 255640/866048
+  online encrypt 266264/866048
+  online encrypt 277054/866048
+  online encrypt 287761/866048
+  online encrypt 298302/866048
+  online encrypt 309009/866048
+  online encrypt 319799/866048
+  online encrypt 330506/866048
+  online encrypt 341130/866048
+  online encrypt 351754/866048
+  online encrypt 362378/866048
+  online encrypt 372919/866048
+  online encrypt 383460/866048
+  online encrypt 393503/866048
+  online encrypt 404210/866048
+  online encrypt 414834/866048
+  online encrypt 425541/866048
+  online encrypt 436248/866048
+  online encrypt 446955/866048
+  online encrypt 457579/866048
+  online encrypt 468286/866048
+  online encrypt 478246/866048
+  online encrypt 488953/866048
+  online encrypt 499577/866048
+  online encrypt 510284/866048
+  online encrypt 520908/866048
+  online encrypt 531532/866048
+  online encrypt 542239/866048
+  online encrypt 552946/866048
+  online encrypt 563570/866048
+  online encrypt 574277/866048
+  online encrypt 584984/866048
+  online encrypt 595691/866048
+  online encrypt 606232/866048
+  online encrypt 617022/866048
+  online encrypt 627729/866048
+  online encrypt 637523/866048
+  online encrypt 648147/866048
+  online encrypt 658688/866048
+  online encrypt 669312/866048
+  online encrypt 679936/866048
+  online encrypt 690726/866048
+  online encrypt 701516/866048
+  online encrypt 712223/866048
+  online encrypt 722930/866048
+  online encrypt 733554/866048
+  online encrypt 744261/866048
+  online encrypt 754968/866048
+  online encrypt 765675/866048
+  online encrypt 776216/866048
+  online encrypt 786923/866048
+  online encrypt 797215/866048
+  online encrypt 807839/866048
+  online encrypt 818463/866048
+  online encrypt 829253/866048
+  online encrypt 839960/866048
+  online encrypt 850750/866048
+  online encrypt 861457/866048
+  online encrypt 866048/866048
+PASS ours_mpk trial=2 message=0 bytes=13019115 Enc_core=331.582 feed=77.9414 Dec=2.49886 seconds
+COMPLETED: /Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_mpk
+     1620.14 real      1597.96 user        13.19 sys
+           157106176  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               32491  page reclaims
+                   5  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  49  voluntary context switches
+              394363  involuntary context switches
+      25811287560849  instructions retired
+       5361280453267  cycles elapsed
+           154436040  peak memory footprint

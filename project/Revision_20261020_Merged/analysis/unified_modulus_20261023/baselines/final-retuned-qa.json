@@ -1,0 +1,165 @@
+{
+  "status": "PASS",
+  "scope": "Independent exact arithmetic QA; does not rerun lattice attacks or prove source lemmas",
+  "skill": "Claude-Scholar/results-analysis reproducibility",
+  "inputs": {
+    "dimension_screen": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/analysis/unified_modulus_20261023/dimension_screen.json",
+    "dimension_screen_sha256": "754d54a79a0daa3981ce10876eae9ead28a176f67c62f2cad19b34db1ff488a2"
+  },
+  "qa_script_sha256": "34be3fdbed5c7e9a78b98da1a5b56c592f754fb4fd2658ee576ec1e2b2f8ddf1",
+  "jkn_strengthened_union": "m >= (n+1)a + 2(T+8) + 2ceil_log2(12m+1) + 8",
+  "note": "Stronger union-margin check does not change q,m,n,r or ciphertext/MPK sizes; frozen search data retained.",
+  "selected": [
+    {
+      "profile": "jkn_retuned_common",
+      "n": 4576,
+      "r": "203",
+      "a": 110,
+      "m": 3020288,
+      "CT_bytes": 83057934,
+      "MPK_bytes": 2280438314440,
+      "CT_MiB": 79.21021842956543,
+      "MPK_TiB": 2.074046564703167,
+      "ledger_path": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/analysis/unified_modulus_20261023/baselines/jkn_retuned_common-ledger.json",
+      "ledger_sha256": "97502fdc64ec9962c9f51de2a6f6cc1deb0897b0dfc483c50c028615ae299118",
+      "candidate_count": 109,
+      "selected_audit": {
+        "formula_equalities_pass": true,
+        "issues": [],
+        "joint_LHL_rhs": "504010",
+        "joint_LHL_margin": "2516278",
+        "joint_LHL_unit": "binary entropy bits",
+        "strengthened_checks": {
+          "source_floor": true,
+          "exact_ReRand": true,
+          "smoothing": true,
+          "finite_rerand": true,
+          "joint_LHL_strengthened": true,
+          "common_MGF": true,
+          "actual_prime": true,
+          "source_dimension": true,
+          "strict_m_gt_6na": true,
+          "honest_entropy": true
+        }
+      },
+      "previous_a": 109,
+      "previous_MGF_ratio": 0.47787942085397783,
+      "previous_failures": [
+        "common_MGF"
+      ],
+      "checks": {
+        "selected_matches_ledger": true,
+        "contiguous_a": true,
+        "all_formulas_independently_match": true,
+        "all_lower_candidates_rejected": true,
+        "every_smaller_MGF_fails": true,
+        "strengthened_joint_LHL_all_rows": true,
+        "selected_all_finite_checks": true,
+        "selected_all_strengthened_checks": true
+      },
+      "issues": []
+    },
+    {
+      "profile": "ablaI_retuned_common",
+      "n": 7776,
+      "r": "265",
+      "a": 180,
+      "m": 2301440,
+      "CT_bytes": 103564823,
+      "MPK_bytes": 16509057813360,
+      "CT_MiB": 98.76711177825928,
+      "MPK_TiB": 15.014900612513884,
+      "ledger_path": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/analysis/unified_modulus_20261023/baselines/ablaI_retuned_common-ledger.json",
+      "ledger_sha256": "f897c55babe19751a00c2040d59e3315bd2c1bedd84227d92f0f0b86084639c3",
+      "candidate_count": 179,
+      "selected_audit": {
+        "formula_equalities_pass": true,
+        "issues": [],
+        "joint_LHL_rhs": "1400394",
+        "joint_LHL_margin": "111794060",
+        "joint_LHL_unit": "79m-50rhs, scaled entropy bits",
+        "strengthened_checks": {
+          "source_floor": true,
+          "exact_ReRand": true,
+          "smoothing": true,
+          "finite_rerand": true,
+          "joint_LHL_strengthened": true,
+          "common_MGF": true,
+          "actual_prime": true,
+          "eta_range": true,
+          "no_wrap_partition": true,
+          "partition_balance": true,
+          "honest_entropy": true
+        }
+      },
+      "previous_a": 179,
+      "previous_MGF_ratio": 0.5913989045223005,
+      "previous_failures": [
+        "common_MGF"
+      ],
+      "checks": {
+        "selected_matches_ledger": true,
+        "contiguous_a": true,
+        "all_formulas_independently_match": true,
+        "all_lower_candidates_rejected": true,
+        "every_smaller_MGF_fails": true,
+        "strengthened_joint_LHL_all_rows": true,
+        "selected_all_finite_checks": true,
+        "selected_all_strengthened_checks": true
+      },
+      "issues": []
+    },
+    {
+      "profile": "ablaII_retuned_common",
+      "n": 8992,
+      "r": "512",
+      "a": 208,
+      "m": 859776,
+      "CT_bytes": 44708378,
+      "MPK_bytes": 8241359008064,
+      "CT_MiB": 42.63723182678223,
+      "MPK_TiB": 7.495472353242803,
+      "ledger_path": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/analysis/unified_modulus_20261023/baselines/ablaII_retuned_common-ledger.json",
+      "ledger_sha256": "0a7697662a25fd59a17040b70fa0fc32915b0367b96ff54d234cc0cb8fad809b",
+      "candidate_count": 207,
+      "selected_audit": {
+        "formula_equalities_pass": true,
+        "issues": [],
+        "joint_LHL_rhs": "1871076",
+        "joint_LHL_margin": "2427804",
+        "joint_LHL_unit": "5m-rhs, entropy bits",
+        "strengthened_checks": {
+          "source_floor": true,
+          "exact_ReRand": true,
+          "smoothing": true,
+          "finite_rerand": true,
+          "joint_LHL_strengthened": true,
+          "common_MGF": true,
+          "actual_prime": true,
+          "eta_range": true,
+          "no_wrap_partition": true,
+          "partition_balance": true,
+          "honest_entropy": true,
+          "mask_range": true,
+          "gadget_digit_range": true
+        }
+      },
+      "previous_a": 207,
+      "previous_MGF_ratio": 0.37306286053920373,
+      "previous_failures": [
+        "common_MGF"
+      ],
+      "checks": {
+        "selected_matches_ledger": true,
+        "contiguous_a": true,
+        "all_formulas_independently_match": true,
+        "all_lower_candidates_rejected": true,
+        "every_smaller_MGF_fails": true,
+        "strengthened_joint_LHL_all_rows": true,
+        "selected_all_finite_checks": true,
+        "selected_all_strengthened_checks": true
+      },
+      "issues": []
+    }
+  ]
+}

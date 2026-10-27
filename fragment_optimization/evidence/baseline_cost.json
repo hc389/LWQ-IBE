@@ -1,0 +1,12 @@
+{
+  "instrumentation": "Arb operation diagnostic, not benchmark timing",
+  "exp_calls": 56832,
+  "cos_calls": 3584,
+  "div_calls": 32000,
+  "exp_seconds": 0.032322703,
+  "cos_seconds": 0.003513202,
+  "div_seconds": 0.008275877,
+  "profile": "ours_ct",
+  "sampler_check": "seconds=0.0794258 decisions=1885 precision=384 retries=0 frozen_digits_checked=33699",
+  "operation_budget_pass": false
+}

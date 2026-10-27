@@ -1,0 +1,189 @@
+{
+  "created_utc": "2026-10-19T11:21:43.838796+00:00",
+  "scope": "Deterministic same-tape regression, not a timing or distribution proof",
+  "ignored_fields": [
+    "implementation_label",
+    "input_preparation_seconds",
+    "invariant_check_seconds",
+    "quant_seconds"
+  ],
+  "selftests": {
+    "status": "PASS",
+    "synthetic_only": true,
+    "deliberate_corruptions_detected": [
+      "Q",
+      "output_sha256",
+      "rng_continuation_64_hex",
+      "retries",
+      "max_precision",
+      "decisions",
+      "seed_index",
+      "codec_roundtrip_ok",
+      "committed_rng_bytes_expected",
+      "missing_completion",
+      "duplicate_json_key"
+    ],
+    "diagnostic_times_and_labels_ignored": [
+      "implementation_label",
+      "input_preparation_seconds",
+      "invariant_check_seconds",
+      "quant_seconds"
+    ]
+  },
+  "variants": {
+    "baseline": {
+      "executable": "/Users/Admin/Desktop/IBE/Revision_20261019_Merged/Experiments/WindowsNative/build/local/quant_replay_baseline",
+      "executable_sha256": "f67b64d3b1ef337ee649b08f8b50decb9b9ed97837cbaafdf2938ebfb1374538",
+      "data": "/Users/Admin/Desktop/IBE/Revision_20261019_Merged/Experiments/WindowsNative/validation/quant_opt_20261019/baseline/data",
+      "source_sha256": {
+        "main.cpp": "b7a3355ba328e118be500be7950b6d495fd0b31b9e7509eb6cf945fc08c87ecf",
+        "core_arithmetic.cpp": "71547d7112ed7687e5c4ee3360abacd1ff9ac3a91a0392b760edeedc8658250d",
+        "sampler.cpp": "7ab80db243daa57d308dd2c0f7e9ca4fe47ede9410fb38e7505e871c4c734215",
+        "platform.cpp": "c385c9c67d21efc799b36d0065f36e1d7c8faaf6f539cf2ccafa9bab88ab8796",
+        "core.hpp": "0430676abb8c82bfd575ddeae807d5b904817f88c6059616460a96dbca6366f0",
+        "profile_hashes.hpp": "0e7c89000b881e26ee1c39a07baee6c7e4ce5a5aa67f97c5cde3d1cfc7638dcd"
+      },
+      "profiles_sha256": {
+        "ours_mpk": "dc531adc0168081ba42e6a8d0d69c50c894f5df556ee751da6da0aa522b01ec1",
+        "ours_mid": "5c6c251cb659eae691e10dfd094c43e88ac84f39fc6c04db965aafb95a5014c7",
+        "ours_ct": "79c617ef17000937402fe140d76ddc54023fb354ab136ddeb76842693592d328"
+      },
+      "build_manifest": {
+        "path": "/Users/Admin/Desktop/IBE/Revision_20261019_Merged/Experiments/WindowsNative/build/local/quant_replay_baseline.build_manifest.txt",
+        "sha256": "2a569242b464106e1efd1c5b6b72a235ce6d8c4e28cccad619e520accdb2b882",
+        "text": "variant=baseline\nsource_directory=validation/quant_opt_20261019/baseline/src\nhost=Darwin\ncompiler=clang++\nflags=-O3 -std=c++17 -Wall -Wextra -DNDEBUG -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I /Applications/SageMath-10-9.app/Contents/Frameworks/Sage.framework/Versions/10.9/local/include -L /Applications/SageMath-10-9.app/Contents/Frameworks/Sage.framework/Versions/10.9/local/lib -Wl\\,-rpath\\,/Applications/SageMath-10-9.app/Contents/Frameworks/Sage.framework/Versions/10.9/local/lib \n25f9134b9bc64e725743b75afdf69625f602070cfc5d428501e0d94a006eb553  tests/quant_replay_driver.cpp\n0430676abb8c82bfd575ddeae807d5b904817f88c6059616460a96dbca6366f0  validation/quant_opt_20261019/baseline/src/core.hpp\n0e7c89000b881e26ee1c39a07baee6c7e4ce5a5aa67f97c5cde3d1cfc7638dcd  validation/quant_opt_20261019/baseline/src/profile_hashes.hpp\n71547d7112ed7687e5c4ee3360abacd1ff9ac3a91a0392b760edeedc8658250d  validation/quant_opt_20261019/baseline/src/core_arithmetic.cpp\n7ab80db243daa57d308dd2c0f7e9ca4fe47ede9410fb38e7505e871c4c734215  validation/quant_opt_20261019/baseline/src/sampler.cpp\nf67b64d3b1ef337ee649b08f8b50decb9b9ed97837cbaafdf2938ebfb1374538  build/local/quant_replay_baseline\n"
+      }
+    },
+    "optimized": {
+      "executable": "/Users/Admin/Desktop/IBE/Revision_20261019_Merged/Experiments/WindowsNative/build/local/quant_replay_optimized",
+      "executable_sha256": "3b1d62867958e085a5870f70276ae1ae984e005a44a0387e8dd078f545188513",
+      "data": "/Users/Admin/Desktop/IBE/Revision_20261019_Merged/Experiments/WindowsNative/data",
+      "source_sha256": {
+        "main.cpp": "b7a3355ba328e118be500be7950b6d495fd0b31b9e7509eb6cf945fc08c87ecf",
+        "core_arithmetic.cpp": "71547d7112ed7687e5c4ee3360abacd1ff9ac3a91a0392b760edeedc8658250d",
+        "sampler.cpp": "4b2b52b8474b65c45bd1cb0fafec2dde7bd04282f395378c1b4ad1922b46e79d",
+        "platform.cpp": "c385c9c67d21efc799b36d0065f36e1d7c8faaf6f539cf2ccafa9bab88ab8796",
+        "core.hpp": "0430676abb8c82bfd575ddeae807d5b904817f88c6059616460a96dbca6366f0",
+        "profile_hashes.hpp": "0e7c89000b881e26ee1c39a07baee6c7e4ce5a5aa67f97c5cde3d1cfc7638dcd"
+      },
+      "profiles_sha256": {
+        "ours_mpk": "dc531adc0168081ba42e6a8d0d69c50c894f5df556ee751da6da0aa522b01ec1",
+        "ours_mid": "5c6c251cb659eae691e10dfd094c43e88ac84f39fc6c04db965aafb95a5014c7",
+        "ours_ct": "79c617ef17000937402fe140d76ddc54023fb354ab136ddeb76842693592d328"
+      },
+      "build_manifest": {
+        "path": "/Users/Admin/Desktop/IBE/Revision_20261019_Merged/Experiments/WindowsNative/build/local/quant_replay_optimized.build_manifest.txt",
+        "sha256": "2badf4f129e10715b8a018393c91a566bb8c0ff576c7ddf0e7684bd151168b10",
+        "text": "variant=optimized\nsource_directory=src\nhost=Darwin\ncompiler=clang++\nflags=-O3 -std=c++17 -Wall -Wextra -DNDEBUG -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I /Applications/SageMath-10-9.app/Contents/Frameworks/Sage.framework/Versions/10.9/local/include -L /Applications/SageMath-10-9.app/Contents/Frameworks/Sage.framework/Versions/10.9/local/lib -Wl\\,-rpath\\,/Applications/SageMath-10-9.app/Contents/Frameworks/Sage.framework/Versions/10.9/local/lib \n25f9134b9bc64e725743b75afdf69625f602070cfc5d428501e0d94a006eb553  tests/quant_replay_driver.cpp\n0430676abb8c82bfd575ddeae807d5b904817f88c6059616460a96dbca6366f0  src/core.hpp\n0e7c89000b881e26ee1c39a07baee6c7e4ce5a5aa67f97c5cde3d1cfc7638dcd  src/profile_hashes.hpp\n71547d7112ed7687e5c4ee3360abacd1ff9ac3a91a0392b760edeedc8658250d  src/core_arithmetic.cpp\n4b2b52b8474b65c45bd1cb0fafec2dde7bd04282f395378c1b4ad1922b46e79d  src/sampler.cpp\n3b1d62867958e085a5870f70276ae1ae984e005a44a0387e8dd078f545188513  build/local/quant_replay_optimized\n"
+      }
+    }
+  },
+  "batches": [
+    {
+      "seed_index": 0,
+      "public_block_index": 0,
+      "tape_offset_bytes": 0,
+      "commands": {
+        "baseline": [
+          "/Users/Admin/Desktop/IBE/Revision_20261019_Merged/Experiments/WindowsNative/build/local/quant_replay_baseline",
+          "--data",
+          "/Users/Admin/Desktop/IBE/Revision_20261019_Merged/Experiments/WindowsNative/validation/quant_opt_20261019/baseline/data",
+          "--profiles",
+          "ours_mpk,ours_mid,ours_ct,synthetic_w3,synthetic_w17,synthetic_w257",
+          "--case",
+          "all",
+          "--seed-index",
+          "0",
+          "--block",
+          "0",
+          "--tape-offset",
+          "0",
+          "--repetitions",
+          "1",
+          "--emit-full",
+          "--label",
+          "baseline"
+        ],
+        "optimized": [
+          "/Users/Admin/Desktop/IBE/Revision_20261019_Merged/Experiments/WindowsNative/build/local/quant_replay_optimized",
+          "--data",
+          "/Users/Admin/Desktop/IBE/Revision_20261019_Merged/Experiments/WindowsNative/data",
+          "--profiles",
+          "ours_mpk,ours_mid,ours_ct,synthetic_w3,synthetic_w17,synthetic_w257",
+          "--case",
+          "all",
+          "--seed-index",
+          "0",
+          "--block",
+          "0",
+          "--tape-offset",
+          "0",
+          "--repetitions",
+          "1",
+          "--emit-full",
+          "--label",
+          "optimized"
+        ]
+      },
+      "status": "PASS",
+      "baseline_jsonl_sha256": "f5bca793171db069425a9cc2628a3a5fd89226431f97a20d8c405f923298d0e1",
+      "optimized_jsonl_sha256": "4b3e1eb1f4b335cf1d18beab56e8a6bd9047b1e4afbb474a363e715bf7e9684a",
+      "case_records_compared": 36
+    },
+    {
+      "seed_index": 0,
+      "public_block_index": 0,
+      "tape_offset_bytes": 4095,
+      "commands": {
+        "baseline": [
+          "/Users/Admin/Desktop/IBE/Revision_20261019_Merged/Experiments/WindowsNative/build/local/quant_replay_baseline",
+          "--data",
+          "/Users/Admin/Desktop/IBE/Revision_20261019_Merged/Experiments/WindowsNative/validation/quant_opt_20261019/baseline/data",
+          "--profiles",
+          "ours_mpk,ours_mid,ours_ct,synthetic_w3,synthetic_w17,synthetic_w257",
+          "--case",
+          "all",
+          "--seed-index",
+          "0",
+          "--block",
+          "0",
+          "--tape-offset",
+          "4095",
+          "--repetitions",
+          "1",
+          "--emit-full",
+          "--label",
+          "baseline"
+        ],
+        "optimized": [
+          "/Users/Admin/Desktop/IBE/Revision_20261019_Merged/Experiments/WindowsNative/build/local/quant_replay_optimized",
+          "--data",
+          "/Users/Admin/Desktop/IBE/Revision_20261019_Merged/Experiments/WindowsNative/data",
+          "--profiles",
+          "ours_mpk,ours_mid,ours_ct,synthetic_w3,synthetic_w17,synthetic_w257",
+          "--case",
+          "all",
+          "--seed-index",
+          "0",
+          "--block",
+          "0",
+          "--tape-offset",
+          "4095",
+          "--repetitions",
+          "1",
+          "--emit-full",
+          "--label",
+          "optimized"
+        ]
+      },
+      "status": "PASS",
+      "baseline_jsonl_sha256": "a5b4ef19b2bb495665989be323aec670812c4ffc747c57bc02aa8738ad214051",
+      "optimized_jsonl_sha256": "cee511074bd70ea3f1dc4b276136b793788de12724de2285c7777243ec375a96",
+      "case_records_compared": 36
+    }
+  ],
+  "driver_source_sha256": "25f9134b9bc64e725743b75afdf69625f602070cfc5d428501e0d94a006eb553",
+  "status": "PASS",
+  "case_records_compared": 72,
+  "timing_results_used": false
+}

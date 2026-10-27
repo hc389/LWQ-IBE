@@ -1,0 +1,2006 @@
+{
+  "schema": 1,
+  "generated_utc": "2026-10-23T13:14:15.939396+00:00",
+  "scope": "Full-dimensional fixed-identity Enc/Dec operations on dense Gaussian algebraic test keys; NOT Extract/Setup/PubEval",
+  "units": "seconds unless explicitly labelled",
+  "raw_trials": [
+    {
+      "trial": 0,
+      "mode": "encdec",
+      "profile": "ours_ct",
+      "n": 11600,
+      "m": 352384,
+      "a": 270,
+      "full_dimension": 704768,
+      "active_dimension": 704768,
+      "blocks": 2753,
+      "message": 0,
+      "recovered_message": 0,
+      "ct_bytes": 12189318,
+      "enc_core_seconds": 315.20564493164,
+      "enc_feed_seconds": 57.880623731762,
+      "enc_harness_seconds": 373.14135708334,
+      "matrix_seconds": 204.92734720279,
+      "quant_seconds": 108.47275747918,
+      "scalar_seconds": 0.005257667042315,
+      "pack_seconds": 1.7796521265991,
+      "enc_other_seconds": 0.020630456041545,
+      "dec_seconds": 2.2660618331283,
+      "dec_unpack_seconds": 2.2384512219578,
+      "dec_dot_seconds": 0.027393085882068,
+      "dec_decision_seconds": 2.5001354515553e-06,
+      "dec_other_seconds": 0.00021502515301108,
+      "artifact_io_seconds": 0.02435641689226,
+      "validation_seconds": 0.11585941584781,
+      "peak_memory_bytes": 115572736,
+      "scalar_decisions": 50,
+      "vector_decisions": 5189405,
+      "precision_retries": 0,
+      "max_precision": 384,
+      "gaussian_proposals": 50,
+      "decoded_ok": "1",
+      "full_dimensions": "1",
+      "real_extract_output": "0",
+      "ciphertext_sha256": "9098ea464fd3ec2a5fd7fb19032f52755db1586770ade18a479e5bd7b10126ef",
+      "status": "PASS",
+      "enc_wrapper_monitor_seconds": 0.055088419937987965,
+      "enc_other_all_seconds": 1.8055402496699884,
+      "dec_decision_and_other_seconds": 0.0002175252884626353,
+      "source_csv": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_ct/raw.csv",
+      "ciphertext_file": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_ct/ours_ct_trial_0.bin"
+    },
+    {
+      "trial": 1,
+      "mode": "encdec",
+      "profile": "ours_ct",
+      "n": 11600,
+      "m": 352384,
+      "a": 270,
+      "full_dimension": 704768,
+      "active_dimension": 704768,
+      "blocks": 2753,
+      "message": 1,
+      "recovered_message": 1,
+      "ct_bytes": 12189318,
+      "enc_core_seconds": 315.20399087761,
+      "enc_feed_seconds": 58.130451794248,
+      "enc_harness_seconds": 373.39132416714,
+      "matrix_seconds": 204.62988924794,
+      "quant_seconds": 108.7734731934,
+      "scalar_seconds": 0.0054126656614244,
+      "pack_seconds": 1.7757039186545,
+      "enc_other_seconds": 0.019511851947755,
+      "dec_seconds": 2.3017126671039,
+      "dec_unpack_seconds": 2.2725053075701,
+      "dec_dot_seconds": 0.028964010998607,
+      "dec_decision_seconds": 3.6247074604034e-06,
+      "dec_other_seconds": 0.00023972382768989,
+      "artifact_io_seconds": 0.026538084261119,
+      "validation_seconds": 0.11784066678956,
+      "peak_memory_bytes": 115572736,
+      "scalar_decisions": 21,
+      "vector_decisions": 5189405,
+      "precision_retries": 0,
+      "max_precision": 384,
+      "gaussian_proposals": 21,
+      "decoded_ok": "1",
+      "full_dimensions": "1",
+      "real_extract_output": "0",
+      "ciphertext_sha256": "74e52f9688077a0df0db258a839a4600de2069a0d4ec981bde278c16c0fe524b",
+      "status": "PASS",
+      "enc_wrapper_monitor_seconds": 0.05688149528198494,
+      "enc_other_all_seconds": 1.800628436270003,
+      "dec_decision_and_other_seconds": 0.00024334853515029338,
+      "source_csv": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_ct/raw.csv",
+      "ciphertext_file": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_ct/ours_ct_trial_1.bin"
+    },
+    {
+      "trial": 2,
+      "mode": "encdec",
+      "profile": "ours_ct",
+      "n": 11600,
+      "m": 352384,
+      "a": 270,
+      "full_dimension": 704768,
+      "active_dimension": 704768,
+      "blocks": 2753,
+      "message": 0,
+      "recovered_message": 0,
+      "ct_bytes": 12189318,
+      "enc_core_seconds": 314.05757586984,
+      "enc_feed_seconds": 57.618393888697,
+      "enc_harness_seconds": 371.73209825018,
+      "matrix_seconds": 203.54105762066,
+      "quant_seconds": 108.72353657847,
+      "scalar_seconds": 0.005429666955024,
+      "pack_seconds": 1.7679304867052,
+      "enc_other_seconds": 0.019621517043561,
+      "dec_seconds": 2.3304612501524,
+      "dec_unpack_seconds": 2.2726094424725,
+      "dec_dot_seconds": 0.057615716475993,
+      "dec_decision_seconds": 2.7911737561226e-06,
+      "dec_other_seconds": 0.00023330003023148,
+      "artifact_io_seconds": 0.027946957852691,
+      "validation_seconds": 0.11550024989992,
+      "peak_memory_bytes": 115572736,
+      "scalar_decisions": 4,
+      "vector_decisions": 5189405,
+      "precision_retries": 0,
+      "max_precision": 384,
+      "gaussian_proposals": 4,
+      "decoded_ok": "1",
+      "full_dimensions": "1",
+      "real_extract_output": "0",
+      "ciphertext_sha256": "c43ddd7f1377cd0514729da0d2114c4703c3c29af68ea69136956e781d749f82",
+      "status": "PASS",
+      "enc_wrapper_monitor_seconds": 0.05612849164302247,
+      "enc_other_all_seconds": 1.7929816707099633,
+      "dec_decision_and_other_seconds": 0.0002360912039876026,
+      "source_csv": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_ct/raw.csv",
+      "ciphertext_file": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_ct/ours_ct_trial_2.bin"
+    },
+    {
+      "trial": 0,
+      "mode": "encdec",
+      "profile": "ours_mpk",
+      "n": 10072,
+      "m": 433024,
+      "a": 239,
+      "full_dimension": 866048,
+      "active_dimension": 866048,
+      "blocks": 3383,
+      "message": 0,
+      "recovered_message": 0,
+      "ct_bytes": 13019115,
+      "enc_core_seconds": 329.27443731297,
+      "enc_feed_seconds": 77.35873550456,
+      "enc_harness_seconds": 406.69150087517,
+      "matrix_seconds": 199.7258838322,
+      "quant_seconds": 127.57351445872,
+      "scalar_seconds": 0.0043692090548575,
+      "pack_seconds": 1.9475923348218,
+      "enc_other_seconds": 0.02307747816667,
+      "dec_seconds": 2.5014067078009,
+      "dec_unpack_seconds": 2.4658345440403,
+      "dec_dot_seconds": 0.03530225623399,
+      "dec_decision_seconds": 2.9159709811211e-06,
+      "dec_other_seconds": 0.00026699155569077,
+      "artifact_io_seconds": 0.025794832967222,
+      "validation_seconds": 0.12166370870546,
+      "peak_memory_bytes": 157106176,
+      "scalar_decisions": 5,
+      "vector_decisions": 7155045,
+      "precision_retries": 0,
+      "max_precision": 384,
+      "gaussian_proposals": 5,
+      "decoded_ok": "1",
+      "full_dimensions": "1",
+      "real_extract_output": "0",
+      "ciphertext_sha256": "27534d88c11b6380c6eab2ab981b3275c1cb0fae7e1f0b100429ae82deeb3014",
+      "status": "PASS",
+      "enc_wrapper_monitor_seconds": 0.058328057639982944,
+      "enc_other_all_seconds": 1.9750390220500122,
+      "dec_decision_and_other_seconds": 0.0002699075266718911,
+      "source_csv": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_mpk/raw.csv",
+      "ciphertext_file": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_mpk/ours_mpk_trial_0.bin"
+    },
+    {
+      "trial": 1,
+      "mode": "encdec",
+      "profile": "ours_mpk",
+      "n": 10072,
+      "m": 433024,
+      "a": 239,
+      "full_dimension": 866048,
+      "active_dimension": 866048,
+      "blocks": 3383,
+      "message": 1,
+      "recovered_message": 1,
+      "ct_bytes": 13019115,
+      "enc_core_seconds": 329.39340080647,
+      "enc_feed_seconds": 77.428834931459,
+      "enc_harness_seconds": 406.88629158307,
+      "matrix_seconds": 199.79895760026,
+      "quant_seconds": 127.6183666545,
+      "scalar_seconds": 0.0043862923048437,
+      "pack_seconds": 1.9494759840891,
+      "enc_other_seconds": 0.022214275319129,
+      "dec_seconds": 2.497930499725,
+      "dec_unpack_seconds": 2.4651323854923,
+      "dec_dot_seconds": 0.032523296773434,
+      "dec_decision_seconds": 7.2917900979519e-06,
+      "dec_other_seconds": 0.00026752566918731,
+      "artifact_io_seconds": 0.024464583024383,
+      "validation_seconds": 0.1245363750495,
+      "peak_memory_bytes": 157106176,
+      "scalar_decisions": 89,
+      "vector_decisions": 7155045,
+      "precision_retries": 0,
+      "max_precision": 384,
+      "gaussian_proposals": 89,
+      "decoded_ok": "1",
+      "full_dimensions": "1",
+      "real_extract_output": "0",
+      "ciphertext_sha256": "72ae57bc36e579d92a6ee376262f676271585141d64eb8420bf1fbf4463b3c0d",
+      "status": "PASS",
+      "enc_wrapper_monitor_seconds": 0.06405584514095608,
+      "enc_other_all_seconds": 1.9760765517100367,
+      "dec_decision_and_other_seconds": 0.0002748174592852619,
+      "source_csv": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_mpk/raw.csv",
+      "ciphertext_file": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_mpk/ours_mpk_trial_1.bin"
+    },
+    {
+      "trial": 2,
+      "mode": "encdec",
+      "profile": "ours_mpk",
+      "n": 10072,
+      "m": 433024,
+      "a": 239,
+      "full_dimension": 866048,
+      "active_dimension": 866048,
+      "blocks": 3383,
+      "message": 0,
+      "recovered_message": 0,
+      "ct_bytes": 13019115,
+      "enc_core_seconds": 331.5824692389,
+      "enc_feed_seconds": 77.941426078323,
+      "enc_harness_seconds": 409.58553295769,
+      "matrix_seconds": 200.89663064247,
+      "quant_seconds": 128.70030930592,
+      "scalar_seconds": 0.0044337082654238,
+      "pack_seconds": 1.9582267864607,
+      "enc_other_seconds": 0.022868795786053,
+      "dec_seconds": 2.4988615410402,
+      "dec_unpack_seconds": 2.464419670403,
+      "dec_dot_seconds": 0.034167806152254,
+      "dec_decision_seconds": 3.1250528991222e-06,
+      "dec_other_seconds": 0.00027093943208456,
+      "artifact_io_seconds": 0.025077000260353,
+      "validation_seconds": 0.12352837482467,
+      "peak_memory_bytes": 157106176,
+      "scalar_decisions": 13,
+      "vector_decisions": 7155045,
+      "precision_retries": 0,
+      "max_precision": 384,
+      "gaussian_proposals": 13,
+      "decoded_ok": "1",
+      "full_dimensions": "1",
+      "real_extract_output": "0",
+      "ciphertext_sha256": "5c2742d70228b614b4aa7fb9a67fce3414d2a2da2bba0a381476be29c646f58c",
+      "status": "PASS",
+      "enc_wrapper_monitor_seconds": 0.061637640467026245,
+      "enc_other_all_seconds": 1.9855292905099873,
+      "dec_decision_and_other_seconds": 0.0002740644849836822,
+      "source_csv": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_mpk/raw.csv",
+      "ciphertext_file": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_mpk/ours_mpk_trial_2.bin"
+    }
+  ],
+  "raw_preparation": [
+    {
+      "mode": "encdec",
+      "profile": "ours_ct",
+      "n": 11600,
+      "full_dimension": 704768,
+      "active_dimension": 704768,
+      "key_sampling_seconds": 64.678738330957,
+      "feed_seconds": 57.958708569873,
+      "transpose_seconds": 24.467728316318,
+      "matvec_seconds": 210.41328467755,
+      "prepare_harness_seconds": 357.60619187495,
+      "validation_seconds": 0.56834941729903,
+      "artifact_io_seconds": 0.046755665913224,
+      "key_decisions": 22581443,
+      "key_gaussian_proposals": 22581443,
+      "key_precision_retries": 0,
+      "key_max_precision": 384,
+      "key_nonzero": 704768,
+      "key_max_abs_bits": 125,
+      "key_norm_squared_bits": 265,
+      "peak_memory_bytes": 101613568,
+      "fixture_sha256": "1ab11d2a96849ebeb5a8c8ad4fa53ba32b9a0fa9eaa48514a0bcb3a22f33b4c3",
+      "source": "generated",
+      "status": "PASS",
+      "source_csv": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_ct/preparation.csv",
+      "fixture_file": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_ct/ours_ct_fixture.bin",
+      "key_norm_squared": "30620485171301799027144446094582710321078632172904961169766098191874261102865185",
+      "key_max_absolute": "31295695778404311317046530267035705467"
+    },
+    {
+      "mode": "encdec",
+      "profile": "ours_mpk",
+      "n": 10072,
+      "full_dimension": 866048,
+      "active_dimension": 866048,
+      "key_sampling_seconds": 75.327748150565,
+      "feed_seconds": 78.457183357794,
+      "transpose_seconds": 28.735344294924,
+      "matvec_seconds": 205.59471971588,
+      "prepare_harness_seconds": 388.21558287507,
+      "validation_seconds": 0.72271891636774,
+      "artifact_io_seconds": 0.072656457778066,
+      "key_decisions": 27682911,
+      "key_gaussian_proposals": 27682911,
+      "key_precision_retries": 0,
+      "key_max_precision": 384,
+      "key_nonzero": 866048,
+      "key_max_abs_bits": 107,
+      "key_norm_squared_bits": 229,
+      "peak_memory_bytes": 142311424,
+      "fixture_sha256": "0619d641da7f9f1da3a54cbab8eb49615cb25ab2b75dda346b0da5499522cc66",
+      "source": "generated",
+      "status": "PASS",
+      "source_csv": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_mpk/preparation.csv",
+      "fixture_file": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_mpk/ours_mpk_fixture.bin",
+      "key_norm_squared": "575259371576467472473063061480010257949899344955616365549059840467298",
+      "key_max_absolute": "124193800665139296123598629443300"
+    }
+  ],
+  "provenance": {
+    "manifest": {
+      "schema": 1,
+      "scope": "full-dimensional fixed-identity Enc/Dec with dense Gaussian algebraic test keys; NOT Extract outputs",
+      "status": "PASS",
+      "started_utc": "2026-10-23T12:19:35.119988+00:00",
+      "protocol": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/analysis/r46_encdec_20261023/protocol.md",
+      "protocol_sha256": "70156ff8aeb931e1433552324026d5c14c48a00333c21bab7126f5a5b4f44fcc",
+      "executable": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/build/local/lwq_ibe_bench",
+      "executable_sha256": "2f5adec78d0cce5fcb207e2d8f120032e22c7e6cdda5a54015885d873bf40040",
+      "runner_sha256": "c05177d76d5c0e6f4e42c15a6b2b1ec8db6ca4763bc2c2fa099383ffd29161d2",
+      "code_root": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023",
+      "source_sha256": {
+        "src/core.hpp": "0430676abb8c82bfd575ddeae807d5b904817f88c6059616460a96dbca6366f0",
+        "src/core_arithmetic.cpp": "71547d7112ed7687e5c4ee3360abacd1ff9ac3a91a0392b760edeedc8658250d",
+        "src/main.cpp": "e84c13314460a69dfc3dd27f31e156eb2fcd0dcab3d7963e40fc77edb686c46a",
+        "src/platform.cpp": "c385c9c67d21efc799b36d0065f36e1d7c8faaf6f539cf2ccafa9bab88ab8796",
+        "src/profile_hashes.hpp": "0e7c89000b881e26ee1c39a07baee6c7e4ce5a5aa67f97c5cde3d1cfc7638dcd",
+        "src/sampler.cpp": "4b2b52b8474b65c45bd1cb0fafec2dde7bd04282f395378c1b4ad1922b46e79d"
+      },
+      "profile_sha256": {
+        "ours_mpk": "dc531adc0168081ba42e6a8d0d69c50c894f5df556ee751da6da0aa522b01ec1",
+        "ours_ct": "79c617ef17000937402fe140d76ddc54023fb354ab136ddeb76842693592d328"
+      },
+      "all_frozen_input_hashes": {
+        "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/build/local/lwq_ibe_bench": "2f5adec78d0cce5fcb207e2d8f120032e22c7e6cdda5a54015885d873bf40040",
+        "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/analysis/r46_encdec_20261023/protocol.md": "70156ff8aeb931e1433552324026d5c14c48a00333c21bab7126f5a5b4f44fcc",
+        "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/analysis/r46_encdec_20261023/run_protocol.py": "c05177d76d5c0e6f4e42c15a6b2b1ec8db6ca4763bc2c2fa099383ffd29161d2",
+        "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/src/core.hpp": "0430676abb8c82bfd575ddeae807d5b904817f88c6059616460a96dbca6366f0",
+        "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/src/core_arithmetic.cpp": "71547d7112ed7687e5c4ee3360abacd1ff9ac3a91a0392b760edeedc8658250d",
+        "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/src/main.cpp": "e84c13314460a69dfc3dd27f31e156eb2fcd0dcab3d7963e40fc77edb686c46a",
+        "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/src/platform.cpp": "c385c9c67d21efc799b36d0065f36e1d7c8faaf6f539cf2ccafa9bab88ab8796",
+        "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/src/profile_hashes.hpp": "0e7c89000b881e26ee1c39a07baee6c7e4ce5a5aa67f97c5cde3d1cfc7638dcd",
+        "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/src/sampler.cpp": "4b2b52b8474b65c45bd1cb0fafec2dde7bd04282f395378c1b4ad1922b46e79d",
+        "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/data/ours_mpk.cfg": "dc531adc0168081ba42e6a8d0d69c50c894f5df556ee751da6da0aa522b01ec1",
+        "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/data/ours_ct.cfg": "79c617ef17000937402fe140d76ddc54023fb354ab136ddeb76842693592d328"
+      },
+      "single_process_benchmark_policy": true,
+      "profile_order": [
+        "ours_mpk",
+        "ours_ct"
+      ],
+      "order_policy": "fixed and declared; no between-profile superiority inference",
+      "command_order": [
+        "encdec_ours_mpk",
+        "encdec_ours_ct"
+      ],
+      "timeout_seconds_per_profile": 3600,
+      "environment_overrides": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "VECLIB_MAXIMUM_THREADS": "1"
+      },
+      "process_wrapper": [
+        "/usr/bin/time",
+        "-l"
+      ],
+      "runs": [
+        {
+          "name": "encdec_ours_mpk",
+          "command": [
+            "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/build/local/lwq_ibe_bench",
+            "--mode",
+            "encdec",
+            "--data",
+            "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/data",
+            "--tile-mib",
+            "32",
+            "--memory-limit-mb",
+            "1400",
+            "--warmup",
+            "0",
+            "--repetitions",
+            "3",
+            "--allow-long-run",
+            "--profiles",
+            "ours_mpk",
+            "--output",
+            "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_mpk"
+          ],
+          "cwd": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023",
+          "started_utc": "2026-10-23T12:19:35.121715+00:00",
+          "status": "PASS",
+          "log": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_mpk.process.log",
+          "timeout_seconds": 3600,
+          "returncode": 0,
+          "elapsed_seconds": 1620.1553310409654,
+          "ended_utc": "2026-10-23T12:46:35.285425+00:00",
+          "log_sha256": "a6c25fb0fc96774fbd5d17a2b2af74bc63be9fc638f59ce92bccf8140e303457"
+        },
+        {
+          "name": "encdec_ours_ct",
+          "command": [
+            "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/build/local/lwq_ibe_bench",
+            "--mode",
+            "encdec",
+            "--data",
+            "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/data",
+            "--tile-mib",
+            "32",
+            "--memory-limit-mb",
+            "1400",
+            "--warmup",
+            "0",
+            "--repetitions",
+            "3",
+            "--allow-long-run",
+            "--profiles",
+            "ours_ct",
+            "--output",
+            "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_ct"
+          ],
+          "cwd": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023",
+          "started_utc": "2026-10-23T12:46:35.287234+00:00",
+          "status": "PASS",
+          "log": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_ct.process.log",
+          "timeout_seconds": 3600,
+          "returncode": 0,
+          "elapsed_seconds": 1483.8822611669893,
+          "ended_utc": "2026-10-23T13:11:19.177196+00:00",
+          "log_sha256": "3fce483bc78887e74be26452c05da0361af7b729b5e3f9e4c7fcea19f82dca41"
+        }
+      ],
+      "ended_utc": "2026-10-23T13:11:19.178116+00:00",
+      "elapsed_seconds": 3104.041364375036
+    },
+    "manifest_path": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/run_manifest.json",
+    "manifest_sha256": "5bd9c0ba2f6998cce0d551955788ea79e8e94071bbdcea78aa636e2eea0ea30c",
+    "protocol_path": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/analysis/r46_encdec_20261023/protocol.md",
+    "protocol_sha256": "70156ff8aeb931e1433552324026d5c14c48a00333c21bab7126f5a5b4f44fcc",
+    "source_sha256": {
+      "main.cpp": "e84c13314460a69dfc3dd27f31e156eb2fcd0dcab3d7963e40fc77edb686c46a",
+      "core_arithmetic.cpp": "71547d7112ed7687e5c4ee3360abacd1ff9ac3a91a0392b760edeedc8658250d",
+      "sampler.cpp": "4b2b52b8474b65c45bd1cb0fafec2dde7bd04282f395378c1b4ad1922b46e79d",
+      "platform.cpp": "c385c9c67d21efc799b36d0065f36e1d7c8faaf6f539cf2ccafa9bab88ab8796",
+      "core.hpp": "0430676abb8c82bfd575ddeae807d5b904817f88c6059616460a96dbca6366f0",
+      "profile_hashes.hpp": "0e7c89000b881e26ee1c39a07baee6c7e4ce5a5aa67f97c5cde3d1cfc7638dcd"
+    },
+    "configs": {
+      "ours_mpk": {
+        "path": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/data/ours_mpk.cfg",
+        "sha256": "dc531adc0168081ba42e6a8d0d69c50c894f5df556ee751da6da0aa522b01ec1",
+        "values": {
+          "id": "ours_mpk",
+          "n": "10072",
+          "m": "433024",
+          "a": "239",
+          "q": "883423532389192164791648750371459257913741948437809479060803100646309888",
+          "r": "8192",
+          "S": "1342119328947754996215987200716013569",
+          "sigma": "64731085476986710398417922195888",
+          "N": "256",
+          "stop": "127",
+          "expected_ct_bytes": "13019115"
+        }
+      },
+      "ours_ct": {
+        "path": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/data/ours_ct.cfg",
+        "sha256": "79c617ef17000937402fe140d76ddc54023fb354ab136ddeb76842693592d328",
+        "values": {
+          "id": "ours_ct",
+          "n": "11600",
+          "m": "352384",
+          "a": "270",
+          "q": "1897137590064188545819787018382342682267975428761855001222473056385648716020711424",
+          "r": "4096",
+          "S": "9802084120904154469691150374855386628097",
+          "sigma": "16528501127187113657039069410119047408",
+          "N": "256",
+          "stop": "139",
+          "expected_ct_bytes": "12189318"
+        }
+      }
+    },
+    "jobs": [
+      {
+        "directory": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_ct",
+        "metadata": {
+          "schema": 4,
+          "mode": "encdec",
+          "platform": "Darwin 25.6.0 arm64; native wall-time / correctness measurements; no Windows cycle counts or OS-enforced memory-cap claim; compiler=Apple LLVM 21.0.0 (clang-2100.1.1.101)",
+          "compiler": "Apple LLVM 21.0.0 (clang-2100.1.1.101)",
+          "gmp": "6.3.0",
+          "mpfr": "4.2.2",
+          "flint": "3.4.0",
+          "openssl": "OpenSSL 3.4.0 22 Oct 2024",
+          "repetitions": 3,
+          "warmup": 0,
+          "micro_blocks": 4,
+          "tile_mib": 32,
+          "logical_cpu": -1,
+          "configured_memory_budget_bytes": 1400000000,
+          "resident_stop_threshold_bytes": 1500000000,
+          "memory_limit_os_enforced": false,
+          "fixture_kind": "dense_Gaussian_test_key_and_u_equals_Me; NOT Extract output",
+          "matrix_supplier": "test-only AES-256-CTR; key=SHAKE256(version/profile/matrix_seed); 128-bit IV=BE64(global column)||BE64(0); each column uses fewer than 2^64 counter blocks; mask each residue to a bits",
+          "matrix_backend": "macOS CommonCrypto, stream checked against OpenSSL AES-256-CTR in selftests",
+          "matrix_supplier_scope": "synthetic pseudorandom fixed-identity matrix, not implemented Setup/PubEval and not a seeded-MPK compression claim",
+          "private_key": "independent coordinate sampler D_Z,sigma with original finite truncation and interval coins; u=M e computed, not an output of trapdoor extraction; no Setup/Extract joint-distribution claim",
+          "timing_scope": "Enc executes all fixed-identity scalar, M^T s, polar quantization and serialization operations. Enc core excludes test-matrix supply and resource/progress controls. Dec executes parsing, reconstruction, full private-key inner product and decision. Offline preparation, file I/O and extra validation separate. PubEval excluded.",
+          "message_policy": "trial 0 encrypts 0, trial 1 encrypts 1, then alternates; fresh s, scalar noise, private tape and public seed each time",
+          "complete_dimensions": true,
+          "real_Extract_output": false,
+          "constant_time": false,
+          "precision": {
+            "initial_bits": 384,
+            "maximum_bits": 1536,
+            "coin_bits": 256,
+            "probability_enclosure_bits": 300
+          },
+          "seed_note": "Persisted fixture and diagnostic seeds are disposable synthetic test data, not real keys.",
+          "source_sha256": {
+            "main.cpp": "e84c13314460a69dfc3dd27f31e156eb2fcd0dcab3d7963e40fc77edb686c46a",
+            "core_arithmetic.cpp": "71547d7112ed7687e5c4ee3360abacd1ff9ac3a91a0392b760edeedc8658250d",
+            "sampler.cpp": "4b2b52b8474b65c45bd1cb0fafec2dde7bd04282f395378c1b4ad1922b46e79d",
+            "platform.cpp": "c385c9c67d21efc799b36d0065f36e1d7c8faaf6f539cf2ccafa9bab88ab8796",
+            "core.hpp": "0430676abb8c82bfd575ddeae807d5b904817f88c6059616460a96dbca6366f0",
+            "profile_hashes.hpp": "0e7c89000b881e26ee1c39a07baee6c7e4ce5a5aa67f97c5cde3d1cfc7638dcd"
+          },
+          "profiles": [
+            {
+              "id": "ours_ct",
+              "config_sha256": "79c617ef17000937402fe140d76ddc54023fb354ab136ddeb76842693592d328",
+              "n": 11600,
+              "m": 352384,
+              "a": 270,
+              "full_dimension": 704768
+            }
+          ]
+        },
+        "files": {
+          "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_ct/raw.csv": {
+            "sha256": "2263cd29363690e3da084c74ff033d6a7dc07732a00dc4db6128920cb3e6eef7",
+            "bytes": 1812
+          },
+          "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_ct/preparation.csv": {
+            "sha256": "7ff97e7b07dd582b2f02c1a0afc2f05ea0ff1218782395921a17711560876f7e",
+            "bytes": 631
+          },
+          "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_ct/metadata.json": {
+            "sha256": "fa7944597595cd4d4d577ab24addf7dcb67ddb242667b7adb2eccead869a9302",
+            "bytes": 2846
+          },
+          "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_ct/diagnostics.txt": {
+            "sha256": "ab4c0dc1176df6661d80daea86a355176e2b1f2636690025d3fe690f5ca60080",
+            "bytes": 2184
+          },
+          "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_ct/warmup.csv": {
+            "sha256": "f669cb747b23a0099ed68982acb4f41b49745ba3ed5eec42c9fb8e4c90d89ad0",
+            "bytes": 528
+          },
+          "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_ct/COMPLETED.txt": {
+            "sha256": "146157dd1c13991482922ae670dd0ed15180796b3714166139e00cb2b172b668",
+            "bytes": 117
+          }
+        }
+      },
+      {
+        "directory": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_mpk",
+        "metadata": {
+          "schema": 4,
+          "mode": "encdec",
+          "platform": "Darwin 25.6.0 arm64; native wall-time / correctness measurements; no Windows cycle counts or OS-enforced memory-cap claim; compiler=Apple LLVM 21.0.0 (clang-2100.1.1.101)",
+          "compiler": "Apple LLVM 21.0.0 (clang-2100.1.1.101)",
+          "gmp": "6.3.0",
+          "mpfr": "4.2.2",
+          "flint": "3.4.0",
+          "openssl": "OpenSSL 3.4.0 22 Oct 2024",
+          "repetitions": 3,
+          "warmup": 0,
+          "micro_blocks": 4,
+          "tile_mib": 32,
+          "logical_cpu": -1,
+          "configured_memory_budget_bytes": 1400000000,
+          "resident_stop_threshold_bytes": 1500000000,
+          "memory_limit_os_enforced": false,
+          "fixture_kind": "dense_Gaussian_test_key_and_u_equals_Me; NOT Extract output",
+          "matrix_supplier": "test-only AES-256-CTR; key=SHAKE256(version/profile/matrix_seed); 128-bit IV=BE64(global column)||BE64(0); each column uses fewer than 2^64 counter blocks; mask each residue to a bits",
+          "matrix_backend": "macOS CommonCrypto, stream checked against OpenSSL AES-256-CTR in selftests",
+          "matrix_supplier_scope": "synthetic pseudorandom fixed-identity matrix, not implemented Setup/PubEval and not a seeded-MPK compression claim",
+          "private_key": "independent coordinate sampler D_Z,sigma with original finite truncation and interval coins; u=M e computed, not an output of trapdoor extraction; no Setup/Extract joint-distribution claim",
+          "timing_scope": "Enc executes all fixed-identity scalar, M^T s, polar quantization and serialization operations. Enc core excludes test-matrix supply and resource/progress controls. Dec executes parsing, reconstruction, full private-key inner product and decision. Offline preparation, file I/O and extra validation separate. PubEval excluded.",
+          "message_policy": "trial 0 encrypts 0, trial 1 encrypts 1, then alternates; fresh s, scalar noise, private tape and public seed each time",
+          "complete_dimensions": true,
+          "real_Extract_output": false,
+          "constant_time": false,
+          "precision": {
+            "initial_bits": 384,
+            "maximum_bits": 1536,
+            "coin_bits": 256,
+            "probability_enclosure_bits": 300
+          },
+          "seed_note": "Persisted fixture and diagnostic seeds are disposable synthetic test data, not real keys.",
+          "source_sha256": {
+            "main.cpp": "e84c13314460a69dfc3dd27f31e156eb2fcd0dcab3d7963e40fc77edb686c46a",
+            "core_arithmetic.cpp": "71547d7112ed7687e5c4ee3360abacd1ff9ac3a91a0392b760edeedc8658250d",
+            "sampler.cpp": "4b2b52b8474b65c45bd1cb0fafec2dde7bd04282f395378c1b4ad1922b46e79d",
+            "platform.cpp": "c385c9c67d21efc799b36d0065f36e1d7c8faaf6f539cf2ccafa9bab88ab8796",
+            "core.hpp": "0430676abb8c82bfd575ddeae807d5b904817f88c6059616460a96dbca6366f0",
+            "profile_hashes.hpp": "0e7c89000b881e26ee1c39a07baee6c7e4ce5a5aa67f97c5cde3d1cfc7638dcd"
+          },
+          "profiles": [
+            {
+              "id": "ours_mpk",
+              "config_sha256": "dc531adc0168081ba42e6a8d0d69c50c894f5df556ee751da6da0aa522b01ec1",
+              "n": 10072,
+              "m": 433024,
+              "a": 239,
+              "full_dimension": 866048
+            }
+          ]
+        },
+        "files": {
+          "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_mpk/raw.csv": {
+            "sha256": "4c5ff1162f15f669f3cbf1e59b24f9cbeedb5ff8eabde2ad9c221722c0a2722c",
+            "bytes": 1810
+          },
+          "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_mpk/preparation.csv": {
+            "sha256": "9ff0f99767465a21f4fb757fa32feaca25c5273e8006538a015b1b51968ccbb8",
+            "bytes": 632
+          },
+          "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_mpk/metadata.json": {
+            "sha256": "367c3fa16f8bea2b70a59bfbcf625f5cacb54ffe4cee39b604cd0df56ab14588",
+            "bytes": 2847
+          },
+          "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_mpk/diagnostics.txt": {
+            "sha256": "6a124443182dbbe33a4e5a51f4db64e1201ac564da826d705a1206714ccf7b3b",
+            "bytes": 2175
+          },
+          "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_mpk/warmup.csv": {
+            "sha256": "f669cb747b23a0099ed68982acb4f41b49745ba3ed5eec42c9fb8e4c90d89ad0",
+            "bytes": 528
+          },
+          "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_mpk/COMPLETED.txt": {
+            "sha256": "146157dd1c13991482922ae670dd0ed15180796b3714166139e00cb2b172b668",
+            "bytes": 117
+          }
+        }
+      }
+    ],
+    "process_logs": {
+      "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_ct.process.log": "3fce483bc78887e74be26452c05da0361af7b729b5e3f9e4c7fcea19f82dca41",
+      "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_mpk.process.log": "a6c25fb0fc96774fbd5d17a2b2af74bc63be9fc638f59ce92bccf8140e303457"
+    }
+  },
+  "profiles": {
+    "ours_mpk": {
+      "label": "C-MPK",
+      "n": 10072,
+      "m": 433024,
+      "a": 239,
+      "blocks": 3383,
+      "bytes": 13019115,
+      "vector_decisions": 7155045,
+      "statistics": {
+        "enc_core_seconds": {
+          "n": 3,
+          "mean": 330.08343578611334,
+          "sd": 1.299563021798684,
+          "median": 329.39340080647,
+          "min": 329.27443731297,
+          "max": 331.5824692389,
+          "ci95_mean": [
+            326.85514227486703,
+            333.31172929735965
+          ],
+          "df": 2,
+          "values": [
+            329.27443731297,
+            329.39340080647,
+            331.5824692389
+          ]
+        },
+        "enc_feed_seconds": {
+          "n": 3,
+          "mean": 77.57633217144733,
+          "sd": 0.3181173573403341,
+          "median": 77.428834931459,
+          "min": 77.35873550456,
+          "max": 77.941426078323,
+          "ci95_mean": [
+            76.78608484731585,
+            78.36657949557882
+          ],
+          "df": 2,
+          "values": [
+            77.35873550456,
+            77.428834931459,
+            77.941426078323
+          ]
+        },
+        "enc_harness_seconds": {
+          "n": 3,
+          "mean": 407.7211084719767,
+          "sd": 1.6175737547842082,
+          "median": 406.88629158307,
+          "min": 406.69150087517,
+          "max": 409.58553295769,
+          "ci95_mean": [
+            403.7028325061797,
+            411.73938443777377
+          ],
+          "df": 2,
+          "values": [
+            406.69150087517,
+            406.88629158307,
+            409.58553295769
+          ]
+        },
+        "matrix_seconds": {
+          "n": 3,
+          "mean": 200.14049069164332,
+          "sd": 0.6558549098861273,
+          "median": 199.79895760026,
+          "min": 199.7258838322,
+          "max": 200.89663064247,
+          "ci95_mean": [
+            198.51125677655858,
+            201.76972460672806
+          ],
+          "df": 2,
+          "values": [
+            199.7258838322,
+            199.79895760026,
+            200.89663064247
+          ]
+        },
+        "quant_seconds": {
+          "n": 3,
+          "mean": 127.96406347304666,
+          "sd": 0.6380018610349713,
+          "median": 127.6183666545,
+          "min": 127.57351445872,
+          "max": 128.70030930592,
+          "ci95_mean": [
+            126.3791789898828,
+            129.54894795621053
+          ],
+          "df": 2,
+          "values": [
+            127.57351445872,
+            127.6183666545,
+            128.70030930592
+          ]
+        },
+        "scalar_seconds": {
+          "n": 3,
+          "mean": 0.0043964032083750005,
+          "sd": 3.341720841996543e-05,
+          "median": 0.0043862923048437,
+          "min": 0.0043692090548575,
+          "max": 0.0044337082654238,
+          "ci95_mean": [
+            0.004313390260717543,
+            0.004479416156032458
+          ],
+          "df": 2,
+          "values": [
+            0.0043692090548575,
+            0.0043862923048437,
+            0.0044337082654238
+          ]
+        },
+        "pack_seconds": {
+          "n": 3,
+          "mean": 1.9517650351238667,
+          "sd": 0.005674742848345607,
+          "median": 1.9494759840891,
+          "min": 1.9475923348218,
+          "max": 1.9582267864607,
+          "ci95_mean": [
+            1.9376681924098058,
+            1.9658618778379275
+          ],
+          "df": 2,
+          "values": [
+            1.9475923348218,
+            1.9494759840891,
+            1.9582267864607
+          ]
+        },
+        "enc_other_seconds": {
+          "n": 3,
+          "mean": 0.022720183090617335,
+          "sd": 0.000450382158765435,
+          "median": 0.022868795786053,
+          "min": 0.022214275319129,
+          "max": 0.02307747816667,
+          "ci95_mean": [
+            0.02160137178532859,
+            0.023838994395906078
+          ],
+          "df": 2,
+          "values": [
+            0.02307747816667,
+            0.022214275319129,
+            0.022868795786053
+          ]
+        },
+        "dec_seconds": {
+          "n": 3,
+          "mean": 2.4993995828553666,
+          "sd": 0.0017994783668855506,
+          "median": 2.4988615410402,
+          "min": 2.497930499725,
+          "max": 2.5014067078009,
+          "ci95_mean": [
+            2.4949294307827072,
+            2.503869734928026
+          ],
+          "df": 2,
+          "values": [
+            2.5014067078009,
+            2.497930499725,
+            2.4988615410402
+          ]
+        },
+        "dec_unpack_seconds": {
+          "n": 3,
+          "mean": 2.4651288666452,
+          "sd": 0.0007074433822541705,
+          "median": 2.4651323854923,
+          "min": 2.464419670403,
+          "max": 2.4658345440403,
+          "ci95_mean": [
+            2.463371479860414,
+            2.466886253429986
+          ],
+          "df": 2,
+          "values": [
+            2.4658345440403,
+            2.4651323854923,
+            2.464419670403
+          ]
+        },
+        "dec_dot_seconds": {
+          "n": 3,
+          "mean": 0.033997786386559335,
+          "sd": 0.0013972594467022142,
+          "median": 0.034167806152254,
+          "min": 0.032523296773434,
+          "max": 0.03530225623399,
+          "ci95_mean": [
+            0.030526801501906967,
+            0.037468771271211704
+          ],
+          "df": 2,
+          "values": [
+            0.03530225623399,
+            0.032523296773434,
+            0.034167806152254
+          ]
+        },
+        "dec_decision_seconds": {
+          "n": 3,
+          "mean": 4.444271326065067e-06,
+          "sd": 2.468238476990155e-06,
+          "median": 3.1250528991222e-06,
+          "min": 2.9159709811211e-06,
+          "max": 7.2917900979519e-06,
+          "ci95_mean": [
+            -1.6871729562193759e-06,
+            1.057571560834951e-05
+          ],
+          "df": 2,
+          "values": [
+            2.9159709811211e-06,
+            7.2917900979519e-06,
+            3.1250528991222e-06
+          ]
+        },
+        "dec_other_seconds": {
+          "n": 3,
+          "mean": 0.00026848555232088,
+          "sd": 2.141836531518044e-06,
+          "median": 0.00026752566918731,
+          "min": 0.00026699155569077,
+          "max": 0.00027093943208456,
+          "ci95_mean": [
+            0.0002631649354205315,
+            0.00027380616922122853
+          ],
+          "df": 2,
+          "values": [
+            0.00026699155569077,
+            0.00026752566918731,
+            0.00027093943208456
+          ]
+        },
+        "artifact_io_seconds": {
+          "n": 3,
+          "mean": 0.025112138750652668,
+          "sd": 0.0006658207436924712,
+          "median": 0.025077000260353,
+          "min": 0.024464583024383,
+          "max": 0.025794832967222,
+          "ci95_mean": [
+            0.02345814833198055,
+            0.026766129169324786
+          ],
+          "df": 2,
+          "values": [
+            0.025794832967222,
+            0.024464583024383,
+            0.025077000260353
+          ]
+        },
+        "validation_seconds": {
+          "n": 3,
+          "mean": 0.12324281952654333,
+          "sd": 0.0014574667585441495,
+          "median": 0.12352837482467,
+          "min": 0.12166370870546,
+          "max": 0.1245363750495,
+          "ci95_mean": [
+            0.1196222713880213,
+            0.12686336766506537
+          ],
+          "df": 2,
+          "values": [
+            0.12166370870546,
+            0.1245363750495,
+            0.12352837482467
+          ]
+        },
+        "enc_wrapper_monitor_seconds": {
+          "n": 3,
+          "mean": 0.06134051441598842,
+          "sd": 0.00287543046024939,
+          "median": 0.061637640467026245,
+          "min": 0.058328057639982944,
+          "max": 0.06405584514095608,
+          "ci95_mean": [
+            0.054197549172167306,
+            0.06848347965980954
+          ],
+          "df": 2,
+          "values": [
+            0.058328057639982944,
+            0.06405584514095608,
+            0.061637640467026245
+          ]
+        },
+        "enc_other_all_seconds": {
+          "n": 3,
+          "mean": 1.9788816214233453,
+          "sd": 0.005780375866929246,
+          "median": 1.9760765517100367,
+          "min": 1.9750390220500122,
+          "max": 1.9855292905099873,
+          "ci95_mean": [
+            1.9645223717442148,
+            1.9932408711024758
+          ],
+          "df": 2,
+          "values": [
+            1.9750390220500122,
+            1.9760765517100367,
+            1.9855292905099873
+          ]
+        },
+        "dec_decision_and_other_seconds": {
+          "n": 3,
+          "mean": 0.00027292982364694507,
+          "sd": 2.6443244560331686e-06,
+          "median": 0.0002740644849836822,
+          "min": 0.0002699075266718911,
+          "max": 0.0002748174592852619,
+          "ci95_mean": [
+            0.0002663609575436094,
+            0.00027949868975028075
+          ],
+          "df": 2,
+          "values": [
+            0.0002699075266718911,
+            0.0002748174592852619,
+            0.0002740644849836822
+          ]
+        }
+      },
+      "component_percentages": {
+        "enc_core": {
+          "matrix_seconds": {
+            "n": 3,
+            "mean": 60.63340811956067,
+            "sd": 0.039992353942864274,
+            "median": 60.6563587085759,
+            "min": 60.587229205331454,
+            "max": 60.65663644477467,
+            "ci95_mean": [
+              60.534061604949535,
+              60.732754634171805
+            ],
+            "df": 2,
+            "values": [
+              60.6563587085759,
+              60.65663644477467,
+              60.587229205331454
+            ]
+          },
+          "quant_seconds": {
+            "n": 3,
+            "mean": 38.76708076085402,
+            "sd": 0.04060487918969048,
+            "median": 38.743825818906025,
+            "min": 38.74344972972916,
+            "max": 38.81396673392689,
+            "ci95_mean": [
+              38.666212649177844,
+              38.8679488725302
+            ],
+            "df": 2,
+            "values": [
+              38.743825818906025,
+              38.74344972972916,
+              38.81396673392689
+            ]
+          },
+          "scalar_seconds": {
+            "n": 3,
+            "mean": 0.0013318944584649278,
+            "sd": 5.1130887589275564e-06,
+            "median": 0.0013316272560726853,
+            "min": 0.0013269202099355918,
+            "max": 0.0013371359093865068,
+            "ci95_mean": [
+              0.0013191928418553492,
+              0.0013445960750745065
+            ],
+            "df": 2,
+            "values": [
+              0.0013269202099355918,
+              0.0013316272560726853,
+              0.0013371359093865068
+            ]
+          },
+          "pack_seconds": {
+            "n": 3,
+            "mean": 0.5912960767227132,
+            "sd": 0.0006537650408557137,
+            "median": 0.5914799675052349,
+            "min": 0.5905700596764143,
+            "max": 0.5918382029864905,
+            "ci95_mean": [
+              0.5896720343300995,
+              0.5929201191153269
+            ],
+            "df": 2,
+            "values": [
+              0.5914799675052349,
+              0.5918382029864905,
+              0.5905700596764143
+            ]
+          },
+          "enc_other_seconds": {
+            "n": 3,
+            "mean": 0.006883148403972867,
+            "sd": 0.00013282702655423583,
+            "median": 0.006896865156515977,
+            "min": 0.006743995254531723,
+            "max": 0.007008584800870901,
+            "ci95_mean": [
+              0.0065531877781698274,
+              0.007213109029775906
+            ],
+            "df": 2,
+            "values": [
+              0.007008584800870901,
+              0.006743995254531723,
+              0.006896865156515977
+            ]
+          }
+        },
+        "dec": {
+          "dec_unpack_seconds": {
+            "n": 3,
+            "mean": 98.62886655713412,
+            "sd": 0.05488969878377142,
+            "median": 98.62169751818811,
+            "min": 98.57791363357009,
+            "max": 98.68698851964413,
+            "ci95_mean": [
+              98.49251298639874,
+              98.7652201278695
+            ],
+            "df": 2,
+            "values": [
+              98.57791363357009,
+              98.68698851964413,
+              98.62169751818811
+            ]
+          },
+          "dec_dot_seconds": {
+            "n": 3,
+            "mean": 1.3602135731652742,
+            "sd": 0.05499016057089841,
+            "median": 1.3673349079609662,
+            "min": 1.3020096746892889,
+            "max": 1.4112961368455677,
+            "ci95_mean": [
+              1.2236104415158995,
+              1.496816704814649
+            ],
+            "df": 2,
+            "values": [
+              1.4112961368455677,
+              1.3020096746892889,
+              1.3673349079609662
+            ]
+          },
+          "dec_decision_seconds": {
+            "n": 3,
+            "mean": 0.00017784852033204783,
+            "sd": 9.887403176619927e-05,
+            "median": 0.00012505906581047847,
+            "min": 0.0001165732454473452,
+            "max": 0.00029191324973831985,
+            "ci95_mean": [
+              -6.776819069116783e-05,
+              0.0004234652313552635
+            ],
+            "df": 2,
+            "values": [
+              0.0001165732454473452,
+              0.00029191324973831985,
+              0.00012505906581047847
+            ]
+          },
+          "dec_other_seconds": {
+            "n": 3,
+            "mean": 0.010742021181871139,
+            "sd": 8.889593214855654e-05,
+            "median": 0.010709892417613791,
+            "min": 0.010673656341374986,
+            "max": 0.01084251478662464,
+            "ci95_mean": [
+              0.01052119144439971,
+              0.010962850919342567
+            ],
+            "df": 2,
+            "values": [
+              0.010673656341374986,
+              0.010709892417613791,
+              0.01084251478662464
+            ]
+          }
+        },
+        "enc_core_grouped": {
+          "matrix_seconds": {
+            "n": 3,
+            "mean": 60.63340811956067,
+            "sd": 0.039992353942864274,
+            "median": 60.6563587085759,
+            "min": 60.587229205331454,
+            "max": 60.65663644477467,
+            "ci95_mean": [
+              60.534061604949535,
+              60.732754634171805
+            ],
+            "df": 2,
+            "values": [
+              60.6563587085759,
+              60.65663644477467,
+              60.587229205331454
+            ]
+          },
+          "quant_seconds": {
+            "n": 3,
+            "mean": 38.76708076085402,
+            "sd": 0.04060487918969048,
+            "median": 38.743825818906025,
+            "min": 38.74344972972916,
+            "max": 38.81396673392689,
+            "ci95_mean": [
+              38.666212649177844,
+              38.8679488725302
+            ],
+            "df": 2,
+            "values": [
+              38.743825818906025,
+              38.74344972972916,
+              38.81396673392689
+            ]
+          },
+          "enc_other_all_seconds": {
+            "n": 3,
+            "mean": 0.5995111195853003,
+            "sd": 0.0006143024363915913,
+            "median": 0.5998154725180715,
+            "min": 0.5988040607416565,
+            "max": 0.5999138254961731,
+            "ci95_mean": [
+              0.5979851077366399,
+              0.6010371314339608
+            ],
+            "df": 2,
+            "values": [
+              0.5998154725180715,
+              0.5999138254961731,
+              0.5988040607416565
+            ]
+          }
+        },
+        "dec_grouped": {
+          "dec_unpack_seconds": {
+            "n": 3,
+            "mean": 98.62886655713412,
+            "sd": 0.05488969878377142,
+            "median": 98.62169751818811,
+            "min": 98.57791363357009,
+            "max": 98.68698851964413,
+            "ci95_mean": [
+              98.49251298639874,
+              98.7652201278695
+            ],
+            "df": 2,
+            "values": [
+              98.57791363357009,
+              98.68698851964413,
+              98.62169751818811
+            ]
+          },
+          "dec_dot_seconds": {
+            "n": 3,
+            "mean": 1.3602135731652742,
+            "sd": 0.05499016057089841,
+            "median": 1.3673349079609662,
+            "min": 1.3020096746892889,
+            "max": 1.4112961368455677,
+            "ci95_mean": [
+              1.2236104415158995,
+              1.496816704814649
+            ],
+            "df": 2,
+            "values": [
+              1.4112961368455677,
+              1.3020096746892889,
+              1.3673349079609662
+            ]
+          },
+          "dec_decision_and_other_seconds": {
+            "n": 3,
+            "mean": 0.010919869702203185,
+            "sd": 0.00011356880700746614,
+            "median": 0.010967573852435119,
+            "min": 0.01079022958682233,
+            "max": 0.011001805667352111,
+            "ci95_mean": [
+              0.010637749145837443,
+              0.011201990258568927
+            ],
+            "df": 2,
+            "values": [
+              0.01079022958682233,
+              0.011001805667352111,
+              0.010967573852435119
+            ]
+          }
+        }
+      },
+      "preparation_single_observation": {
+        "mode": "encdec",
+        "profile": "ours_mpk",
+        "n": 10072,
+        "full_dimension": 866048,
+        "active_dimension": 866048,
+        "key_sampling_seconds": 75.327748150565,
+        "feed_seconds": 78.457183357794,
+        "transpose_seconds": 28.735344294924,
+        "matvec_seconds": 205.59471971588,
+        "prepare_harness_seconds": 388.21558287507,
+        "validation_seconds": 0.72271891636774,
+        "artifact_io_seconds": 0.072656457778066,
+        "key_decisions": 27682911,
+        "key_gaussian_proposals": 27682911,
+        "key_precision_retries": 0,
+        "key_max_precision": 384,
+        "key_nonzero": 866048,
+        "key_max_abs_bits": 107,
+        "key_norm_squared_bits": 229,
+        "peak_memory_bytes": 142311424,
+        "fixture_sha256": "0619d641da7f9f1da3a54cbab8eb49615cb25ab2b75dda346b0da5499522cc66",
+        "source": "generated",
+        "status": "PASS",
+        "source_csv": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_mpk/preparation.csv",
+        "fixture_file": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_mpk/ours_mpk_fixture.bin",
+        "key_norm_squared": "575259371576467472473063061480010257949899344955616365549059840467298",
+        "key_max_absolute": "124193800665139296123598629443300"
+      },
+      "configured_sigma": "64731085476986710398417922195888",
+      "log2_sigma": 105.67422963816927,
+      "key_max_abs_over_sigma": 1.9186114329767088,
+      "key_norm_over_sigma_sqrt_d": 0.39815115501792003,
+      "all_decoded_ok": true,
+      "messages": [
+        0,
+        1,
+        0
+      ],
+      "key_cases": 1,
+      "repetitions_same_fixture": 3,
+      "peak_memory_bytes": 157106176,
+      "online_max_precision": 384,
+      "online_precision_retries": 0,
+      "quant_decision_error_log2_bound": -233.22947059019862
+    },
+    "ours_ct": {
+      "label": "C-CT",
+      "n": 11600,
+      "m": 352384,
+      "a": 270,
+      "blocks": 2753,
+      "bytes": 12189318,
+      "vector_decisions": 5189405,
+      "statistics": {
+        "enc_core_seconds": {
+          "n": 3,
+          "mean": 314.82240389302996,
+          "sd": 0.6623610139238598,
+          "median": 315.20399087761,
+          "min": 314.05757586984,
+          "max": 315.20564493164,
+          "ci95_mean": [
+            313.1770079195485,
+            316.4677998665114
+          ],
+          "df": 2,
+          "values": [
+            315.20564493164,
+            315.20399087761,
+            314.05757586984
+          ]
+        },
+        "enc_feed_seconds": {
+          "n": 3,
+          "mean": 57.87648980490233,
+          "sd": 0.2560539819506444,
+          "median": 57.880623731762,
+          "min": 57.618393888697,
+          "max": 58.130451794248,
+          "ci95_mean": [
+            57.24041645209489,
+            58.512563157709764
+          ],
+          "df": 2,
+          "values": [
+            57.880623731762,
+            58.130451794248,
+            57.618393888697
+          ]
+        },
+        "enc_harness_seconds": {
+          "n": 3,
+          "mean": 372.75492650022005,
+          "sd": 0.8945692301637568,
+          "median": 373.14135708334,
+          "min": 371.73209825018,
+          "max": 373.39132416714,
+          "ci95_mean": [
+            370.5326933397988,
+            374.9771596606413
+          ],
+          "df": 2,
+          "values": [
+            373.14135708334,
+            373.39132416714,
+            371.73209825018
+          ]
+        },
+        "matrix_seconds": {
+          "n": 3,
+          "mean": 204.36609802379667,
+          "sd": 0.7298212512881603,
+          "median": 204.62988924794,
+          "min": 203.54105762066,
+          "max": 204.92734720279,
+          "ci95_mean": [
+            202.55312153063494,
+            206.1790745169584
+          ],
+          "df": 2,
+          "values": [
+            204.92734720279,
+            204.62988924794,
+            203.54105762066
+          ]
+        },
+        "quant_seconds": {
+          "n": 3,
+          "mean": 108.65658908368334,
+          "sd": 0.1611488767828311,
+          "median": 108.72353657847,
+          "min": 108.47275747918,
+          "max": 108.7734731934,
+          "ci95_mean": [
+            108.25627308166091,
+            109.05690508570578
+          ],
+          "df": 2,
+          "values": [
+            108.47275747918,
+            108.7734731934,
+            108.72353657847
+          ]
+        },
+        "scalar_seconds": {
+          "n": 3,
+          "mean": 0.005366666552921134,
+          "sd": 9.477832547738615e-05,
+          "median": 0.0054126656614244,
+          "min": 0.005257667042315,
+          "max": 0.005429666955024,
+          "ci95_mean": [
+            0.005131224140346212,
+            0.005602108965496056
+          ],
+          "df": 2,
+          "values": [
+            0.005257667042315,
+            0.0054126656614244,
+            0.005429666955024
+          ]
+        },
+        "pack_seconds": {
+          "n": 3,
+          "mean": 1.7744288439862668,
+          "sd": 0.005963939302822077,
+          "median": 1.7757039186545,
+          "min": 1.7679304867052,
+          "max": 1.7796521265991,
+          "ci95_mean": [
+            1.7596135974535365,
+            1.789244090518997
+          ],
+          "df": 2,
+          "values": [
+            1.7796521265991,
+            1.7757039186545,
+            1.7679304867052
+          ]
+        },
+        "enc_other_seconds": {
+          "n": 3,
+          "mean": 0.019921275010953667,
+          "sd": 0.000616611635409577,
+          "median": 0.019621517043561,
+          "min": 0.019511851947755,
+          "max": 0.020630456041545,
+          "ci95_mean": [
+            0.01838952679392869,
+            0.021453023227978645
+          ],
+          "df": 2,
+          "values": [
+            0.020630456041545,
+            0.019511851947755,
+            0.019621517043561
+          ]
+        },
+        "dec_seconds": {
+          "n": 3,
+          "mean": 2.2994119167948663,
+          "sd": 0.0322612975134196,
+          "median": 2.3017126671039,
+          "min": 2.2660618331283,
+          "max": 2.3304612501524,
+          "ci95_mean": [
+            2.2192704110117836,
+            2.379553422577949
+          ],
+          "df": 2,
+          "values": [
+            2.2660618331283,
+            2.3017126671039,
+            2.3304612501524
+          ]
+        },
+        "dec_unpack_seconds": {
+          "n": 3,
+          "mean": 2.2611886573334665,
+          "sd": 0.019691265490476593,
+          "median": 2.2725053075701,
+          "min": 2.2384512219578,
+          "max": 2.2726094424725,
+          "ci95_mean": [
+            2.212272842136486,
+            2.310104472530447
+          ],
+          "df": 2,
+          "values": [
+            2.2384512219578,
+            2.2725053075701,
+            2.2726094424725
+          ]
+        },
+        "dec_dot_seconds": {
+          "n": 3,
+          "mean": 0.037990937785556005,
+          "sd": 0.017013697582151738,
+          "median": 0.028964010998607,
+          "min": 0.027393085882068,
+          "max": 0.057615716475993,
+          "ci95_mean": [
+            -0.004273429994582537,
+            0.08025530556569455
+          ],
+          "df": 2,
+          "values": [
+            0.027393085882068,
+            0.028964010998607,
+            0.057615716475993
+          ]
+        },
+        "dec_decision_seconds": {
+          "n": 3,
+          "mean": 2.9720055560271003e-06,
+          "sd": 5.836871213789873e-07,
+          "median": 2.7911737561226e-06,
+          "min": 2.5001354515553e-06,
+          "max": 3.6247074604034e-06,
+          "ci95_mean": [
+            1.5220463659465656e-06,
+            4.421964746107635e-06
+          ],
+          "df": 2,
+          "values": [
+            2.5001354515553e-06,
+            3.6247074604034e-06,
+            2.7911737561226e-06
+          ]
+        },
+        "dec_other_seconds": {
+          "n": 3,
+          "mean": 0.0002293496703108167,
+          "sd": 1.2814450450546446e-05,
+          "median": 0.00023330003023148,
+          "min": 0.00021502515301108,
+          "max": 0.00023972382768989,
+          "ci95_mean": [
+            0.00019751681069125828,
+            0.00026118252993037513
+          ],
+          "df": 2,
+          "values": [
+            0.00021502515301108,
+            0.00023972382768989,
+            0.00023330003023148
+          ]
+        },
+        "artifact_io_seconds": {
+          "n": 3,
+          "mean": 0.026280486335356665,
+          "sd": 0.0018090781120921732,
+          "median": 0.026538084261119,
+          "min": 0.02435641689226,
+          "max": 0.027946957852691,
+          "ci95_mean": [
+            0.021786487173606407,
+            0.030774485497106922
+          ],
+          "df": 2,
+          "values": [
+            0.02435641689226,
+            0.026538084261119,
+            0.027946957852691
+          ]
+        },
+        "validation_seconds": {
+          "n": 3,
+          "mean": 0.11640011084576334,
+          "sd": 0.0012604170400850898,
+          "median": 0.11585941584781,
+          "min": 0.11550024989992,
+          "max": 0.11784066678956,
+          "ci95_mean": [
+            0.11326906134395523,
+            0.11953116034757144
+          ],
+          "df": 2,
+          "values": [
+            0.11585941584781,
+            0.11784066678956,
+            0.11550024989992
+          ]
+        },
+        "enc_wrapper_monitor_seconds": {
+          "n": 3,
+          "mean": 0.05603280228766513,
+          "sd": 0.000900359448697572,
+          "median": 0.05612849164302247,
+          "min": 0.055088419937987965,
+          "max": 0.05688149528198494,
+          "ci95_mean": [
+            0.05379618542702475,
+            0.0582694191483055
+          ],
+          "df": 2,
+          "values": [
+            0.055088419937987965,
+            0.05688149528198494,
+            0.05612849164302247
+          ]
+        },
+        "enc_other_all_seconds": {
+          "n": 3,
+          "mean": 1.799716785549985,
+          "sd": 0.006328728675672419,
+          "median": 1.800628436270003,
+          "min": 1.7929816707099633,
+          "max": 1.8055402496699884,
+          "ci95_mean": [
+            1.7839953519793113,
+            1.8154382191206586
+          ],
+          "df": 2,
+          "values": [
+            1.8055402496699884,
+            1.800628436270003,
+            1.7929816707099633
+          ]
+        },
+        "dec_decision_and_other_seconds": {
+          "n": 3,
+          "mean": 0.0002323216758668438,
+          "sd": 1.3317921161457772e-05,
+          "median": 0.0002360912039876026,
+          "min": 0.0002175252884626353,
+          "max": 0.00024334853515029338,
+          "ci95_mean": [
+            0.0001992381256675488,
+            0.0002654052260661388
+          ],
+          "df": 2,
+          "values": [
+            0.0002175252884626353,
+            0.00024334853515029338,
+            0.0002360912039876026
+          ]
+        }
+      },
+      "component_percentages": {
+        "enc_core": {
+          "matrix_seconds": {
+            "n": 3,
+            "mean": 64.91459808989943,
+            "sd": 0.10197457203168604,
+            "median": 64.91982816530879,
+            "min": 64.8101091199331,
+            "max": 65.01385698445644,
+            "ci95_mean": [
+              64.66127920987591,
+              65.16791696992294
+            ],
+            "df": 2,
+            "values": [
+              65.01385698445644,
+              64.91982816530879,
+              64.8101091199331
+            ]
+          },
+          "quant_seconds": {
+            "n": 3,
+            "mean": 34.51374186135089,
+            "sd": 0.10291132966284315,
+            "median": 34.50891370078986,
+            "min": 34.413329590815216,
+            "max": 34.618982292447576,
+            "ci95_mean": [
+              34.258095946369046,
+              34.76938777633273
+            ],
+            "df": 2,
+            "values": [
+              34.413329590815216,
+              34.50891370078986,
+              34.618982292447576
+            ]
+          },
+          "scalar_seconds": {
+            "n": 3,
+            "mean": 0.0017046941697745858,
+            "sd": 3.230044119290652e-05,
+            "median": 0.0017171945210319609,
+            "min": 0.0016680117018384151,
+            "max": 0.0017288762864533813,
+            "ci95_mean": [
+              0.001624455425701113,
+              0.0017849329138480586
+            ],
+            "df": 2,
+            "values": [
+              0.0016680117018384151,
+              0.0017171945210319609,
+              0.0017288762864533813
+            ]
+          },
+          "pack_seconds": {
+            "n": 3,
+            "mean": 0.5636276701180502,
+            "sd": 0.0008679826703621253,
+            "median": 0.5633507093963112,
+            "min": 0.5629319661557575,
+            "max": 0.5646003348020816,
+            "ci95_mean": [
+              0.5614714816334578,
+              0.5657838586026425
+            ],
+            "df": 2,
+            "values": [
+              0.5646003348020816,
+              0.5633507093963112,
+              0.5629319661557575
+            ]
+          },
+          "enc_other_seconds": {
+            "n": 3,
+            "mean": 0.006327684461890707,
+            "sd": 0.00019045219004642591,
+            "median": 0.006247745175137271,
+            "min": 0.006190229981996396,
+            "max": 0.006545078228538457,
+            "ci95_mean": [
+              0.0058545749943109395,
+              0.006800793929470475
+            ],
+            "df": 2,
+            "values": [
+              0.006545078228538457,
+              0.006190229981996396,
+              0.006247745175137271
+            ]
+          }
+        },
+        "dec": {
+          "dec_unpack_seconds": {
+            "n": 3,
+            "mean": 98.34340020031435,
+            "sd": 0.7156258100797069,
+            "median": 98.73105970387913,
+            "min": 97.51758122233885,
+            "max": 98.78155967472507,
+            "ci95_mean": [
+              96.56568713799346,
+              100.12111326263523
+            ],
+            "df": 2,
+            "values": [
+              98.78155967472507,
+              98.73105970387913,
+              97.51758122233885
+            ]
+          },
+          "dec_dot_seconds": {
+            "n": 3,
+            "mean": 1.6464989903587746,
+            "sd": 0.7155829660468186,
+            "median": 1.2583677977082428,
+            "min": 1.208841059921645,
+            "max": 2.472288113446436,
+            "ci95_mean": [
+              -0.13110764148428355,
+              3.4241056222018327
+            ],
+            "df": 2,
+            "values": [
+              1.208841059921645,
+              1.2583677977082428,
+              2.472288113446436
+            ]
+          },
+          "dec_decision_seconds": {
+            "n": 3,
+            "mean": 0.0001291924669735899,
+            "sd": 2.4947151241469e-05,
+            "median": 0.00011976915539531378,
+            "min": 0.00011032953359899545,
+            "max": 0.00015747871192646045,
+            "ci95_mean": [
+              6.722030777391769e-05,
+              0.00019116462617326213
+            ],
+            "df": 2,
+            "values": [
+              0.00011032953359899545,
+              0.00015747871192646045,
+              0.00011976915539531378
+            ]
+          },
+          "dec_other_seconds": {
+            "n": 3,
+            "mean": 0.009971616860897616,
+            "sd": 0.0004642896940863329,
+            "median": 0.010010895062778812,
+            "min": 0.009488935821059995,
+            "max": 0.010415019698854043,
+            "ci95_mean": [
+              0.008818257322640733,
+              0.0111249763991545
+            ],
+            "df": 2,
+            "values": [
+              0.009488935821059995,
+              0.010415019698854043,
+              0.010010895062778812
+            ]
+          }
+        },
+        "enc_core_grouped": {
+          "matrix_seconds": {
+            "n": 3,
+            "mean": 64.91459808989943,
+            "sd": 0.10197457203168604,
+            "median": 64.91982816530879,
+            "min": 64.8101091199331,
+            "max": 65.01385698445644,
+            "ci95_mean": [
+              64.66127920987591,
+              65.16791696992294
+            ],
+            "df": 2,
+            "values": [
+              65.01385698445644,
+              64.91982816530879,
+              64.8101091199331
+            ]
+          },
+          "quant_seconds": {
+            "n": 3,
+            "mean": 34.51374186135089,
+            "sd": 0.10291132966284315,
+            "median": 34.50891370078986,
+            "min": 34.413329590815216,
+            "max": 34.618982292447576,
+            "ci95_mean": [
+              34.258095946369046,
+              34.76938777633273
+            ],
+            "df": 2,
+            "values": [
+              34.413329590815216,
+              34.50891370078986,
+              34.618982292447576
+            ]
+          },
+          "enc_other_all_seconds": {
+            "n": 3,
+            "mean": 0.5716600487496681,
+            "sd": 0.0010140279887452947,
+            "median": 0.5712581339013457,
+            "min": 0.5709085876193154,
+            "max": 0.5728134247283432,
+            "ci95_mean": [
+              0.5691410635820556,
+              0.5741790339172806
+            ],
+            "df": 2,
+            "values": [
+              0.5728134247283432,
+              0.5712581339013457,
+              0.5709085876193154
+            ]
+          }
+        },
+        "dec_grouped": {
+          "dec_unpack_seconds": {
+            "n": 3,
+            "mean": 98.34340020031435,
+            "sd": 0.7156258100797069,
+            "median": 98.73105970387913,
+            "min": 97.51758122233885,
+            "max": 98.78155967472507,
+            "ci95_mean": [
+              96.56568713799346,
+              100.12111326263523
+            ],
+            "df": 2,
+            "values": [
+              98.78155967472507,
+              98.73105970387913,
+              97.51758122233885
+            ]
+          },
+          "dec_dot_seconds": {
+            "n": 3,
+            "mean": 1.6464989903587746,
+            "sd": 0.7155829660468186,
+            "median": 1.2583677977082428,
+            "min": 1.208841059921645,
+            "max": 2.472288113446436,
+            "ci95_mean": [
+              -0.13110764148428355,
+              3.4241056222018327
+            ],
+            "df": 2,
+            "values": [
+              1.208841059921645,
+              1.2583677977082428,
+              2.472288113446436
+            ]
+          },
+          "dec_decision_and_other_seconds": {
+            "n": 3,
+            "mean": 0.010100809327871206,
+            "sd": 0.00048730291527771,
+            "median": 0.010130664218174126,
+            "min": 0.00959926535465899,
+            "max": 0.010572498410780505,
+            "ci95_mean": [
+              0.008890281778983971,
+              0.011311336876758442
+            ],
+            "df": 2,
+            "values": [
+              0.00959926535465899,
+              0.010572498410780505,
+              0.010130664218174126
+            ]
+          }
+        }
+      },
+      "preparation_single_observation": {
+        "mode": "encdec",
+        "profile": "ours_ct",
+        "n": 11600,
+        "full_dimension": 704768,
+        "active_dimension": 704768,
+        "key_sampling_seconds": 64.678738330957,
+        "feed_seconds": 57.958708569873,
+        "transpose_seconds": 24.467728316318,
+        "matvec_seconds": 210.41328467755,
+        "prepare_harness_seconds": 357.60619187495,
+        "validation_seconds": 0.56834941729903,
+        "artifact_io_seconds": 0.046755665913224,
+        "key_decisions": 22581443,
+        "key_gaussian_proposals": 22581443,
+        "key_precision_retries": 0,
+        "key_max_precision": 384,
+        "key_nonzero": 704768,
+        "key_max_abs_bits": 125,
+        "key_norm_squared_bits": 265,
+        "peak_memory_bytes": 101613568,
+        "fixture_sha256": "1ab11d2a96849ebeb5a8c8ad4fa53ba32b9a0fa9eaa48514a0bcb3a22f33b4c3",
+        "source": "generated",
+        "status": "PASS",
+        "source_csv": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_ct/preparation.csv",
+        "fixture_file": "/Users/Admin/Desktop/IBE/Revision_20261020_Merged/Experiments/R46_EncDec_20261023/results/protocol_20261023/encdec_ours_ct/ours_ct_fixture.bin",
+        "key_norm_squared": "30620485171301799027144446094582710321078632172904961169766098191874261102865185",
+        "key_max_absolute": "31295695778404311317046530267035705467"
+      },
+      "configured_sigma": "16528501127187113657039069410119047408",
+      "log2_sigma": 123.63629541184379,
+      "key_max_abs_over_sigma": 1.8934382215049852,
+      "key_norm_over_sigma_sqrt_d": 0.39879478802302276,
+      "all_decoded_ok": true,
+      "messages": [
+        0,
+        1,
+        0
+      ],
+      "key_cases": 1,
+      "repetitions_same_fixture": 3,
+      "peak_memory_bytes": 115572736,
+      "online_max_precision": 384,
+      "online_precision_retries": 0,
+      "quant_decision_error_log2_bound": -233.69286229724833
+    }
+  },
+  "analysis_script_sha256": "77dfb821d03117b41f31d8a8e14ab3afe4afb3714e9e16ae8bb02df7558f8405"
+}

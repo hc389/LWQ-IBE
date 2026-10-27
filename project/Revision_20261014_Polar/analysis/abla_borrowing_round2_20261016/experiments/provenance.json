@@ -1,0 +1,592 @@
+{
+  "scope": "SHA256 binding of frozen sources, candidates, all finite attack logs and selected certificates",
+  "script_sha256": "30b2c071c585a899fa64561d8afd680258f1715ba08302d8603cc53b055f4299",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "quick-verified.json:script_hash_exists",
+      "pass_": true
+    },
+    {
+      "name": "quick-verified.json:screen_hash_exists",
+      "pass_": true
+    },
+    {
+      "name": "quick-verified.json:readonly_dependency_hash",
+      "pass_": true
+    },
+    {
+      "name": "quick-verified.json:0:six_finite",
+      "pass_": true
+    },
+    {
+      "name": "quick-verified.json:0:polar",
+      "pass_": true
+    },
+    {
+      "name": "quick-verified.json:0:usvp:binding",
+      "pass_": true
+    },
+    {
+      "name": "quick-verified.json:0:dual:binding",
+      "pass_": true
+    },
+    {
+      "name": "quick-verified.json:0:bdd:binding",
+      "pass_": true
+    },
+    {
+      "name": "quick-verified.json:0:dual_hybrid:binding",
+      "pass_": true
+    },
+    {
+      "name": "quick-verified.json:0:bdd_hybrid:binding",
+      "pass_": true
+    },
+    {
+      "name": "quick-verified.json:0:mitm:binding",
+      "pass_": true
+    },
+    {
+      "name": "higher-quick-verified.json:script_hash_exists",
+      "pass_": true
+    },
+    {
+      "name": "higher-quick-verified.json:screen_hash_exists",
+      "pass_": true
+    },
+    {
+      "name": "higher-quick-verified.json:readonly_dependency_hash",
+      "pass_": true
+    },
+    {
+      "name": "higher-quick-verified.json:0:six_finite",
+      "pass_": true
+    },
+    {
+      "name": "higher-quick-verified.json:0:polar",
+      "pass_": true
+    },
+    {
+      "name": "higher-quick-verified.json:0:usvp:binding",
+      "pass_": true
+    },
+    {
+      "name": "higher-quick-verified.json:0:dual:binding",
+      "pass_": true
+    },
+    {
+      "name": "higher-quick-verified.json:0:bdd:binding",
+      "pass_": true
+    },
+    {
+      "name": "higher-quick-verified.json:0:dual_hybrid:binding",
+      "pass_": true
+    },
+    {
+      "name": "higher-quick-verified.json:0:bdd_hybrid:binding",
+      "pass_": true
+    },
+    {
+      "name": "higher-quick-verified.json:0:mitm:binding",
+      "pass_": true
+    },
+    {
+      "name": "rs8192-small-verified.json:script_hash_exists",
+      "pass_": true
+    },
+    {
+      "name": "rs8192-small-verified.json:screen_hash_exists",
+      "pass_": true
+    },
+    {
+      "name": "rs8192-small-verified.json:readonly_dependency_hash",
+      "pass_": true
+    },
+    {
+      "name": "rs8192-small-verified.json:0:six_finite",
+      "pass_": true
+    },
+    {
+      "name": "rs8192-small-verified.json:0:polar",
+      "pass_": true
+    },
+    {
+      "name": "rs8192-small-verified.json:0:usvp:binding",
+      "pass_": true
+    },
+    {
+      "name": "rs8192-small-verified.json:0:dual:binding",
+      "pass_": true
+    },
+    {
+      "name": "rs8192-small-verified.json:0:bdd:binding",
+      "pass_": true
+    },
+    {
+      "name": "rs8192-small-verified.json:0:dual_hybrid:binding",
+      "pass_": true
+    },
+    {
+      "name": "rs8192-small-verified.json:0:bdd_hybrid:binding",
+      "pass_": true
+    },
+    {
+      "name": "rs8192-small-verified.json:0:mitm:binding",
+      "pass_": true
+    },
+    {
+      "name": "rs1024-small-verified.json:script_hash_exists",
+      "pass_": true
+    },
+    {
+      "name": "rs1024-small-verified.json:screen_hash_exists",
+      "pass_": true
+    },
+    {
+      "name": "rs1024-small-verified.json:readonly_dependency_hash",
+      "pass_": true
+    },
+    {
+      "name": "rs1024-small-verified.json:0:six_finite",
+      "pass_": true
+    },
+    {
+      "name": "rs1024-small-verified.json:0:polar",
+      "pass_": true
+    },
+    {
+      "name": "rs1024-small-verified.json:0:usvp:binding",
+      "pass_": true
+    },
+    {
+      "name": "rs1024-small-verified.json:0:dual:binding",
+      "pass_": true
+    },
+    {
+      "name": "rs1024-small-verified.json:0:bdd:binding",
+      "pass_": true
+    },
+    {
+      "name": "rs1024-small-verified.json:0:dual_hybrid:binding",
+      "pass_": true
+    },
+    {
+      "name": "rs1024-small-verified.json:0:bdd_hybrid:binding",
+      "pass_": true
+    },
+    {
+      "name": "rs1024-small-verified.json:0:mitm:binding",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-large-verified.json:script_hash_exists",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-large-verified.json:screen_hash_exists",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-large-verified.json:readonly_dependency_hash",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-large-verified.json:0:six_finite",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-large-verified.json:0:polar",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-large-verified.json:0:usvp:binding",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-large-verified.json:0:dual:binding",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-large-verified.json:0:bdd:binding",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-large-verified.json:0:dual_hybrid:binding",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-large-verified.json:0:bdd_hybrid:binding",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-large-verified.json:0:mitm:binding",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-refine-verified.json:script_hash_exists",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-refine-verified.json:screen_hash_exists",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-refine-verified.json:readonly_dependency_hash",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-refine-verified.json:0:six_finite",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-refine-verified.json:0:polar",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-refine-verified.json:0:usvp:binding",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-refine-verified.json:0:dual:binding",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-refine-verified.json:0:bdd:binding",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-refine-verified.json:0:dual_hybrid:binding",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-refine-verified.json:0:bdd_hybrid:binding",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-refine-verified.json:0:mitm:binding",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-final-verified.json:script_hash_exists",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-final-verified.json:screen_hash_exists",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-final-verified.json:readonly_dependency_hash",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-final-verified.json:0:six_finite",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-final-verified.json:0:polar",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-final-verified.json:0:usvp:binding",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-final-verified.json:0:dual:binding",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-final-verified.json:0:bdd:binding",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-final-verified.json:0:dual_hybrid:binding",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-final-verified.json:0:bdd_hybrid:binding",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-final-verified.json:0:mitm:binding",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-mixed-verified.json:script_hash_exists",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-mixed-verified.json:screen_hash_exists",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-mixed-verified.json:readonly_dependency_hash",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-mixed-verified.json:0:six_finite",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-mixed-verified.json:0:polar",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-mixed-verified.json:0:usvp:binding",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-mixed-verified.json:0:dual:binding",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-mixed-verified.json:0:bdd:binding",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-mixed-verified.json:0:dual_hybrid:binding",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-mixed-verified.json:0:bdd_hybrid:binding",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-mixed-verified.json:0:mitm:binding",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-size-verified.json:script_hash_exists",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-size-verified.json:screen_hash_exists",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-size-verified.json:readonly_dependency_hash",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-size-verified.json:0:six_finite",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-size-verified.json:0:polar",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-size-verified.json:0:usvp:binding",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-size-verified.json:0:dual:binding",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-size-verified.json:0:bdd:binding",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-size-verified.json:0:dual_hybrid:binding",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-size-verified.json:0:bdd_hybrid:binding",
+      "pass_": true
+    },
+    {
+      "name": "folded-rs8192-size-verified.json:0:mitm:binding",
+      "pass_": true
+    },
+    {
+      "name": "MPK-priority:Ngrid_source",
+      "pass_": true
+    },
+    {
+      "name": "MPK-priority:150decimal",
+      "pass_": true
+    },
+    {
+      "name": "MPK-priority:Ngrid",
+      "pass_": true
+    },
+    {
+      "name": "CT-priority:Ngrid_source",
+      "pass_": true
+    },
+    {
+      "name": "CT-priority:150decimal",
+      "pass_": true
+    },
+    {
+      "name": "CT-priority:Ngrid",
+      "pass_": true
+    }
+  ],
+  "files": {
+    "small_controls.py": "1b49edac256699213df373b2c668af91184dc7243502d3b504d2afbafdc546d2",
+    "record_round2_results.py": "30b2c071c585a899fa64561d8afd680258f1715ba08302d8603cc53b055f4299",
+    "round2_search_frozen_folded_final.py": "6ad8dd482de892a3ccec75262d98463d5216a6ebebb0a13db94e2caa6f5d0cb7",
+    "honest_entropy_ablation.py": "e78dd9941935a1c041f504315bcb6567afcf63facb1bdf3fdc8369ad377527e6",
+    "round2_search.py": "9d8b965301ca36229bf838d4f1fab8b012716ab3390119f8f00dc8d2bae178ef",
+    "candidate_polar_screen.py": "4bc00a44af18692dd7dd3d3283fb54109832f2e4656e2a4b315b1c477eafb024",
+    "round2_search_frozen_binarydiff.py": "854bf1524e006f0ffd69cd42c800a90ff39b477c88ab02f665b2b38d2d06df8a",
+    "round2_search_frozen_rs_small.py": "806ccf91e54974eee9ea1f5c705016ba987b79a31efaf0e417cbf9b1c5fa1a46",
+    "mixed_polar_screen.py": "a3fe0d84c8de29857ae94403edb9e57b9d69e35d323c6bcc20564da32b214f45",
+    "round2_search_quick_source.py": "7b5f5d7c82b91d54972719a995a7e6c572ccc9e5717254823a3fab6156de2cc3",
+    "round2_search_frozen_folded_large.py": "220cb06fa5a3dd609370093d9b09eeb6b0a1c7832f36d79c0a6b1ac7a4ad1bdb",
+    "round2_search_frozen_folded_refine.py": "58f957e5a65432baac00ec0b133d47d4930aba8e6a72dabf6159a89bb386068b",
+    "round2_search_frozen_mixed.py": "9d8b965301ca36229bf838d4f1fab8b012716ab3390119f8f00dc8d2bae178ef",
+    "round2_search_frozen_highproof.py": "a61de89f9f711b0f9939d12d1c1a5950768474d4258a15e126be45e32de098a4",
+    "candidate-polar-screen.json": "faae15f26447a8759b03c1c1e2c7c995d73a1d4949c1b8fc986c87ec4ca97298",
+    "quick-quantizers.json": "7597cb55c484f0927fdfd89c39c3ea3af1c6cf1cb8d9b1f37a48d7d87722c461",
+    "honest-entropy-ablation.json": "45e41d91cfb55ba66ad0007856b51ae3b1421ab6e09132b3104273e77f219789",
+    "higher-quick-screen.json": "7dfa82daf3634b650d1d4a2079f37cdd25c926c1c15a0e79cd126c1d82d2e52a",
+    "folded-rs8192-final-verified.json": "3f364492a8746ce83912af51fe55bcd840a7c4e0397fc6eddc195c1ebba27172",
+    "small-controls.json": "3b4516a2cc54939b5864955da787e95a0f4a48a172ab3e25c902e5aab06d1232",
+    "higher-quick-quantizers.json": "67cc56b2f6437d90590a674676261878f7fd3b4ff5282c0b354f1000c8b75e13",
+    "folded-rs8192-size-verified.json": "610262cddcaabf0de965989c9367243143e10ea6a87fd68341262f6e14c3e23e",
+    "folded-rs8192-large-verified.json": "702687abb5b60f911bbd848ef0093fbcd990fac48d83e45dff2fcc8620902530",
+    "folded_rs8192-final-screen.json": "581ba8ab0275fb822d78a03a958383e5cba2d602b0164b4a94eb0913748819cc",
+    "folded_rs8192-refine-screen.json": "e6cc6c376a8ffea295acfd1c29326c5e266e3b2aa6715059aa8a4cce9687f505",
+    "quick-screen.json": "8ce8445c4cad00989fdf52125d8b6405579359d7c152307e6c489f9b8759173b",
+    "rs1024-small-verified.json": "ab852ba58400ae3660cca614328408384b7d7aa0cf4f9ce9894ad415aedb8918",
+    "size-priority-selected-screen.json": "5cfa049934c4c21ee048cc879b335149e8854a854312e98e4c8bbd611e8e3b26",
+    "rs1024-quick-screen.json": "e8c8c27c152a338de433d5fdc2e618a99185051195cb69757c0679377b44dfe9",
+    "quick-verified.json": "471d03fa8040619eceb2cd2c829c1b774802f181c9c613290ffcd1ca0cb457c9",
+    "higher-quick-verified.json": "cdf898676daeb94e5c86aca1b89137c8c62a559d29f2518ae162297de4f39d58",
+    "folded_rs8192-mixed-screen.json": "681cd35d640c35858c854b828515cea1ae9c7c1b41444197396626f972a124fa",
+    "rs8192-quick-screen.json": "1108ecce932457843471ffd89c8fcf7c986706f2cfb7eae261ecbd955b1d8c26",
+    "folded-rs8192-refine-verified.json": "71ee4ae7e859fb304cd3709d0d710157d6c08b1bdc072b2cec2100c7f823ea51",
+    "folded-rs8192-mpk-quantizers.json": "fd66e23f9d818b7412bff8da405e2f11a3472ec888bb37a357b468c4c16fb93a",
+    "rs8192-small-verified.json": "a035fde8abefa35eec6fef325febe958e720c6c4a779bf98c1fbb83fec2e3b57",
+    "mixed-polar-screen.json": "07c02217f62259bf7f645c09b2831b07d75fde57211ee17f81069e18dc87a517",
+    "folded_rs8192-large-screen.json": "d9cb702ea4a816049bac06f337bfd0b4f706949282eba85837b98243cdb1bd5d",
+    "folded-rs8192-mixed-verified.json": "78ef3ceea2ba620461a323da263d9e27366ed04d9be662d0cc6b4df55e99a4c2",
+    "folded-rs8192-size-quantizers.json": "11936bfcff82588e05ea7de03e82a51376ca25735f8367eb62ad8ed1ad89f962",
+    "logs/quick-verified/point-00/usvp.stdout.txt": "1cc3b2e599fd124497c659e4e4569f180c26441e1cc3c5aeaddc8dde678ab640",
+    "logs/quick-verified/point-00/usvp.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/quick-verified/point-00/candidate.json": "ccb50c11e9a25fc1a03a2a2d71435ac0d6c84ee78de7203b4e29c169f9e80bda",
+    "logs/quick-verified/point-00/dual.stdout.txt": "0ef7362e7a19c011a70a66d3f7f3fb5abb8b4980f6bd501dad759c357f385d60",
+    "logs/quick-verified/point-00/dual.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/quick-verified/point-00/bdd.stdout.txt": "001725e8d300c7af674760d6529ad54814b25a2f45172cc75bc714d069a7bbce",
+    "logs/quick-verified/point-00/bdd.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/quick-verified/point-00/dual_hybrid.stdout.txt": "e2216eede8e437978e391746e9947e20d7fb64a151c1442ef0cb1327663b812b",
+    "logs/quick-verified/point-00/dual_hybrid.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/quick-verified/point-00/bdd_hybrid.stdout.txt": "c1d3100ee356aa12c1bed338bea0a343f8f75bd982f7ca5a3f8c2072370ab359",
+    "logs/quick-verified/point-00/bdd_hybrid.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/quick-verified/point-00/mitm.stdout.txt": "3deb64f2650fcd2ef93ae29747b017b75a5c5d1cc97ab4783fe7945d666d8771",
+    "logs/quick-verified/point-00/mitm.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/higher-quick-verified/point-00/usvp.stdout.txt": "fe6310b68a23f580f95410a6549d1cbf8149cd1376d944fd3aca61ba04f986cf",
+    "logs/higher-quick-verified/point-00/usvp.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/higher-quick-verified/point-00/candidate.json": "6b4a7d92a8bfd124d80773dce71039fe2cbf94f8d1e857c7aa9972395a370e67",
+    "logs/higher-quick-verified/point-00/dual.stdout.txt": "ac4b8fef0096318a2d3521f944b264b144a374a7b2f257de1e0d4868bdbbdecd",
+    "logs/higher-quick-verified/point-00/dual.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/higher-quick-verified/point-00/bdd.stdout.txt": "da0fb42fa6ee09a1b866c68fc1b669aa5f78d0aa73dd7f5ec5459a3eb0f6e48f",
+    "logs/higher-quick-verified/point-00/bdd.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/higher-quick-verified/point-00/dual_hybrid.stdout.txt": "e5cd31bc30e561522987931899a6e22cf88e07ae59f5ba36fbc5f7d2648d355d",
+    "logs/higher-quick-verified/point-00/dual_hybrid.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/higher-quick-verified/point-00/bdd_hybrid.stdout.txt": "8376cf0432289ba4cc962f997599078805e7938874cf4e5424bf2ac7c879eac6",
+    "logs/higher-quick-verified/point-00/bdd_hybrid.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/higher-quick-verified/point-00/mitm.stdout.txt": "3b00bd105a2e073d6f22d347470196f82b56e736eb52f260a91f8f29d5404f8f",
+    "logs/higher-quick-verified/point-00/mitm.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/rs8192-small-verified/point-00/usvp.stdout.txt": "ef3fffb59bf40588d4898245cd248ce49d1db6cece06bf6a06c8f2c78daf023f",
+    "logs/rs8192-small-verified/point-00/usvp.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/rs8192-small-verified/point-00/candidate.json": "3f9f2e74c87e1d3d5624648e0fc229a599435f002e1f2d2fec4a9a124169cb2f",
+    "logs/rs8192-small-verified/point-00/dual.stdout.txt": "533071ca5613bfa7a86fd49d14dec7c08b515d375235b700939a925ec6814db3",
+    "logs/rs8192-small-verified/point-00/dual.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/rs8192-small-verified/point-00/bdd.stdout.txt": "d916da3cb826e0c3884f383f8740856f5566da6451f8452cc15030d7de6e0fbe",
+    "logs/rs8192-small-verified/point-00/bdd.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/rs8192-small-verified/point-00/dual_hybrid.stdout.txt": "7c1fbad578475054286b1920cac993ff92c8ceb25efedfe0f7bbec5602c443ce",
+    "logs/rs8192-small-verified/point-00/dual_hybrid.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/rs8192-small-verified/point-00/bdd_hybrid.stdout.txt": "da1c850362017f1e3a985bb6ba16493bc161eb7d25b8460b6eb6e1ac97de969d",
+    "logs/rs8192-small-verified/point-00/bdd_hybrid.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/rs8192-small-verified/point-00/mitm.stdout.txt": "2673aea8309a53043dedca45d598c8ac43186baba1f6379975a466772136be89",
+    "logs/rs8192-small-verified/point-00/mitm.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/rs1024-small-verified/point-00/usvp.stdout.txt": "3da466a851acd482f2843201f2c46bdd499ca07e455bee64e51c0fb26c95d961",
+    "logs/rs1024-small-verified/point-00/usvp.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/rs1024-small-verified/point-00/candidate.json": "e06493c77d9fcabc084ac028d07123b3daa15731515ed005dc0b78a2c31da8d1",
+    "logs/rs1024-small-verified/point-00/dual.stdout.txt": "8fa6529d62e1b7fd3602a8686fab524f1d02b462ee96e2a90e2ae22c0568d0ba",
+    "logs/rs1024-small-verified/point-00/dual.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/rs1024-small-verified/point-00/bdd.stdout.txt": "5224a1cf2e26c1eca1b43440b51376efd29196fe42d03705d77493ba2b02b011",
+    "logs/rs1024-small-verified/point-00/bdd.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/rs1024-small-verified/point-00/dual_hybrid.stdout.txt": "be8abbd85b28d3d84a7ff02f3711cd6455068618caeaaa534496a9304fc6e297",
+    "logs/rs1024-small-verified/point-00/dual_hybrid.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/rs1024-small-verified/point-00/bdd_hybrid.stdout.txt": "75a06ae083b08685502674d385be8472f5c515c3ecfe5775da8ac6dd14a4d83c",
+    "logs/rs1024-small-verified/point-00/bdd_hybrid.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/rs1024-small-verified/point-00/mitm.stdout.txt": "2b359b501365de7362cea08ae1d4d4b5c598e9748e14a6374868edec1eee572f",
+    "logs/rs1024-small-verified/point-00/mitm.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/folded-rs8192-large-verified/point-00/usvp.stdout.txt": "93f95613adf26a6e83931aa02a9300b800b9446c2aba6fb32aca31b9f0fd1af3",
+    "logs/folded-rs8192-large-verified/point-00/usvp.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/folded-rs8192-large-verified/point-00/candidate.json": "01b31c9d1c89d1d4604319e84de8c5e7ada396bd952e70126dee7491b5d43f8d",
+    "logs/folded-rs8192-large-verified/point-00/dual.stdout.txt": "f37bd95763f6785d5edc631502fddaf87d63f6acb867c9c8503fc616eec41ca4",
+    "logs/folded-rs8192-large-verified/point-00/dual.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/folded-rs8192-large-verified/point-00/bdd.stdout.txt": "629ce47e17ec191a461b90bc6de6a51da0f4901a6ae584d7bb98d89d751a1a73",
+    "logs/folded-rs8192-large-verified/point-00/bdd.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/folded-rs8192-large-verified/point-00/dual_hybrid.stdout.txt": "5e9e21dea59473b6ed2b75cbfbaa4c89795116cab15555196734cb3053d15e98",
+    "logs/folded-rs8192-large-verified/point-00/dual_hybrid.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/folded-rs8192-large-verified/point-00/bdd_hybrid.stdout.txt": "88ed3d5acae7c6f3d5199c4a9a0e066f924a5a0579090b2e8c092e7aaf375f1d",
+    "logs/folded-rs8192-large-verified/point-00/bdd_hybrid.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/folded-rs8192-large-verified/point-00/mitm.stdout.txt": "d6f67f94e1d174b6b71901b6e9101ff8734cbe71bdd79f531d8377f194d6d794",
+    "logs/folded-rs8192-large-verified/point-00/mitm.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/folded-rs8192-refine-verified/point-00/usvp.stdout.txt": "cf892afce0bddef5a4a00217333bf9227aad15f41d5435d5f691cc8c94a9256d",
+    "logs/folded-rs8192-refine-verified/point-00/usvp.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/folded-rs8192-refine-verified/point-00/candidate.json": "7f253fec44857a4a466c627068a28e84baa13a7f4dd3be69a213a3abc654f673",
+    "logs/folded-rs8192-refine-verified/point-00/dual.stdout.txt": "c3f40ab0a1279951ff870e6aaa685d4844d94ed2e340bff355e8e9f61304a075",
+    "logs/folded-rs8192-refine-verified/point-00/dual.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/folded-rs8192-refine-verified/point-00/bdd.stdout.txt": "8fa720c84a028b0d111a67cc41d697d4f7aae0904c50082eaceccc7c0571ae59",
+    "logs/folded-rs8192-refine-verified/point-00/bdd.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/folded-rs8192-refine-verified/point-00/dual_hybrid.stdout.txt": "209927db3e38d2ee19f96a777fac1778567d917719af2457d6ff1391de8acdbc",
+    "logs/folded-rs8192-refine-verified/point-00/dual_hybrid.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/folded-rs8192-refine-verified/point-00/bdd_hybrid.stdout.txt": "baf70f967bac19f0994235db4d67e2384a51910b147cccc8bf8fbe404a0bd3bb",
+    "logs/folded-rs8192-refine-verified/point-00/bdd_hybrid.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/folded-rs8192-refine-verified/point-00/mitm.stdout.txt": "8f4bae377ebe6c875f9d4c51b7721ac8f538dd6e3d0e60d663479ac575cca7aa",
+    "logs/folded-rs8192-refine-verified/point-00/mitm.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/folded-rs8192-final-verified/point-00/usvp.stdout.txt": "17b77fea7eb4cb7a14489b86c310dbc3a0fde0f8e4d61b497615201f2c0fc348",
+    "logs/folded-rs8192-final-verified/point-00/usvp.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/folded-rs8192-final-verified/point-00/candidate.json": "4348863fe1e7d2b407485f57ccf1f559a0efc8ebf0b5637ef878b816a7619b54",
+    "logs/folded-rs8192-final-verified/point-00/dual.stdout.txt": "8867c45a33c17c48db31644d0b97585ae201279b24085719aba001eb42101428",
+    "logs/folded-rs8192-final-verified/point-00/dual.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/folded-rs8192-final-verified/point-00/bdd.stdout.txt": "b3be1695bd992b760d3a8de6811c75faae3053a1f3c546ea40af24fe8f396830",
+    "logs/folded-rs8192-final-verified/point-00/bdd.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/folded-rs8192-final-verified/point-00/dual_hybrid.stdout.txt": "e5e37c7ba0494aa746fcf9fd0b315cd52a18451956a7563c8b25c2845e6b7380",
+    "logs/folded-rs8192-final-verified/point-00/dual_hybrid.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/folded-rs8192-final-verified/point-00/bdd_hybrid.stdout.txt": "32b4e3b819e4d68c5c1d01269ff09f3426b7eefd1b078a9f732b2ce7e52b84c9",
+    "logs/folded-rs8192-final-verified/point-00/bdd_hybrid.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/folded-rs8192-final-verified/point-00/mitm.stdout.txt": "036386f693e264e0ed5dfcd52b0528d6bfe87c84375a64956944602308cbfde7",
+    "logs/folded-rs8192-final-verified/point-00/mitm.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/folded-rs8192-mixed-verified/point-00/usvp.stdout.txt": "96ebcc1ee1d50c9c696837cdb426b2725caafe6f2c669ce340ab586025b3b19d",
+    "logs/folded-rs8192-mixed-verified/point-00/usvp.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/folded-rs8192-mixed-verified/point-00/candidate.json": "41df0d67bda6236f9927fc25f31cfb9423976915869d1575115a9979cc0d6352",
+    "logs/folded-rs8192-mixed-verified/point-00/dual.stdout.txt": "65619f1cc67b5015c9941d3d486a3314fc402be5ce469bcc5aa209ee8fbc842c",
+    "logs/folded-rs8192-mixed-verified/point-00/dual.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/folded-rs8192-mixed-verified/point-00/bdd.stdout.txt": "e9fc2c85b867896e7e69a06c73989710837689eaa6c889d98afa80808130b82c",
+    "logs/folded-rs8192-mixed-verified/point-00/bdd.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/folded-rs8192-mixed-verified/point-00/dual_hybrid.stdout.txt": "b38f412cf95f3dd20ce9f6416d429ffecf4f5e702eb6117bf5fa3f205fc769be",
+    "logs/folded-rs8192-mixed-verified/point-00/dual_hybrid.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/folded-rs8192-mixed-verified/point-00/bdd_hybrid.stdout.txt": "f5760a738dbd702183ab6c693414aff2cf60389681638a152910fd09c0dfb9e9",
+    "logs/folded-rs8192-mixed-verified/point-00/bdd_hybrid.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/folded-rs8192-mixed-verified/point-00/mitm.stdout.txt": "3e6b1a66dbd55d47c82f90ab9e76e2467935f185744c892bdb6a377a627051e0",
+    "logs/folded-rs8192-mixed-verified/point-00/mitm.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/folded-rs8192-size-verified/point-00/usvp.stdout.txt": "f640890ee4ebbb72f07c3076ef3fdaf93f7c33eaec37fb2576e048b435ee3c85",
+    "logs/folded-rs8192-size-verified/point-00/usvp.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/folded-rs8192-size-verified/point-00/candidate.json": "e26798be0bc947ffcb69594e87c614ea5a4212c9a9e4064a87bc110283a9323d",
+    "logs/folded-rs8192-size-verified/point-00/dual.stdout.txt": "b4d5b23fdc6cb1edf0de3bcef479fce5494db39ebdfcdd6ca91a32507c1513c1",
+    "logs/folded-rs8192-size-verified/point-00/dual.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/folded-rs8192-size-verified/point-00/bdd.stdout.txt": "07a00e32e7d19ac7849a712988f0734c71a323244972cb714f75409e120a5279",
+    "logs/folded-rs8192-size-verified/point-00/bdd.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/folded-rs8192-size-verified/point-00/dual_hybrid.stdout.txt": "c1b727d280cb9509002b754676785c44942fd49870ed94680e0ba6a33140d91e",
+    "logs/folded-rs8192-size-verified/point-00/dual_hybrid.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/folded-rs8192-size-verified/point-00/bdd_hybrid.stdout.txt": "85613bc212750851c5e7748e4e6a7618ac6fe545a200be59ecd1947755249e91",
+    "logs/folded-rs8192-size-verified/point-00/bdd_hybrid.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/folded-rs8192-size-verified/point-00/mitm.stdout.txt": "58dc21617a69128ea9daa5c049b434cae1c594855a7db713937cf6ab23282307",
+    "logs/folded-rs8192-size-verified/point-00/mitm.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "selected-results.json": "3a0b4650e6c9e8faccb805fcf56deed70b437caa767aa28bfd424c77d4e79a23",
+    "experiment-results.md": "e64c9e10806b9a35e7ea941404c4894ec3e3c2df4065420f2d243b9692e80084",
+    "selected-summary.csv": "698ee82d25dadbd13998ebdc22031f1c9a853a899195c78d6603da9f6d5b9910",
+    "honest-entropy-ablation.md": "29b3b9c69fbf03d8b052a21850170828476cdef5a79043af48cc715f0458cb6f"
+  },
+  "verified_points": 9,
+  "finite_attack_logs": 54
+}

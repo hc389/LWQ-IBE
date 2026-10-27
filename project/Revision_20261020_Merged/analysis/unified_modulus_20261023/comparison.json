@@ -1,0 +1,287 @@
+{
+  "scope": "classical narrow-source LWE target only; no complete IBE security equivalence",
+  "new_attacks": 18,
+  "reused_attacks": 18,
+  "rows": [
+    {
+      "name": "JKN21",
+      "id": "jkn_retuned_common",
+      "n": 4576,
+      "r": 203,
+      "a": 110,
+      "m": 3020288,
+      "q": "1298074214633706907132624082305003",
+      "CT_bytes": 83057934,
+      "raw_bytes": 83057934,
+      "MPK_bytes": 2280438314440,
+      "minimum_bits": 128.48,
+      "security_evidence": "18 new attack calls, six per baseline",
+      "attack_bits": {
+        "usvp": 128.48,
+        "bdd": 128.7887047930177,
+        "dual": 310.39599999999996,
+        "dual_hybrid": 129.6480059600594,
+        "bdd_hybrid": 128.7887047930177,
+        "mitm": 272.95405198469786
+      },
+      "compression_percent": 0,
+      "CT_MiB": 79.21021842956543,
+      "MPK_TiB": 2.074046564703167
+    },
+    {
+      "name": "Abla24 Type I",
+      "id": "ablaI_retuned_common",
+      "n": 7776,
+      "r": 265,
+      "a": 180,
+      "m": 2301440,
+      "q": "1532495540865888858358347027150309183618739122183602129",
+      "CT_bytes": 103564823,
+      "raw_bytes": 103564823,
+      "MPK_bytes": 16509057813360,
+      "minimum_bits": 128.188,
+      "security_evidence": "18 new attack calls, six per baseline",
+      "attack_bits": {
+        "usvp": 128.188,
+        "bdd": 128.1991654102199,
+        "dual": 316.52799999999996,
+        "dual_hybrid": 128.77200000678107,
+        "bdd_hybrid": 128.1991654102199,
+        "mitm": 270.0759876198523
+      },
+      "compression_percent": 0,
+      "CT_MiB": 98.76711177825928,
+      "MPK_TiB": 15.014900612513884
+    },
+    {
+      "name": "Abla24 Type II",
+      "id": "ablaII_retuned_common",
+      "n": 8992,
+      "r": 512,
+      "a": 208,
+      "m": 859776,
+      "q": "411376139330301510538742295639337626245683966408394965837151957",
+      "CT_bytes": 44708378,
+      "raw_bytes": 44708378,
+      "MPK_bytes": 8241359008064,
+      "minimum_bits": 128.188,
+      "security_evidence": "18 new attack calls, six per baseline",
+      "attack_bits": {
+        "usvp": 128.188,
+        "bdd": 128.2016583951424,
+        "dual": 317.11199999999997,
+        "dual_hybrid": 128.77200000508844,
+        "bdd_hybrid": 128.2016583951424,
+        "mitm": 270.6341747019004
+      },
+      "compression_percent": 0,
+      "CT_MiB": 42.63723182678223,
+      "MPK_TiB": 7.495472353242803
+    },
+    {
+      "name": "Ours C-MPK",
+      "id": "C-MPK",
+      "n": 10072,
+      "r": 8192,
+      "a": 239,
+      "m": 433024,
+      "q": "883423532389192164791648750371459257913741948437809479060803100646309888",
+      "CT_bytes": 13019115,
+      "raw_bytes": 25873214,
+      "MPK_bytes": 7036057450597,
+      "minimum_bits": 128.188,
+      "security_evidence": "Reused six exact-input-matched saved attacks; not rerun",
+      "attack_bits": {
+        "usvp": 128.188,
+        "dual": 315.068,
+        "bdd": 128.19132392625664,
+        "dual_hybrid": 128.7722930650731,
+        "bdd_hybrid": 128.19132392625664,
+        "mitm": 265.5979971134826
+      },
+      "compression_percent": 49.6811064910606,
+      "CT_MiB": 12.415995597839355,
+      "MPK_TiB": 6.399256972687908
+    },
+    {
+      "name": "Ours C-Mid",
+      "id": "C-Mid",
+      "n": 10864,
+      "r": 8192,
+      "a": 256,
+      "m": 382464,
+      "q": "115792089237316195423570985008687907853269984665640564039457584007913129639936",
+      "CT_bytes": 12419313,
+      "raw_bytes": 24477728,
+      "MPK_bytes": 7179993959936,
+      "minimum_bits": 128.188,
+      "security_evidence": "Reused six exact-input-matched saved attacks; not rerun",
+      "attack_bits": {
+        "usvp": 128.188,
+        "dual": 316.236,
+        "bdd": 128.1991654102199,
+        "dual_hybrid": 128.77209204557317,
+        "bdd_hybrid": 128.1991654102199,
+        "mitm": 270.2327577510223
+      },
+      "compression_percent": 49.2628033124643,
+      "CT_MiB": 11.843979835510254,
+      "MPK_TiB": 6.530166465323418
+    },
+    {
+      "name": "Ours C-CT",
+      "id": "C-CT",
+      "n": 11600,
+      "r": 4096,
+      "a": 270,
+      "m": 352384,
+      "q": "1897137590064188545819787018382342682267975428761855001222473056385648716020711424",
+      "CT_bytes": 12189318,
+      "raw_bytes": 23785954,
+      "MPK_bytes": 7449750535500,
+      "minimum_bits": 128.188,
+      "security_evidence": "Reused six exact-input-matched saved attacks; not rerun",
+      "attack_bits": {
+        "usvp": 128.188,
+        "dual": 317.404,
+        "bdd": 128.19071545267153,
+        "dual_hybrid": 128.50824730379568,
+        "bdd_hybrid": 128.19071545267153,
+        "mitm": 264.9689209229955
+      },
+      "compression_percent": 48.75413447785193,
+      "CT_MiB": 11.624639511108398,
+      "MPK_TiB": 6.775508641567285
+    }
+  ],
+  "old_baselines": [
+    {
+      "name": "JKN21",
+      "n": 5712,
+      "r": 227,
+      "a": 135,
+      "m": 4626816,
+      "CT_bytes": 156155057,
+      "MPK_bytes": 5351745627270,
+      "source": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/baseline_mpk_128_20261015/jkn/verified.json",
+      "sha256": "e87266194de8d6cc9a26d23179196a5688a277bc18a8a21281b465c55ba6332c"
+    },
+    {
+      "name": "Abla24 Type I",
+      "n": 8336,
+      "r": 274,
+      "a": 192,
+      "m": 2630528,
+      "CT_bytes": 126265368,
+      "MPK_bytes": 21577232305536,
+      "source": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_fulltext_128_20261015/verified.json",
+      "sha256": "901adc80a030a363d33744fe3fa98679231824facd8fe8073279c039b06c8bcf"
+    },
+    {
+      "name": "Abla24 Type II",
+      "n": 9504,
+      "r": 512,
+      "a": 219,
+      "m": 958208,
+      "CT_bytes": 52461916,
+      "MPK_bytes": 10221254822988,
+      "source": "/Users/Admin/Desktop/IBE/Revision_20261014_Polar/analysis/abla_fulltext_128_20261015/abla_typeII/verified-typeII.json",
+      "sha256": "8e53bc35311603deee3e02a3c7dfd58cdf7adf979b51b9c2d0aaf23fd47d0d59"
+    }
+  ],
+  "boundaries": [
+    {
+      "name": "JKN21",
+      "a": 110,
+      "previous_ratio": 0.47787942085397783,
+      "selected_ratio": 1.7765077255277704,
+      "examined": 109,
+      "domain": "a=2..selected; prime family"
+    },
+    {
+      "name": "Abla24 Type I",
+      "a": 180,
+      "previous_ratio": 0.5913989045223005,
+      "selected_ratio": 2.145013534993426,
+      "examined": 179,
+      "domain": "a=2..selected; prime family"
+    },
+    {
+      "name": "Abla24 Type II",
+      "a": 208,
+      "previous_ratio": 0.37306286053920373,
+      "selected_ratio": 1.4728678033532916,
+      "examined": 207,
+      "domain": "a=2..selected; prime family"
+    },
+    {
+      "name": "Ours C-MPK",
+      "a": 239,
+      "previous_ratio": 0.26658197982249765,
+      "selected_ratio": 1.0656800272114737,
+      "examined": 239,
+      "domain": "a<80 excluded by fixed kH=80; every a=80..selected checked"
+    },
+    {
+      "name": "Ours C-Mid",
+      "a": 256,
+      "previous_ratio": 0.43895161028019025,
+      "selected_ratio": 1.7500451495114226,
+      "examined": 256,
+      "domain": "a<80 excluded by fixed kH=80; every a=80..selected checked"
+    },
+    {
+      "name": "Ours C-CT",
+      "a": 270,
+      "previous_ratio": 0.43301259593611574,
+      "selected_ratio": 1.730806608481262,
+      "examined": 270,
+      "domain": "a<80 excluded by fixed kH=80; every a=80..selected checked"
+    }
+  ],
+  "additional_fixed_model_bounds": [
+    {
+      "name": "JKN21",
+      "original_modulus_BKW_log2_lower_bound": 218,
+      "Arora_GB_dense_log2_lower_bound": 160,
+      "status": "COVERED_BY_FIXED_MODEL_BOUND_NOT_NUMERIC_EXECUTION"
+    },
+    {
+      "name": "Abla24 Type I",
+      "original_modulus_BKW_log2_lower_bound": 358,
+      "Arora_GB_dense_log2_lower_bound": 160,
+      "status": "COVERED_BY_FIXED_MODEL_BOUND_NOT_NUMERIC_EXECUTION"
+    },
+    {
+      "name": "Abla24 Type II",
+      "original_modulus_BKW_log2_lower_bound": 414,
+      "Arora_GB_dense_log2_lower_bound": 160,
+      "status": "COVERED_BY_FIXED_MODEL_BOUND_NOT_NUMERIC_EXECUTION"
+    },
+    {
+      "name": "Ours C-MPK",
+      "original_modulus_BKW_log2_lower_bound": 478,
+      "Arora_GB_dense_log2_lower_bound": 160,
+      "status": "COVERED_BY_FIXED_MODEL_BOUND_NOT_NUMERIC_EXECUTION"
+    },
+    {
+      "name": "Ours C-Mid",
+      "original_modulus_BKW_log2_lower_bound": 512,
+      "Arora_GB_dense_log2_lower_bound": 160,
+      "status": "COVERED_BY_FIXED_MODEL_BOUND_NOT_NUMERIC_EXECUTION"
+    },
+    {
+      "name": "Ours C-CT",
+      "original_modulus_BKW_log2_lower_bound": 540,
+      "Arora_GB_dense_log2_lower_bound": 160,
+      "status": "COVERED_BY_FIXED_MODEL_BOUND_NOT_NUMERIC_EXECUTION"
+    }
+  ],
+  "dimension_screen_points": 45,
+  "source_hashes": {
+    "security/verified.json": "7ed07ca3c0528a85b1cfab6e8b1b47a5ae371965100f9cd5c42e78e786095b03",
+    "dimension_screen.json": "754d54a79a0daa3981ce10876eae9ead28a176f67c62f2cad19b34db1ff488a2",
+    "ours/ours_shared_column_audit.json": "28c17d8639165f170f000a909b83c7892056a0c7fe4151491972b9035204552a",
+    "ours/security-reuse.json": "7dcb4b364d3d6bbb284157ae3a5bdb36310f14c66890aa240b3d69b198272783"
+  }
+}

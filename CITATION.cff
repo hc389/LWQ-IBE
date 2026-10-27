@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this research artifact, please cite the associated manuscript and this version."
+title: "LWQ-IBE: Research Code and Experimental Evidence"
+type: software
+version: "v2026.10.27"
+date-released: "2026-10-27"
+authors:
+  - family-names: Cheng
+    given-names: Hao
+  - family-names: Lyu
+    given-names: Shanxiang
+  - family-names: Zhou
+    given-names: Tang
+repository-code: "https://github.com/hc389/LWQ-IBE"
+url: "https://github.com/hc389/LWQ-IBE/releases/tag/v2026.10.27"
+license: "PolyForm-Noncommercial-1.0.0"
+abstract: "Research code and frozen experimental evidence accompanying Native Polar-Lattice Compression in Yamada's Anonymous IBE Framework."

@@ -1,0 +1,64 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "C-MPK",
+      "exhaustive_modulus_ledger": true,
+      "independently_checked_gates": true,
+      "exact_sizes": true,
+      "polar_reference_pass": true,
+      "previous_a": 238,
+      "previous_ratio": 0.26658197982249765,
+      "selected_a": 239,
+      "selected_ratio": 1.0656800272114737
+    },
+    {
+      "name": "C-Mid",
+      "exhaustive_modulus_ledger": true,
+      "independently_checked_gates": true,
+      "exact_sizes": true,
+      "polar_reference_pass": true,
+      "previous_a": 255,
+      "previous_ratio": 0.43895161028019025,
+      "selected_a": 256,
+      "selected_ratio": 1.7500451495114226
+    },
+    {
+      "name": "C-CT",
+      "exhaustive_modulus_ledger": true,
+      "independently_checked_gates": true,
+      "exact_sizes": true,
+      "polar_reference_pass": true,
+      "previous_a": 269,
+      "previous_ratio": 0.43301259593611574,
+      "selected_a": 270,
+      "selected_ratio": 1.730806608481262
+    },
+    {
+      "name": "Q-MPK",
+      "exhaustive_modulus_ledger": true,
+      "independently_checked_gates": true,
+      "exact_sizes": true,
+      "polar_reference_pass": true,
+      "previous_a": 239,
+      "previous_ratio": 0.3772886641347301,
+      "selected_a": 240,
+      "selected_ratio": 1.5083325353297279
+    },
+    {
+      "name": "Q-CT",
+      "exhaustive_modulus_ledger": true,
+      "independently_checked_gates": true,
+      "exact_sizes": true,
+      "polar_reference_pass": true,
+      "previous_a": 270,
+      "previous_ratio": 0.6226724028422701,
+      "selected_a": 271,
+      "selected_ratio": 1.5107942565587833
+    }
+  ],
+  "classical_reused_attack_count": 18,
+  "no_new_attacks_executed": true,
+  "verification_script_sha256": "e95f085f8c32932e25fc1a8255127af9d5149a4950d6470a4fcc0f666b8dfd3f",
+  "source_script_sha256_match": true
+}
